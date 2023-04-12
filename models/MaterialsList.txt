@@ -1,0 +1,1070 @@
+#VRML V2.0 utf8
+#kicad StepUp wrl exported
+
+# Materials modified by Peter S. Hollander
+
+# KiCad material reference list:
+# https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/7.0.0/Vrml_materials_doc/KiCad_3D-Viewer_component-materials-reference-list_MarioLuzeiro.pdf
+
+Shape {
+  appearance Appearance {
+    material DEF IC-BODY-EPOXY-01 Material {
+      ambientIntensity 0.117
+      diffuseColor 0.250 0.262 0.281
+      specularColor 0.316 0.281 0.176
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF IC-BODY-EPOXY-02 Material {
+      ambientIntensity 0.424
+      diffuseColor 0.129 0.129 0.129
+      specularColor 0.723 0.727 0.707
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.65
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF IC-BODY-EPOXY-03 Material {
+      ambientIntensity 0.347
+      diffuseColor 0.188 0.188 0.191
+      specularColor 0.469 0.465 0.426
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.30
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF IC-BODY-EPOXY-04 Material {
+      ambientIntensity 0.293
+      diffuseColor 0.148 0.145 0.145
+      specularColor 0.180 0.168 0.160
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.35
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF IC-LABEL-01 Material {
+      ambientIntensity 0.082
+      diffuseColor 0.691 0.664 0.598
+      specularColor 0.000 0.000 0.000
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.01
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-CERAMIC-01 Material {
+      ambientIntensity 0.579
+      diffuseColor 0.469 0.363 0.086
+      specularColor 0.328 0.258 0.172
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.3
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-CERAMIC-02 Material {
+      ambientIntensity 0.683
+      diffuseColor 0.578 0.336 0.352
+      specularColor 0.105 0.273 0.270
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-CERAMIC-03 Material {
+      ambientIntensity 0.284
+      diffuseColor 0.754 0.453 0.172
+      specularColor 0.125 0.203 0.227
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.10
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-CERAMIC-04 Material {
+      ambientIntensity 0.321
+      diffuseColor 0.813 0.594 0.156
+      specularColor 0.176 0.363 0.738
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.55
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-CERAMIC-05 Material {
+      ambientIntensity 0.179
+      diffuseColor 0.273 0.273 0.273
+      specularColor 0.203 0.188 0.176
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.15
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-CERAMIC-06 Material {
+      ambientIntensity 0.453
+      diffuseColor 0.379 0.270 0.215
+      specularColor 0.223 0.223 0.223
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.15
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-RADIAL-BLUE-01 Material {
+      ambientIntensity 0.268
+      diffuseColor 0.173 0.512 0.730
+      specularColor 0.762 0.461 0.246
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.80
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF CAP-RADIAL-BLUE-02 Material {
+      ambientIntensity 0.284
+      diffuseColor 0.113 0.109 0.473
+      specularColor 0.371 0.391 0.316
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.80
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF RES-THT-01 Material {
+      ambientIntensity 0.149
+      diffuseColor 0.883 0.711 0.492
+      specularColor 0.043 0.121 0.281
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.40
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF RES-SMD-01 Material {
+      diffuseColor 0.082 0.086 0.094
+      emissiveColor 0.000 0.000 0.000
+      specularColor 0.066 0.063 0.063
+      ambientIntensity 0.638
+      transparency 0.0
+      shininess 0.3
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF RES-SMD-02 Material {
+      diffuseColor 0.234 0.332 0.180
+      emissiveColor 0.000 0.000 0.000
+      specularColor 0.105 0.074 0.102
+      ambientIntensity 0.512
+      transparency 0.0
+      shininess 0.3
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF RES-SMD-03 Material {
+      diffuseColor 0.192 0.352 0.492
+      emissiveColor 0.000 0.000 0.000
+      specularColor 0.289 0.250 0.203
+      ambientIntensity 0.351
+      transparency 0.0
+      shininess 0.3
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PIN-01 Material {
+      ambientIntensity 0.271
+      diffuseColor 0.824 0.820 0.781
+      specularColor 0.328 0.258 0.172
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.70
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PIN-02 Material {
+      ambientIntensity 0.379
+      diffuseColor 0.859 0.738 0.496
+      specularColor 0.137 0.145 0.184
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.40
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PLASTIC-WHITE-01 Material {
+      ambientIntensity 0.494
+      diffuseColor 0.895 0.891 0.813
+      specularColor 0.047 0.055 0.109
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PLASTIC-BLUE-01 Material {
+      ambientIntensity 0.565
+      diffuseColor 0.137 0.402 0.727
+      specularColor 0.359 0.379 0.270
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PLASTIC-GREEN-01 Material {
+      ambientIntensity 0.315
+      diffuseColor 0.340 0.680 0.445
+      specularColor 0.176 0.105 0.195
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PLASTIC-YELLOW-01 Material {
+      ambientIntensity 0.522
+      diffuseColor 0.832 0.680 0.066
+      specularColor 0.160 0.203 0.320
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PLASTIC-ORANGE-01 Material {
+      ambientIntensity 0.284
+      diffuseColor 0.809 0.426 0.148
+      specularColor 0.039 0.102 0.145
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-RED Material {
+      ambientIntensity 0.789
+      diffuseColor 0.700 0.100 0.050
+      emissiveColor 0.000 0.000 0.000
+      specularColor 0.300 0.400 0.150
+      shininess 0.125
+      transparency 0.15
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-GREEN Material {
+      ambientIntensity 0.789
+      diffuseColor 0.400 0.700 0.150
+      emissiveColor 0.000 0.000 0.000
+      specularColor 0.600 0.300 0.100
+      shininess 0.05
+      transparency 0.15
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-BLUE Material {
+      ambientIntensity 0.789
+      diffuseColor 0.100 0.250 0.700
+      emissiveColor 0.000 0.000 0.000
+      specularColor 0.500 0.600 0.300
+      shininess 0.125
+      transparency 0.15
+    }
+  }
+}
+
+
+# Additional KiCad built-in material definitions:
+# https://gitlab.com/kicad/code/kicad/-/blob/7.0.0/pcbnew/exporters/exporter_vrml.cpp#L277
+
+
+Shape {
+  appearance Appearance {
+    material DEF SILKSCREEN-GREEN Material {
+      diffuseColor 0.078 0.200 0.141
+      specularColor 0.171 0.280 0.227
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.02
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF SILKSCREEN-RED Material {
+      diffuseColor 0.710 0.075 0.082
+      specularColor 0.739 0.167 0.174
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.02
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF SILKSCREEN-BLUE Material {
+      diffuseColor 0.008 0.231 0.635
+      specularColor 0.107 0.308 0.672
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.02
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF SILKSCREEN-BLACK Material {
+      diffuseColor 0.043 0.043 0.043
+      specularColor 0.139 0.139 0.139
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.02
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF SILKSCREEN-WHITE Material {
+      diffuseColor 0.961 0.961 0.961
+      specularColor 0.965 0.965 0.965
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.02
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF SILKSCREEN-PURPLE Material {
+      diffuseColor 0.125 0.008 0.208
+      specularColor 0.213 0.107 0.287
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.02
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF SILKSCREEN-YELLOW Material {
+      diffuseColor 0.761 0.765 0.000
+      specularColor 0.785 0.788 0.100
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.02
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-GREEN Material {
+      diffuseColor 0.078 0.200 0.141
+      specularColor 0.355 0.440 0.399
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-LIGHT-GREEN Material {
+      diffuseColor 0.357 0.659 0.047
+      specularColor 0.550 0.761 0.333
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-SATURATED-GREEN Material {
+      diffuseColor 0.051 0.408 0.043
+      specularColor 0.336 0.585 0.330
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-RED Material {
+      diffuseColor 0.710 0.075 0.082
+      specularColor 0.797 0.352 0.358
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-LIGHT-RED Material {
+      diffuseColor 0.824 0.157 0.055
+      specularColor 0.876 0.410 0.338
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-RED-ORANGE Material {
+      diffuseColor 0.937 0.208 0.161
+      specularColor 0.956 0.445 0.413
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-BLUE Material {
+      diffuseColor 0.008 0.231 0.635
+      specularColor 0.305 0.462 0.745
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-LIGHT-BLUE-1 Material {
+      diffuseColor 0.212 0.310 0.455
+      specularColor 0.448 0.517 0.618
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-LIGHT-BLUE-2 Material {
+      diffuseColor 0.239 0.333 0.510
+      specularColor 0.467 0.533 0.657
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-GREEN-BLUE Material {
+      diffuseColor 0.082 0.275 0.314
+      specularColor 0.358 0.492 0.520
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-BLACK Material {
+      diffuseColor 0.043 0.043 0.043
+      specularColor 0.330 0.330 0.330
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-WHITE Material {
+      diffuseColor 0.961 0.961 0.961
+      specularColor 0.973 0.973 0.973
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-PURPLE Material {
+      diffuseColor 0.125 0.008 0.208
+      specularColor 0.388 0.305 0.445
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-LIGHT-PURPLE Material {
+      diffuseColor 0.467 0.122 0.357
+      specularColor 0.627 0.385 0.550
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-YELLOW Material {
+      diffuseColor 0.761 0.765 0.000
+      specularColor 0.833 0.835 0.300
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PASTE-GREY Material {
+      diffuseColor 0.502 0.502 0.502
+      specularColor 0.801 0.801 0.801
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.70
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PASTE-DARK-GREY Material {
+      diffuseColor 0.353 0.353 0.353
+      specularColor 0.741 0.741 0.741
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.70
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF PASTE-SILVER Material {
+      diffuseColor 0.835 0.835 0.835
+      specularColor 0.934 0.934 0.934
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.70
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF FINISH-COPPER Material {
+      diffuseColor 0.722 0.451 0.196
+      specularColor 0.889 0.780 0.678
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.90
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF FINISH-GOLD Material {
+      diffuseColor 0.698 0.612 0.000
+      specularColor 0.879 0.845 0.600
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.90
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF FINISH-SILVER Material {
+      diffuseColor 0.835 0.835 0.835
+      specularColor 0.934 0.934 0.934
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.90
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF FINISH-TIN Material {
+      diffuseColor 0.627 0.627 0.627
+      specularColor 0.851 0.851 0.851
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.90
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-FR4-NATURAL-DARK Material {
+      diffuseColor 0.200 0.169 0.086
+      specularColor 0.280 0.252 0.178
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.10
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-FR4-NATURAL Material {
+      diffuseColor 0.427 0.455 0.294
+      specularColor 0.485 0.509 0.365
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.10
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-PTFE-NATURAL Material {
+      diffuseColor 0.988 0.988 0.980
+      specularColor 0.989 0.989 0.982
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.05
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-POLYIMIDE Material {
+      diffuseColor 0.804 0.510 0.000
+      specularColor 0.824 0.559 0.100
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.21
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-PHENOLIC-NATURAL Material {
+      diffuseColor 0.361 0.067 0.024
+      specularColor 0.425 0.160 0.121
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.05
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-BROWN-1 Material {
+      diffuseColor 0.573 0.388 0.184
+      specularColor 0.615 0.449 0.266
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.10
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-BROWN-2 Material {
+      diffuseColor 0.627 0.482 0.212
+      specularColor 0.665 0.534 0.291
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.10
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-BROWN-3 Material {
+      diffuseColor 0.573 0.388 0.184
+      specularColor 0.615 0.449 0.266
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.10
+      shininess 0.01
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-ALUMINUM Material {
+      diffuseColor 0.835 0.835 0.835
+      specularColor 0.852 0.852 0.852
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.70
+      transparency 0.00
+      shininess 0.01
+    }
+  }
+}
+
+
+# Additional KiCad StepUp material definitions:
+
+
+Shape {
+  appearance Appearance {
+    material DEF BOARD-BLUE-01 Material {
+      ambientIntensity 1
+      diffuseColor 0.07 0.12 0.3
+      specularColor 0.07 0.12 0.3
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.40
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-GREEN-02 Material {
+      ambientIntensity 1
+      diffuseColor 0.07 0.3 0.12
+      specularColor 0.07 0.3 0.12
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.40
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF BOARD-BLACK-03 Material {
+      ambientIntensity 1
+      diffuseColor 0.16 0.16 0.16
+      specularColor 0.16 0.16 0.16
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.40
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF GLASS-13 Material {
+      ambientIntensity 0.250000
+      diffuseColor 0.000000 0.631244 0.748016
+      specularColor 0.915152 0.915152 0.915152
+      emissiveColor 0.000000 0.000000 0.000000
+      shininess 0.642424
+      transparency 0.39
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF GLASS-19 Material {
+      ambientIntensity 2.018212
+      diffuseColor 0.400769 0.441922 0.459091
+      specularColor 0.573887 0.649271 0.810811
+      emissiveColor 0.000000 0.000000 0.000000
+      shininess 0.127273
+      transparency 0.37
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF GLASS-29 Material {
+      ambientIntensity 0.379
+      diffuseColor 0.859 0.738 0.496
+      specularColor 0.137 0.145 0.184
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.40
+      transparency 0.39
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF GLASS-GREEN Material {
+      ambientIntensity 0.250000
+      diffuseColor 0.000000 0.75 0.44
+      specularColor 0.915152 0.915152 0.915152
+      emissiveColor 0.000000 0.000000 0.000000
+      shininess 0.642424
+      transparency 0.39
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF GLASS-ORANGE Material {
+      ambientIntensity 0.250000
+      diffuseColor 0.75 0.44 0.000000
+      specularColor 0.915152 0.915152 0.915152
+      emissiveColor 0.000000 0.000000 0.000000
+      shininess 0.642424
+      transparency 0.39
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-YELLOW Material {
+      ambientIntensity 0.522
+      diffuseColor 0.98 0.840 0.066
+      specularColor 0.160 0.203 0.320
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.125
+      transparency 0.15
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-WHITE Material {
+      ambientIntensity 0.494
+      diffuseColor 0.895 0.891 0.813
+      specularColor 0.047 0.055 0.109
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.125
+      transparency 0.15
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-GREY Material {
+      ambientIntensity 0.494
+      diffuseColor 0.27 0.25 0.27
+      specularColor 0.5 0.5 0.6
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.35
+      transparency 0.15
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-BLACK Material {
+      ambientIntensity 0.494
+      diffuseColor 0.1 0.05 0.1
+      specularColor 0.6 0.5 0.6
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.5
+      transparency 0.15
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MET-01 Material {
+      ambientIntensity 0.249999
+      diffuseColor 0.298 0.298 0.298
+      specularColor 0.398 0.398 0.398
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.056122
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MET-ALUMINUM Material {
+      ambientIntensity 0.256000
+      diffuseColor 0.372322 0.371574 0.373173
+      specularColor 0.556122 0.554201 0.556122
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.127551
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MET-BRONZE Material {
+      ambientIntensity 0.022727
+      diffuseColor 0.714 0.4284 0.18144
+      specularColor 0.393548 0.271906 0.166721
+      emissiveColor 0.000000 0.000000 0.000000
+      shininess 0.2
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MET-COPPER Material {
+      ambientIntensity 0.022727
+      diffuseColor 0.7038 0.27048 0.0828
+      specularColor 0.780612 0.37 0.000000
+      emissiveColor 0.000000 0.000000 0.000000
+      shininess 0.2
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MET-SILVER Material {
+      ambientIntensity 0.022727
+      diffuseColor 0.50754 0.50754 0.50754
+      specularColor 0.508273 0.508273 0.508273
+      emissiveColor 0.000000 0.000000 0.000000
+      shininess 0.4
+      transparency 0.0
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF RED-BODY Material {
+      ambientIntensity 0.683
+      diffuseColor 0.700 0.100 0.050
+      emissiveColor 0.000 0.000 0.000
+      specularColor 0.300 0.400 0.150
+      shininess 0.25
+      transparency 0.0
+    }
+  }
+}
+
+
+# Additional custom material definitions:
+
+
+Shape {
+  appearance Appearance {
+    material DEF MASK-PINE-GREEN Material {
+      diffuseColor 0.000 0.482 0.224
+      specularColor 0.300 0.637 0.457
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF MASK-LIGHT-TAN Material {
+      diffuseColor 0.879 0.775 0.651
+      specularColor 0.915 0.842 0.756
+      emissiveColor 0.0 0.0 0.0
+      ambientIntensity 0.80
+      transparency 0.00
+      shininess 0.30
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF LED-LENS-CLEAR Material {
+      ambientIntensity 0.789
+      diffuseColor 0.895 0.891 0.813
+      specularColor 0.047 0.055 0.109
+      emissiveColor 0.0 0.0 0.0
+      shininess 0.125
+      transparency 0.50
+    }
+  }
+}
+Shape {
+  appearance Appearance {
+    material DEF EMISSIVE-GREEN-PHOSPHOR Material {
+      ambientIntensity 0.70
+      diffuseColor 0.627 0.627 0.627
+      specularColor 0.851 0.851 0.851
+      emissiveColor 0.0 1.0 0.0
+      shininess 0.90
+      transparency 0.0
+    }
+  }
+}
+
+

@@ -1,0 +1,47 @@
+# KiCad
+# -----
+
+# Backup files
+*-backups/
+*.bak
+
+# Temporary files
+*.kicad_prl
+fp-info-cache
+
+# Testing files
+*.kicad_sch
+*.kicad_pcb
+
+
+
+# FreeCAD
+# -------
+
+# Backup files
+*.FCBak
+*.FCStd[0-9]*
+
+# Built files
+*.step
+*.stp
+*.wrl
+
+
+
+# Project
+# -------
+
+# Built files
+*.zip
+LICENSE.*
+  !/LICENSE.*
+ATTRIBUTION.*
+  !/ATTRIBUTION.*
+README.*
+  !/README.*
+BUILDING.*
+  !/BUILDING.*
+
+# Misc intermediary/meta files
+_untracked/
