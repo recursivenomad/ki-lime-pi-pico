@@ -1,30 +1,22 @@
-> ## [**Download the latest release**](https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/)
-
-&nbsp;
+## [**Download the latest release**](https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/)
 
 
-**A comprehensive *Ki*Cad *Li*brary for the Raspberry *Pi* Pico** 🥧
+**A comprehensive KiCad Library for the Raspberry Pi Pico** 🥧
 ====================================================================
 
-### **Providing footprints, symbols, and models for the module in its various forms and implementations**
-
+### Providing footprints, symbols, and models for the module in its various forms and implementations
 
 &nbsp;
+
 
 ![Image of all available Raspberry Pi Pico footprint variations](./_md-assets/images/footprints.png "Raspberry Pi Pico KiCad footprint variations")  
 *The offered footprints of the Raspberry Pi Pico; all footprints also have a variant with mounting holes.*
 
-&nbsp;
-
 ![Image of all available Raspberry Pi Pico schematic variations](./_md-assets/images/schematics.png "Raspberry Pi Pico KiCad schematic variations")  
 *The offered schematics of the Raspberry Pi Pico; many pins provide alternate pin definitions.*
 
-&nbsp;
-
 ![GIF of all available Raspberry Pi Pico 3D model variations](./_md-assets/images/models.gif "Raspberry Pi Pico 3D model variations")  
 *The models feature the original Pico, Pico H, Pico W, and Pico WH; they are able to be visualised in surface-mount, through-hole, and socketed forms.*
-
-&nbsp;
 
 &nbsp;
 
@@ -45,7 +37,6 @@
 &nbsp;
 
 
---------------------------------
 ***How do I use this library?***
 ================================
 
@@ -75,14 +66,9 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 
 &nbsp;
 
-&nbsp;
 
-
-
----------------------
 ***Further reading***
 =====================
-
 
 ## Other KiCad implementations of the Raspberry Pi Pico:
 
@@ -99,7 +85,6 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
   for all the Pico variants, including a castellated *add-on board* footprint
   - https://gitlab.com/mgyger/kicad-symbols/-/blob/pico/MCU_Module.kicad_sym
   - https://gitlab.com/mgyger/kicad-footprints/-/tree/pico/Module.pretty
-
 
 ## Pico W antenna radiation pattern resources:
 
@@ -120,14 +105,9 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 
 &nbsp;
 
-&nbsp;
 
-
-
--------------
 ***License***
 =============
-
 
 This work is licensed under the [*MIT No Attribution*](https://opensource.org/license/mit-0/)
 license, the text of which should be found in [`LICENSE.txt`](./LICENSE.txt)
