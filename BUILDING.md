@@ -26,13 +26,13 @@
 
 # Models
 
-*<details><summary>Regarding parametric colours</summary>*
+<details><summary>Regarding parametric colours</summary>
   
   > *Model faces are parametrically coloured via boolean operations between parts of varying diffuse colours.  To alter source colours for the board, see `Parametric_Source > Boards_Source > Parametric Board Colour Sources` in the `Tree view` panel and modify each Body's `Appearance`.  To alter source colours for components, be sure to modify the `Appearance` of the source Bodies **directly**, which are contained within the compounds/part containers in `Parametric_Source > Pico_Components_Source`.  Modifying the `Appearance` of the compounds/part containers or setting parts' face colours with `Set Colors...` will **not** parametrically populate.*
   >
   > *Note that as of FreeCAD 0.20.2 changing the sources of the colours does not automatically populate down all the dependent objects.  To get around this if you make any colour changes, when you are ready to export be sure to recompute the entire document as detailed below.  This should successfully populate the parametric colours across all dependent objects.*
   
-*</details>*
+</details>
 
 
   ### General
@@ -51,7 +51,7 @@
   - In FreeCAD's `Tree view` panel, locate the contents of the folder `Export > KiCad Model Outputs > VRML - Manually Coloured Clones`
 
   - Select the `Clone` you wish to export to a VRML file for KiCad (for example: `RaspberryPi_Pico`)
-    *<details><summary>Additional information regarding clones and colours</summary>*
+    <details><summary>Additional information regarding clones and colours</summary>
       
       > *KiCad StepUp provides a selection of fully-featured materials that can be exported to VRML files.  Although the selection is limited, it provides convenient labelling of materials that can be edited later.  I have created `Clones` of each variation (which as of FreeCAD 0.20.2 do **not** parametrically preserve colour) and pre-set each face colour to align with colours defined within KiCad StepUp.*
       >
@@ -59,7 +59,7 @@
       >
       > *You can always export from the parametrically coloured `Compounds` in `Export > KiCad Model Outputs > STEP - Parametrically Coloured Compounds`, just needing to set the export colours in KiCad StepUp each time as they will be reset upon recomputes.*
       
-    *</details>*
+    </details>
 
   - Click on KiCad StepUp's `Export 3D Model` button (a graphic of a black 6-pin IC with a green arrow pointing down and to the right)
 
@@ -73,7 +73,7 @@
 
   - Prepare a powerful text editor for bulk file editing
 
-    *<details> <summary> Specific instructions for preparing VSCodium/VSCode*</summary>
+    <details> <summary> Specific instructions for preparing VSCodium/VSCode</summary>
 
       - Open a new VSCode-based instance
 
@@ -93,7 +93,7 @@
 
       - Select the graphic of an open book in the `files to include` field to only process files which are currently open
 
-    *</details>*
+    </details>
 
   - Find and replace the following material names in the newly created `.wrl` files:
 
