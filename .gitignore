@@ -35,13 +35,13 @@ fp-info-cache
 # Built files
 *.zip
 LICENSE.*
-  !/LICENSE.*
+!/LICENSE.*
 ATTRIBUTION.*
-  !/ATTRIBUTION.*
+!/ATTRIBUTION.*
 README.*
-  !/README.*
+!/README.*
 BUILDING.*
-  !/BUILDING.*
+!/BUILDING.*
 
 # Misc intermediary/meta files
 _untracked/
