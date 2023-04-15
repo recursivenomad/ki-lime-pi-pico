@@ -2,7 +2,7 @@
 
 
 **A comprehensive KiCad Library for the Raspberry Pi Pico** 🥧
-====================================================================
+==============================================================
 
 ### Providing footprints, symbols, and models for the module in its various forms and implementations
 
@@ -109,10 +109,10 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 ***License***
 =============
 
-This work is licensed under the [*MIT No Attribution*](https://opensource.org/license/mit-0/)
+This work is made freely available under the [*MIT No Attribution*](https://opensource.org/license/mit-0/)
 license, the text of which should be found in [`LICENSE.txt`](./LICENSE.txt)
 in the root directory of this project alongside this README.
 
-*The license applies to all relevant files contained within the directory it*
-*resides, including sub-directories, unless otherwise overridden by the*
-*presence of another LICENSE file, or license header within a file.*
+*The license applies to all possible files contained within the directory
+it resides, including sub-directories, unless otherwise overridden by the
+presence of another LICENSE/COPYING file or permission notice within a file.*
