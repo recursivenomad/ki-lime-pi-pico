@@ -1,6 +1,7 @@
 # Ki-Lime Pi Pico project attributions
 
 ## Peter S. Hollander
+> <recursivenomad@protonmail.com>
 
 Model, footprint, and symbol [source files and documentation](https://gitlab.com/recursivenomad/ki-lime-pi-pico)
 created and compiled by Peter S. Hollander between 2022 and 2023, and made
