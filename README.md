@@ -114,10 +114,7 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0]
 license, the text of which should be found in [`LICENSE.txt`](./LICENSE.txt)
 in the root directory of this project alongside this `README`.
 
-*The license applies to all possible files contained within the directory
-it resides, including sub-directories, unless otherwise overridden by the
-presence of a more narrowly-scoped permission notice.*
-*No additional permission notices were present at the time of release.*
+*No additional/conflicting permission notices were present in the source repository at the time of release.*
 
 ----------------------
 
