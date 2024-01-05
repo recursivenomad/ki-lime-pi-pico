@@ -81,7 +81,7 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 - A detailed SketchUp model of the surface-mount Pico incorporating the above
   Pico library
   - <https://github.com/ncarandini/KiCad-RP-Pico>
-- A similarly versatile library found on the [KiCad forums][URL-KiCad-forums]
+- A similarly versatile library found on the [KiCad forums][URL-KiCad-forums-mgyger]
   for all the Pico variants, including a castellated *add-on board* footprint
   - <https://gitlab.com/mgyger/kicad-symbols/-/blob/pico/MCU_Module.kicad_sym>
   - <https://gitlab.com/mgyger/kicad-footprints/-/tree/pico/Module.pretty>
@@ -102,6 +102,10 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
     - <https://abracon.com/datasheets/PRO-EB-594.pdf>
   - <https://embeddedcomputing.com/technology/analog-and-power/power-semiconductors-wireless-charging/a-lesson-in-wireless-engineering-from-the-raspberry-pi>
   - <https://antennatestlab.com/antenna-examples/raspberry-pi-model-3b-antenna-evaluation-gain-pattern>
+
+## Additional further reading:
+
+- A similar example of implementing 3 discrete components as one apparent symbol for a socketed device on the [KiCad forums](URL-KiCad-forums-cdwilson)
 
 &nbsp;
 
@@ -126,7 +130,8 @@ in the root directory of this project alongside this `README`.
 
 
 
-[URL-KiCad-forums]: <https://forum.kicad.info/t/are-there-pi-pico-library-files-available-for-kicad-6/35844/12>
+[URL-KiCad-forums-cdwilson]: <https://forum.kicad.info/t/21104>
+[URL-KiCad-forums-mgyger]: <https://forum.kicad.info/t/35844/12>
 [URL-KLC]: <https://klc.kicad.org/>
 [URL-MIT-0]: <https://opensource.org/license/mit-0/>
 [URL-official-example]: <https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf#page=15>
