@@ -58,6 +58,17 @@
       )
       (polyline
         (pts
+          (xy 0 -34.29)
+          (xy 1.27 -33.655)
+          (xy 1.27 -21.59)
+          (xy 18.415 -21.59)
+          (xy 19.05 -20.32)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 1.651 35.306)
           (xy 1.651 35.56)
           (xy 1.905 35.56)
@@ -286,7 +297,8 @@
       (pin power_in line (at 22.86 -20.32 180) (length 3.81)
         (name "AGND" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
-        (alternate "GND" power_in line)
+        (alternate "GND" power_out line)
+        (alternate "GND_IN" power_in line)
       )
       (pin bidirectional line (at 22.86 -15.24 180) (length 3.81)
         (name "GPIO28_ADC2" (effects (font (size 1.27 1.27))))
@@ -453,6 +465,17 @@
           (xy 3.81 36.195)
           (xy 3.81 34.29)
           (xy 3.175 34.29)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -34.29)
+          (xy 1.27 -33.655)
+          (xy 1.27 -21.59)
+          (xy 18.415 -21.59)
+          (xy 19.05 -20.32)
         )
         (stroke (width 0) (type default))
         (fill (type none))
