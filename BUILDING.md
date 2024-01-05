@@ -12,7 +12,7 @@
 
   Exported VRML models modified in [VSCodium 1.74.3](https://github.com/VSCodium/vscodium/releases/tag/1.74.3.23010)
 
-  KiCad symbols and footprints created using KiCad 6.0.10 and finalized using [KiCad 7.0.1](https://github.com/KiCad/kicad-source-mirror/releases/tag/7.0.1)
+  KiCad symbols and footprints created using KiCad 6.0.10 and finalized using [KiCad 7.0.10](https://github.com/KiCad/kicad-source-mirror/releases/tag/7.0.10)
 
 &nbsp;
 
