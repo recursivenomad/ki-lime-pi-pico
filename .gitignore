@@ -8,6 +8,7 @@
 # Temporary files
 *.kicad_prl
 fp-info-cache
+~*.lck
 
 # Testing files
 *.kicad_sch
