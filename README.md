@@ -105,7 +105,7 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 
 ## Additional further reading:
 
-- A similar example of implementing 3 discrete components as one apparent symbol for a socketed device on the [KiCad forums](URL-KiCad-forums-cdwilson)
+- A similar example of implementing 3 discrete components as one apparent symbol for a socketed device on the [KiCad forums][URL-KiCad-forums-cdwilson]
 
 &nbsp;
 
