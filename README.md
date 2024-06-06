@@ -114,11 +114,9 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 ***License / Access***
 ======================
 
-This work is made freely available under the [*MIT-0*][URL-MIT-0]
-license, the text of which should be found in [`LICENSE.txt`](./LICENSE.txt)
-in the root directory of this project alongside this `README`.
+This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rendered in [`LICENSE.txt`](./LICENSE.txt).
 
-*No additional/conflicting permission notices were present in the source repository at the time of release.*
+*No additional/conflicting permissions were present in this repository at the time of release.*
 
 ----------------------
 
