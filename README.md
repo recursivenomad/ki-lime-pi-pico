@@ -40,7 +40,7 @@
 ================================
 
 - Ensure you are running KiCad 7.0 or later
-- Download the most recent [release][URL-releases] of the library
+- Download the most recent [release][URL-Releases] of the library
 - Unzip the file contents
 - If not already created, create a new KiCad project
 - Move the root library directory `RaspberryPi_Pico/` to a folder anywhere within your KiCad project
@@ -74,15 +74,12 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 
 *Some adjacent solutions I encountered during my research for this project*
 
-- Official Raspberry Pi KiCad library files for the Pico and Pico W provided in
-  [Hardware design with the RP2040, Section 3][URL-official-example]
+- Official Raspberry Pi KiCad library files for the Pico and Pico W provided in [Hardware design with the RP2040, Section 3][URL-Official-Example]
     - <https://datasheets.raspberrypi.com/rp2040/VGA-KiCAD.zip>
     - <https://datasheets.raspberrypi.com/rp2040/VGA-PicoW-KiCAD.zip>
-- A detailed SketchUp model of the surface-mount Pico incorporating the above
-  Pico library
+- A detailed SketchUp model of the surface-mount Pico incorporating the above Pico library
   - <https://github.com/ncarandini/KiCad-RP-Pico>
-- A similarly versatile library found on the [KiCad forums][URL-KiCad-forums-mgyger]
-  for all the Pico variants, including a castellated *add-on board* footprint
+- A similarly versatile library found on the [KiCad forums][URL-KiCad-Forums-mgyger] for all the Pico variants, including a castellated *add-on board* footprint
   - <https://gitlab.com/mgyger/kicad-symbols/-/blob/pico/MCU_Module.kicad_sym>
   - <https://gitlab.com/mgyger/kicad-footprints/-/tree/pico/Module.pretty>
 
@@ -105,7 +102,7 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 
 ## Additional further reading:
 
-- A similar example of implementing 3 discrete components as one apparent symbol for a socketed device on the [KiCad forums][URL-KiCad-forums-cdwilson]
+- A similar example of implementing 3 discrete components as one apparent symbol for a socketed device on the [KiCad forums][URL-KiCad-Forums-cdwilson]
 
 &nbsp;
 
@@ -128,9 +125,11 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 
 
 
-[URL-KiCad-forums-cdwilson]: <https://forum.kicad.info/t/21104>
-[URL-KiCad-forums-mgyger]: <https://forum.kicad.info/t/35844/12>
-[URL-KLC]: <https://klc.kicad.org/>
 [URL-MIT-0]: <https://opensource.org/license/mit-0/>
-[URL-official-example]: <https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf#page=15>
-[URL-releases]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>
+
+[URL-Releases]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>
+
+[URL-KiCad-Forums-cdwilson]: <https://forum.kicad.info/t/21104>
+[URL-KiCad-Forums-mgyger]: <https://forum.kicad.info/t/35844/12>
+[URL-KLC]: <https://klc.kicad.org/>
+[URL-Official-Example]: <https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf#page=15>
