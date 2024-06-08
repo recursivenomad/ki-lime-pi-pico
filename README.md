@@ -135,16 +135,16 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
   > The following online payments are processed through Stripe:
   >
   > [!["Liberapay" button with the Liberapay logo](./_md-assets/images/donation-icons/button-liberapay.png)][URL-Liberapay-Donate]
-  > *~ Gifts recurring unconditional donations and reduces fees (via Liberapay)*
+  > ~ *Gifts recurring unconditional donations and reduces fees (via Liberapay)*
   >
   > [!["Donate" button with a hand offering a heart](./_md-assets/images/donation-icons/button-donate.png)][URL-Donate]
-  > *~ Gifts an unconditional donation*
+  > ~ *Gifts an unconditional donation*
   >
   > [!["Sponsor" button with shaking hands](./_md-assets/images/donation-icons/button-sponsor.png)][URL-Sponsor]
-  > *~ Sends a donation specifically to sponsor open-source development*
+  > ~ *Sends a donation specifically to sponsor open-source development*
   >
   > [!["Pledge" button with shaking hands surrounded by rotating arrows](./_md-assets/images/donation-icons/button-pledge.png)][URL-Pledge]
-  > *~ Sets up a recurring donation to sponsor open-source development*  
+  > ~ *Sets up a recurring donation to sponsor open-source development*  
   > &nbsp;
 
 </details>
@@ -153,13 +153,11 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 
 <details><summary> Monero (XMR) </summary>
 
-  > &nbsp;  
-  > *XMR - Unconditional donations:*  
-  > [`8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1`][URL-Monero-Donate]
+  > *Unconditional donations*  
+  > [`monero:`][URL-Monero-Donate]`8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1`
   >
-  > *XMR - Donations specifically to sponsor open-source development:*  
-  > [`84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS`][URL-Monero-Sponsor]  
-  > &nbsp;
+  > *Donations specifically to sponsor open-source development*  
+  > [`monero:`][URL-Monero-Sponsor]`84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS`
 
 </details>
 
@@ -167,13 +165,11 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 
 <details><summary> Ether (ETH) </summary>
 
-  > &nbsp;  
-  > *ETH - Unconditional donations:*  
-  > [`0xD1b824f2Ec3D609e816B04A301124129602A5238`][URL-Ether-Donate]
+  > *Unconditional donations*  
+  > [`ethereum:`][URL-Ether-Donate]`0xD1b824f2Ec3D609e816B04A301124129602A5238`
   >
-  > *ETH - Donations specifically to sponsor open-source development:*  
-  > [`0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2`][URL-Ether-Sponsor]  
-  > &nbsp;
+  > *Donations specifically to sponsor open-source development*  
+  > [`ethereum:`][URL-Ether-Sponsor]`0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2`
 
 </details>
 
@@ -181,13 +177,11 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 
 <details><summary> Bitcoin (BTC) </summary>
 
-  > &nbsp;  
-  > *BTC - Unconditional donations:*  
-  > [`bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2`][URL-Bitcoin-Donate]
+  > *Unconditional donations*  
+  > [`bitcoin:`][URL-Bitcoin-Donate]`bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2`
   >
-  > *BTC - Donations specifically to sponsor open-source development:*  
-  > [`bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns`][URL-Bitcoin-Sponsor]  
-  > &nbsp;
+  > *Donations specifically to sponsor open-source development*  
+  > [`bitcoin:`][URL-Bitcoin-Sponsor]`bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns`
 
 </details>
 
