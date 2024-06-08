@@ -125,6 +125,104 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 
 
 
+### Financially supporting this project:
+
+
+
+<details><summary> Online payment </summary>
+
+  > &nbsp;  
+  > The following online payments are processed through Stripe:
+  >
+  > [!["Liberapay" button with the Liberapay logo](./_md-assets/images/donation-icons/button-liberapay.png)][URL-Liberapay-Donate]
+  > *~ Gifts recurring unconditional donations and reduces fees (via Liberapay)*
+  >
+  > [!["Donate" button with a hand offering a heart](./_md-assets/images/donation-icons/button-donate.png)][URL-Donate]
+  > *~ Gifts an unconditional donation*
+  >
+  > [!["Sponsor" button with shaking hands](./_md-assets/images/donation-icons/button-sponsor.png)][URL-Sponsor]
+  > *~ Sends a donation specifically to sponsor open-source development*
+  >
+  > [!["Pledge" button with shaking hands surrounded by rotating arrows](./_md-assets/images/donation-icons/button-pledge.png)][URL-Pledge]
+  > *~ Sets up a recurring donation to sponsor open-source development*  
+  > &nbsp;
+
+</details>
+
+
+
+<details><summary> Monero (XMR) </summary>
+
+  > &nbsp;  
+  > *XMR - Unconditional donations:*  
+  > [`8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1`][URL-Monero-Donate]
+  >
+  > *XMR - Donations specifically to sponsor open-source development:*  
+  > [`84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS`][URL-Monero-Sponsor]  
+  > &nbsp;
+
+</details>
+
+
+
+<details><summary> Ether (ETH) </summary>
+
+  > &nbsp;  
+  > *ETH - Unconditional donations:*  
+  > [`0xD1b824f2Ec3D609e816B04A301124129602A5238`][URL-Ether-Donate]
+  >
+  > *ETH - Donations specifically to sponsor open-source development:*  
+  > [`0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2`][URL-Ether-Sponsor]  
+  > &nbsp;
+
+</details>
+
+
+
+<details><summary> Bitcoin (BTC) </summary>
+
+  > &nbsp;  
+  > *BTC - Unconditional donations:*  
+  > [`bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2`][URL-Bitcoin-Donate]
+  >
+  > *BTC - Donations specifically to sponsor open-source development:*  
+  > [`bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns`][URL-Bitcoin-Sponsor]  
+  > &nbsp;
+
+</details>
+
+
+
+[URL-Liberapay-Donate]: <https://liberapay.com/recursivenomad/donate>
+"Gift recurring unconditional donations with reduced fees
+(Stripe via Liberapay)"
+
+[URL-Donate]: <https://donate.stripe.com/dR6dSU1PueevgKY4gs>
+"Gift an unconditional donation
+(via Stripe)"
+
+[URL-Sponsor]: <https://donate.stripe.com/4gw9CE9hW8UbeCQcN2>
+"Send a donation to sponsor open-source development
+(via Stripe)"
+
+[URL-Pledge]: <https://buy.stripe.com/dR64ikgKofizeCQeVe>
+"Set up a recurring donation to sponsor open-source development
+(via Stripe)"
+
+[URL-Monero-Donate]: <monero:8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1?recipient_name=recursivenomad&tx_description=Donation> "Donate with Monero"
+
+[URL-Monero-Sponsor]: <monero:84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS?recipient_name=recursivenomad&tx_description=Sponsoring%20open-source%20development> "Sponsor with Monero"
+
+[URL-Ether-Donate]: <ethereum:0xD1b824f2Ec3D609e816B04A301124129602A5238> "Donate with Ether"
+
+[URL-Ether-Sponsor]: <ethereum:0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2> "Sponsor with Ether"
+
+[URL-Bitcoin-Donate]: <bitcoin:bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2?label=recursivenomad&message=Donation> "Donate with Bitcoin"
+
+[URL-Bitcoin-Sponsor]: <bitcoin:bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns?label=recursivenomad&message=Sponsoring%20open-source%20development> "Sponsor with Bitcoin"
+
+
+
 [URL-MIT-0]: <https://opensource.org/license/mit-0/>
 
 [URL-Releases]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>
