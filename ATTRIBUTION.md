@@ -33,6 +33,11 @@ Original assets which were referenced for geometry/organization (model, symbol, 
   - Pico Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-KiCAD.zip>
   - Pico W Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-PicoW-KiCAD.zip>
 
+
+## Liberapay
+
+Liberapay logo acquired from Liberapay under the [*CC0 1.0 Universal*](https://github.com/liberapay/liberapay.com#license) public domain dedication.
+
 &nbsp;
 
 
