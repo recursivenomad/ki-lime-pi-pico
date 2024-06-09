@@ -58,6 +58,10 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp 256ce00a-340e-4e6c-bcf9-71317283a982)
   )
+  (fp_text user "Socket_A" (at -38.1 88.9 90 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)) (justify right))
+    (tstamp 266d6ff7-f534-473e-9390-1b530b505301)
+  )
   (fp_text user "Keep" (at 40.592833 -94.263567 unlocked) (layer "Cmts.User")
       (effects (font (size 0.3333 0.3333) (thickness 0.05)))
     (tstamp 29cdee84-2bb7-427d-9fe9-62116dcaf61e)
@@ -105,6 +109,10 @@
   (fp_text user "THT only" (at 68.625 -54.7075 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp 3e7b3e0c-56c1-46aa-ab25-90045c7a4c08)
+  )
+  (fp_text user "Socket_B" (at -25.4 139.7 270 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)) (justify right))
+    (tstamp 3ee18b34-4020-454d-84a4-279bcd122348)
   )
   (fp_text user "USB Cable" (at -91.44 -53.34 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -238,6 +246,10 @@
       (effects (font (size 0.3333 0.3333) (thickness 0.05)))
     (tstamp 98ca944c-0643-429c-b5ca-68566605a7c7)
   )
+  (fp_text user "Socket_SWD" (at 382.2191 42.8475 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+    (tstamp 98ff147b-febe-43be-bde8-de78acf8fa1c)
+  )
   (fp_text user "Copper" (at 43.085119 58.235928 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9cbde37e-d6d2-44bb-acff-ed2df54f8d9a)
@@ -349,6 +361,10 @@
   (fp_text user "Keep Out" (at 191.18 69.8975 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cf0fadf9-77ad-4aae-970e-b04eed9574ef)
+  )
+  (fp_text user "Socket_SWD" (at 337.212676 62.210063 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+    (tstamp cf20bb90-1a31-45b2-a944-aebb73216176)
   )
   (fp_text user "THT only" (at 68.343802 -80.793622 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
@@ -1026,6 +1042,14 @@
     (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 6f42ba32-a586-4ce4-90b1-7df4f37e2380))
   (fp_rect (start -96.54 -31.5) (end -93.34 -27.25)
     (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 30539707-af02-4a6b-996b-4e089f54f084))
+  (fp_rect (start -41.656 89.154) (end -39.624 91.186)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp 483241c4-ba31-445a-8e1a-26b95bc10123))
+  (fp_rect (start -23.876 137.414) (end -21.844 139.446)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp 3de2f579-c526-433b-a3d6-a9d770af53db))
+  (fp_rect (start 337.593676 63.734063) (end 339.625676 65.766063)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp 3b61d68d-07f1-4eef-8efc-04acecabfea8))
+  (fp_rect (start 382.4731 44.3715) (end 384.5051 46.4035)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp addcc2b9-b609-4a1e-b137-66f499fc42b7))
   (fp_arc (start -101.44 9.625) (mid -101.793553 9.478553) (end -101.94 9.125)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 80f37ead-fa01-4d6d-a3dd-c9531b6d21d0))
   (fp_arc (start -96.065 -29.95) (mid -94.94 -31.075) (end -93.815 -29.95)
@@ -2880,9 +2904,11 @@
       6c297e2d-0562-4703-8e36-1fcdf028a2c3
       7ed362d5-a006-41fc-932c-f159306629cf
       8bf4cbd1-ce3a-4324-80a5-1db68496e559
+      98ff147b-febe-43be-bde8-de78acf8fa1c
       9ed9230d-1f6c-4902-933d-13334d18de94
       a2bc183b-0eea-4e00-926a-39cb0e419f95
       abf12673-1650-4c27-aad6-cfdcde2cc186
+      addcc2b9-b609-4a1e-b137-66f499fc42b7
       b01d86e0-689b-4c3f-b718-33ae85c1a3bd
       c2a9b686-ce26-4af2-a13a-b53633440ca4
       c57c24e1-b48e-4ed3-80c9-fedaaf202339
@@ -3406,13 +3432,17 @@
       23dbcc33-b1b4-49e5-b51c-4a72216bdbf5
       240918f7-2910-4b36-b793-213eb2140031
       254688bb-2be6-40f8-959e-8c339b7c6d42
+      266d6ff7-f534-473e-9390-1b530b505301
       27f887a5-4227-43c9-9e45-07b165e78fc9
       289cd38b-3870-44b6-93b8-0cbc6823d9a7
       2e28fd73-9669-41d7-b567-1695db5472db
       361f52d2-e505-4c07-8e33-cba5dd51b69d
       3af775d2-b4ed-49ab-b6ec-78ab8af7b3f1
+      3de2f579-c526-433b-a3d6-a9d770af53db
+      3ee18b34-4020-454d-84a4-279bcd122348
       40ddf8e9-9d10-4f73-8152-36685a6bbf10
       4108861e-2ac9-4c39-a28a-9d6518b6dea7
+      483241c4-ba31-445a-8e1a-26b95bc10123
       4865ea2e-8018-405f-be6b-795866bc5ce0
       511f512a-80da-4f91-9b42-d6fd5ff565fe
       52795e2a-fcae-4bf8-aa35-2b1acbe0abe1
@@ -3473,11 +3503,13 @@
   (group "" (id 897e453a-1f60-44c3-8b24-ebefd9c6e93e)
     (members
       034ae0dc-6e76-4582-96cb-9b587a703570
+      3b61d68d-07f1-4eef-8efc-04acecabfea8
       439c1704-f000-4ce4-938a-4f68c2e1c5ec
       5b028fd2-5d28-41ae-93d5-280e573c028f
       ad09af28-8ecb-4b6d-b9a7-86339e4fcd6a
       b2f499aa-643a-46a1-b70e-9c55205eb1dd
       cd58be4c-a713-4624-8299-ac0025c14678
+      cf20bb90-1a31-45b2-a944-aebb73216176
       d5bea409-11a0-427e-bf02-0235a792904c
       fa54f0b3-86f0-43e1-a8f4-7d3915533c5c
       fb3818eb-80bf-41d4-8522-b8d0899e979b
