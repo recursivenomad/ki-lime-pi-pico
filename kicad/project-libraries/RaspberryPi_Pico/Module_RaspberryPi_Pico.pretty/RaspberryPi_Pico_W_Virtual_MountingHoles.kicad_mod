@@ -27,7 +27,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 723fd60c-95d3-40e8-90d8-057341ee3db7)
   )
-  (fp_text user "Keep Out" (at 0 29.4175 unlocked) (layer "Cmts.User")
+  (fp_text user "Copper Keep Out" (at 0 29.4175 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7470c5b2-8cd6-41e4-909c-b23f496363fe)
   )
@@ -38,10 +38,6 @@
   (fp_text user "Keep Out" (at 0 21.1625 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 95f73271-9ff1-413e-b561-1eabdc851f2b)
-  )
-  (fp_text user "Copper" (at 0 27.83 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9e33d85d-6c6e-4888-af64-0c656b60eff9)
   )
   (fp_text user "^ Suggested board edge for RF ^" (at 0 17.8425 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
@@ -446,7 +442,6 @@
       83c405a2-ac89-4433-b096-2419d9c1882f
       87dc664b-5f8a-4c38-9df5-22c5cda6773e
       95f73271-9ff1-413e-b561-1eabdc851f2b
-      9e33d85d-6c6e-4888-af64-0c656b60eff9
       a59edbba-8335-4594-9dc6-58100f5e8e4f
       b4de60de-b180-4a3d-9865-8eb20fc54085
       b7190751-2b39-49a1-a04d-8e622f58e451

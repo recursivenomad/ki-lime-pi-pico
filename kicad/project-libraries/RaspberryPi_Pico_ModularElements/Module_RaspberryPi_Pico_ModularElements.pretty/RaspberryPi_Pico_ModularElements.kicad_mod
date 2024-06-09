@@ -98,10 +98,6 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp 3d63e746-b86e-4de9-ad44-5e4f029538a3)
   )
-  (fp_text user "Copper" (at 184.195 -22.005 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3dcb6dfa-90df-4e3c-b5f3-a3ad06921828)
-  )
   (fp_text user "SMD reflow only" (at 125.775 -170.9125 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp 3e689e0a-dc9b-4c06-a20b-6699ef3fd49a)
@@ -117,10 +113,6 @@
   (fp_text user "USB Cable" (at -50.8 -143.51 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3f0f28e7-2f4a-4a57-8a4c-7d5ac2f30751)
-  )
-  (fp_text user "Copper" (at 231.82 -21.86 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3fd5d990-85cb-4816-a711-075e021b0351)
   )
   (fp_text user "No mounting holes" (at 83.05 -148.117239 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
@@ -342,7 +334,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     (tstamp c5b0b8a8-526c-4519-b0e5-5385fc8457f6)
   )
-  (fp_text user "Keep Out" (at 278.81 -20.4175 unlocked) (layer "Cmts.User")
+  (fp_text user "Copper Keep Out" (at 278.81 -20.4175 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c5cf8017-0d6d-4e90-a50d-7adefe6f7210)
   )
@@ -350,7 +342,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c733767d-df60-4813-a988-bcd62914b36c)
   )
-  (fp_text user "Keep Out" (at 184.195 -20.4175 unlocked) (layer "Cmts.User")
+  (fp_text user "Copper Keep Out" (at 184.195 -20.4175 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ca0d9d15-b2f1-4e87-9da4-3384184c480e)
   )
@@ -358,7 +350,7 @@
       (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
     (tstamp ca780f50-7f33-4d58-aaa9-7b7842e1adb3)
   )
-  (fp_text user "Keep Out" (at 231.82 -20.2725 unlocked) (layer "Cmts.User")
+  (fp_text user "Copper Keep Out" (at 231.82 -20.2725 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cf0fadf9-77ad-4aae-970e-b04eed9574ef)
   )
@@ -369,10 +361,6 @@
   (fp_text user "THT only" (at 108.983802 -170.963622 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
     (tstamp cfb3a4b1-c16e-44ec-87c4-b42f96fad439)
-  )
-  (fp_text user "Copper" (at 278.81 -22.005 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d0015b02-e7b5-4704-81c6-f26dc3281f9e)
   )
   (fp_text user "Mounting holes" (at 64.18 -147.9765 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
@@ -2824,7 +2812,6 @@
       c18ad6f9-c5ba-41fe-b671-7a372121c7f5
       c45da528-ae71-450f-abfa-de986e24c873
       c5cf8017-0d6d-4e90-a50d-7adefe6f7210
-      d0015b02-e7b5-4704-81c6-f26dc3281f9e
       d2ed6fe4-d332-4600-a4cb-2b9be5b294f0
       d47d7c3a-207f-4632-b847-9344f96c8403
       f44a2e26-5a7f-4ec8-b142-cab6d7e7dec1
@@ -2842,7 +2829,6 @@
       24711f18-ce21-4a26-bca8-544ab921e81e
       32d81687-584a-4daf-a742-6f143e662058
       358c07cd-85a9-44cc-af51-f74b0caea6d6
-      3fd5d990-85cb-4816-a711-075e021b0351
       4e15515e-10c5-4688-ac5d-cc8e65334861
       5a433061-773b-45ab-b3c7-48745935004c
       687cb736-e30d-415b-b554-cd875c7ab8bb
@@ -2871,7 +2857,6 @@
   (group "" (id 1a8590aa-3c81-4267-b8cd-29ef8bf5ce2e)
     (members
       1f3180ae-6b18-494e-8f03-7435c7e23cb0
-      3dcb6dfa-90df-4e3c-b5f3-a3ad06921828
       431aeb85-de94-4bd1-a64e-d88d6af65140
       4c788980-bc7a-4ef8-855f-a9b740938e1f
       50d8e3a8-4fbf-4358-b741-97033357353d

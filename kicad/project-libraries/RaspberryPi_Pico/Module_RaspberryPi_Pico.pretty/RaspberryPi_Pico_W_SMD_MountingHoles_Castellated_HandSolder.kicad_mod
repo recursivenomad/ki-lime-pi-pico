@@ -35,7 +35,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     (tstamp 422ad9ca-6321-4ddd-a92d-8c3301298292)
   )
-  (fp_text user "Keep Out" (at 0 29.5275 unlocked) (layer "Cmts.User")
+  (fp_text user "Copper Keep Out" (at 0 29.5275 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 676a7f59-715d-4c59-95f7-09c5531aeb75)
   )
@@ -66,10 +66,6 @@
   (fp_text user "^ Suggested board edge for RF ^" (at -14.05 26.9875 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     (tstamp d7c915ec-18f8-4a89-a9e7-7861c7b45521)
-  )
-  (fp_text user "Copper" (at 0 27.94 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp efdb36a7-6004-4c47-98d8-e6d938833dd0)
   )
   (fp_text user "Incomplete board edge must be connected" (at -6.6675 -27.94 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify right))
@@ -674,7 +670,6 @@
       d55b2fb2-ee62-43fa-b631-d2e24e95bc7a
       d7c915ec-18f8-4a89-a9e7-7861c7b45521
       e57bed83-30b4-4b99-ab7d-fcc6df596617
-      efdb36a7-6004-4c47-98d8-e6d938833dd0
     )
   )
   (group "" (id dc36bde8-6710-4559-a316-dc534f3a254a)

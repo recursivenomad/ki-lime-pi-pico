@@ -39,7 +39,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.075)))
     (tstamp 24af4681-4aa2-4e3b-b817-e3a4c9474c44)
   )
-  (fp_text user "Keep Out" (at 0 29.5275 unlocked) (layer "Cmts.User")
+  (fp_text user "Copper Keep Out" (at 0 29.5275 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4326dbf4-20e6-443c-94bb-485526a36c19)
   )
@@ -50,10 +50,6 @@
   (fp_text user "Socket_SWD" (at 3.1241 8.24 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5f26d0bf-d341-4c9a-92b1-9549b3cf7182)
-  )
-  (fp_text user "Copper" (at 0 27.94 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 8293a9ab-ebe6-4c81-ad4f-c1a4ef5dfaf4)
   )
   (fp_text user "Keep unobstructed by metal as far as possible in all dimensions" (at 0 33.9725 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
@@ -443,7 +439,6 @@
       5f26d0bf-d341-4c9a-92b1-9549b3cf7182
       60668bd9-5c65-46f6-bffa-a3651b52e6e3
       6f08caed-0b21-495e-a904-8bbfc549c361
-      8293a9ab-ebe6-4c81-ad4f-c1a4ef5dfaf4
       846ba5aa-0898-40c5-8138-3db0a0b2d2dd
       88391800-dc7e-475f-b104-168d3f1ba6d3
       ae310dd0-3930-4907-9007-344323473b46
