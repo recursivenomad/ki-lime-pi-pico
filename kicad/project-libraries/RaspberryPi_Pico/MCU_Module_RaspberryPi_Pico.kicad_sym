@@ -954,11 +954,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "RaspberryPi_Pico_MultiPart-SocketA" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+  (symbol "RaspberryPi_Pico_MultiPart-Socket_A" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "J" (at -20.32 -27.94 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Pico_SocketA" (at -20.32 -30.48 0) (do_not_autoplace)
+    (property "Value" "Pico_Socket_A" (at -20.32 -30.48 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" (at 0 -49.53 0)
@@ -976,7 +976,7 @@
     (property "ki_fp_filters" "*1x20_*P2.54mm*Vertical*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "RaspberryPi_Pico_MultiPart-SocketA_1_1"
+    (symbol "RaspberryPi_Pico_MultiPart-Socket_A_1_1"
       (polyline
         (pts
           (xy -19.05 25.4)
@@ -1184,11 +1184,11 @@
       )
     )
   )
-  (symbol "RaspberryPi_Pico_MultiPart-SocketB" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+  (symbol "RaspberryPi_Pico_MultiPart-Socket_B" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "J" (at 20.32 -27.94 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Pico_SocketB" (at 20.32 -30.48 0) (do_not_autoplace)
+    (property "Value" "Pico_Socket_B" (at 20.32 -30.48 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" (at 0 -49.53 0)
@@ -1206,7 +1206,7 @@
     (property "ki_fp_filters" "*1x20_*P2.54mm*Vertical*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "RaspberryPi_Pico_MultiPart-SocketB_1_1"
+    (symbol "RaspberryPi_Pico_MultiPart-Socket_B_1_1"
       (polyline
         (pts
           (xy -19.05 25.4)
