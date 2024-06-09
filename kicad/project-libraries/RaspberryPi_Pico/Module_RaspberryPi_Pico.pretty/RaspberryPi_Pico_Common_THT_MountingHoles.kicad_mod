@@ -13,7 +13,7 @@
   )
   (fp_text user "USB Cable" (at 0 -37.465 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 25223065-f1b7-4b6f-b079-9f4e51830e36)
+    (tstamp 6ff696b0-1cbf-4ddf-82c3-665011a30434)
   )
   (fp_text user "Keep Out" (at 0 20.32 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -29,7 +29,7 @@
   )
   (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d385205f-9954-4682-9836-3e854f56b010)
+    (tstamp e43d5fa5-41da-42a7-b215-954cbfee401f)
   )
   (fp_line (start -10.93 -23.33) (end -10.93 -24.93)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 68c62467-477a-408b-8987-d5fd92654133))
@@ -119,23 +119,37 @@
       (xy -4.5 -25.75)
     )
 
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp b1242be3-055f-44ce-9fd0-b0f982fc22fa))
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp c678a640-8e5b-4768-8227-e637f806a505))
   (fp_line (start -10.5 -24.5) (end -9.5 -25.5)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6f9b96b5-d352-48d6-82b1-a86e600daaf2))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9693a43c-afc7-4180-869f-09f66c9fab40))
   (fp_line (start -10.5 25) (end -10.5 -24.5)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5c743cc6-2dc6-4d8c-9226-bab76470b497))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 423483be-e710-44fe-96c1-003b23779177))
   (fp_line (start -9.5 -25.5) (end 10 -25.5)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 2646c58d-aa74-4151-8005-f8ee6ffdf412))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a4271202-8a06-43e7-b023-c40eecdc5e65))
+  (fp_line (start -4.625 -14.075) (end -4.625 -12.925)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b0c1b4e6-55dd-44d1-a0ed-fb258cd567a5))
+  (fp_line (start -2.375 -14.075) (end -2.375 -12.925)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f86cfcdf-870a-41c1-9198-3e5a9a38c6ad))
   (fp_line (start 10 25.5) (end -10 25.5)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5b44d1a0-bda7-479a-b1d9-5ea1995d3146))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d66ca36f-763b-4b8c-b30d-e6408881f366))
   (fp_line (start 10.5 -25) (end 10.5 25)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6faafec2-903f-407d-84f2-dc81bbd617ac))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a61c01de-a925-4c22-874c-42a76d628e4a))
+  (fp_rect (start -6.5 -21.1) (end -4.9 -20.3)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp f9242e89-ae13-4c80-8b25-81b9eae42fef))
+  (fp_rect (start -6.2 -21.1) (end -5.2 -20.3)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 9ebfd55f-d7ec-48a6-b6ec-6fc26a4b8131))
+  (fp_rect (start -5.1 -15.625) (end -1.9 -11.375)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp d7a4e2bd-dab3-45d1-833d-6cd5e177cf28))
   (fp_arc (start -10 25.5) (mid -10.353553 25.353553) (end -10.5 25)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9a0b6ad8-fb28-45dc-92e7-fa6116963368))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d593be61-ed5d-4e96-8297-e037c5e0da63))
+  (fp_arc (start -4.625 -14.075) (mid -3.5 -15.2) (end -2.375 -14.075)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cf44bec0-3331-4c89-8313-81a69ec7be43))
+  (fp_arc (start -2.375 -12.925) (mid -3.5 -11.8) (end -4.625 -12.925)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9debbcee-7099-4d4a-8f4f-2e5fdebf29d8))
   (fp_arc (start 10 -25.5) (mid 10.353553 -25.353553) (end 10.5 -25)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 3317aafb-5720-40a8-bb2e-37a82945c39d))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4c76cce1-7c7b-4115-b7d8-fb74a9b9b517))
   (fp_arc (start 10.5 25) (mid 10.353553 25.353553) (end 10 25.5)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e390433c-0351-4de5-be29-211139bd9683))
+    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 85d7402b-eb67-4adc-b53a-275877e6fc80))
   (fp_poly
     (pts
       (xy 3.79 -21.2)
@@ -148,7 +162,7 @@
       (xy -3.79 -21.2)
     )
 
-    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 0c9b292c-10f2-4d81-9939-393b718a8a91))
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 831a08de-ffd4-4501-8b6f-61a068613bd9))
   (pad "" np_thru_hole circle (at -5.7 -23.5) (size 3.8 3.8) (drill 2.1) (layers "*.Mask")
     (solder_mask_margin 0.85) (clearance 1.05) (tstamp 4e2d3e92-24b0-46ee-ae7f-100dcd27f44f))
   (pad "" np_thru_hole circle (at -5.7 23.5) (size 3.8 3.8) (drill 2.1) (layers "*.Mask")
@@ -335,7 +349,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer "F.CrtYd") (tstamp f8649d75-18a2-482d-bae4-2cf0ef79cab1) (name "USB Cable") (hatch edge 0.5)
+  (zone (net 0) (net_name "") (layer "F.CrtYd") (tstamp 59b87f8a-0978-48e6-a101-134595838ecf) (name "USB Cable") (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
     (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour allowed) (footprints allowed))
@@ -459,21 +473,28 @@
       fc05c81e-11f4-42ad-95c8-dca20ec32d30
     )
   )
-  (group "" (id ab5faf9a-a301-4693-ae2d-1867f7175b86)
+  (group "" (id 4853d5fa-ef37-426e-be5f-dd6960fd2fe5)
     (members
-      0c9b292c-10f2-4d81-9939-393b718a8a91
-      25223065-f1b7-4b6f-b079-9f4e51830e36
-      2646c58d-aa74-4151-8005-f8ee6ffdf412
-      3317aafb-5720-40a8-bb2e-37a82945c39d
-      5b44d1a0-bda7-479a-b1d9-5ea1995d3146
-      5c743cc6-2dc6-4d8c-9226-bab76470b497
-      6f9b96b5-d352-48d6-82b1-a86e600daaf2
-      6faafec2-903f-407d-84f2-dc81bbd617ac
-      9a0b6ad8-fb28-45dc-92e7-fa6116963368
-      b1242be3-055f-44ce-9fd0-b0f982fc22fa
-      d385205f-9954-4682-9836-3e854f56b010
-      e390433c-0351-4de5-be29-211139bd9683
-      f8649d75-18a2-482d-bae4-2cf0ef79cab1
+      423483be-e710-44fe-96c1-003b23779177
+      4c76cce1-7c7b-4115-b7d8-fb74a9b9b517
+      59b87f8a-0978-48e6-a101-134595838ecf
+      6ff696b0-1cbf-4ddf-82c3-665011a30434
+      831a08de-ffd4-4501-8b6f-61a068613bd9
+      85d7402b-eb67-4adc-b53a-275877e6fc80
+      9693a43c-afc7-4180-869f-09f66c9fab40
+      9debbcee-7099-4d4a-8f4f-2e5fdebf29d8
+      9ebfd55f-d7ec-48a6-b6ec-6fc26a4b8131
+      a4271202-8a06-43e7-b023-c40eecdc5e65
+      a61c01de-a925-4c22-874c-42a76d628e4a
+      b0c1b4e6-55dd-44d1-a0ed-fb258cd567a5
+      c678a640-8e5b-4768-8227-e637f806a505
+      cf44bec0-3331-4c89-8313-81a69ec7be43
+      d593be61-ed5d-4e96-8297-e037c5e0da63
+      d66ca36f-763b-4b8c-b30d-e6408881f366
+      d7a4e2bd-dab3-45d1-833d-6cd5e177cf28
+      e43d5fa5-41da-42a7-b215-954cbfee401f
+      f86cfcdf-870a-41c1-9198-3e5a9a38c6ad
+      f9242e89-ae13-4c80-8b25-81b9eae42fef
     )
   )
   (model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_Socket.wrl"
