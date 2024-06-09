@@ -1078,6 +1078,19 @@
     (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 29e84902-0898-486b-a127-e4e9e14cef3d))
   (fp_poly
     (pts
+      (xy -55.3 -133.445)
+      (xy -46.3 -133.445)
+      (xy -46.3 -131.795)
+      (xy -39.26 -131.795)
+      (xy -39.26 -79.495)
+      (xy -62.34 -79.495)
+      (xy -62.34 -131.795)
+      (xy -55.3 -131.795)
+    )
+
+    (stroke (width 0.05) (type solid)) (fill none) (layer "Dwgs.User") (tstamp d48b501f-c310-4293-b1ca-dfd74ae9f936))
+  (fp_poly
+    (pts
       (xy -47.01 -127.245)
       (xy -47.01 -132.245)
       (xy -46.8 -132.245)
@@ -1151,19 +1164,6 @@
     (stroke (width 0.5) (type solid)) (layer "Edge.Cuts") (tstamp 77c13d5d-74bc-4288-8c5c-987d19b210d4))
   (fp_arc (start 239.2841 -45.1) (mid 238.991207 -44.392893) (end 238.2841 -44.1)
     (stroke (width 0.5) (type solid)) (layer "Edge.Cuts") (tstamp c779a995-9e61-43f6-b1bc-a0e65c18004d))
-  (fp_poly
-    (pts
-      (xy -55.3 -133.445)
-      (xy -46.3 -133.445)
-      (xy -46.3 -131.795)
-      (xy -39.26 -131.795)
-      (xy -39.26 -79.495)
-      (xy -62.34 -79.495)
-      (xy -62.34 -131.795)
-      (xy -55.3 -131.795)
-    )
-
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp d48b501f-c310-4293-b1ca-dfd74ae9f936))
   (fp_poly
     (pts
       (xy -25.455 -133.445)

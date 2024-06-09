@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "Raspberry Pi Pico W (wireless only) virtual footprint (no pads; not compatible with original Pico), https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
   (tags "Raspberry Pi Pico module usb pcb antenna virtual")
-  (attr exclude_from_pos_files)
+  (attr exclude_from_pos_files allow_missing_courtyard)
   (fp_text reference "REF**" (at 11.7475 24.765 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp ea31613f-a0a2-4f5a-9373-bee042a054d1)
@@ -13,11 +13,7 @@
   )
   (fp_text user "${REFERENCE}" (at 0 0 90) (layer "Dwgs.User")
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2d97f14a-d394-4e42-b89c-b1af8c291467)
-  )
-  (fp_text user "USB Cable" (at 0 -37.465 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 186cb01c-e451-40ca-8111-2f8edd70cddb)
+    (tstamp 8571f27d-ed70-47f3-8e23-28ecb85c7119)
   )
   (fp_text user "^ Suggested board edge for RF ^" (at -14.05 26.8775 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
@@ -34,6 +30,10 @@
   (fp_text user "Keep Out" (at 0 29.4175 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7470c5b2-8cd6-41e4-909c-b23f496363fe)
+  )
+  (fp_text user "USB Cable" (at 0 -37.465 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 83bbf0e2-1bd5-44c0-8010-7f273670013e)
   )
   (fp_text user "Keep Out" (at 0 21.1625 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -122,9 +122,9 @@
   (fp_arc (start 10.61 24.89) (mid 10.544921 25.164336) (end 10.363342 25.380031)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 0342b726-e765-49d4-8435-47683bb61ab9))
   (fp_line (start -10.5 -24.5) (end -9.5 -25.5)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 94ec0e80-31e6-4fc2-b84b-4ec8efd845e1))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp aafb618f-48c7-46ec-8df5-1d25d84acb03))
   (fp_line (start -10.5 25) (end -10.5 -24.5)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 203dc8eb-2e8d-4f0f-ada7-8f99300b807b))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 88dc62c0-e04f-4f75-8ea6-a15b32cbc902))
   (fp_line (start -9.525 -24.765) (end -8.255 -23.495)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 41e6bbcb-5b94-4d2c-85d2-58b3e4ab723e))
   (fp_line (start -9.525 -22.225) (end -8.255 -20.955)
@@ -166,7 +166,7 @@
   (fp_line (start -9.525 23.495) (end -8.255 24.765)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp eb6ef993-9998-4a7b-a1cf-8839e1b83e54))
   (fp_line (start -9.5 -25.5) (end 10 -25.5)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp c85b3c8a-36cc-459c-80cf-f114b3c51a30))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 0631f34d-d234-423d-b77c-05bdbccecc41))
   (fp_line (start -8.255 -24.765) (end -9.525 -23.495)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp dd540544-1150-481c-ba3c-d373a2c804b1))
   (fp_line (start -8.255 -22.225) (end -9.525 -20.955)
@@ -208,9 +208,9 @@
   (fp_line (start -8.255 23.495) (end -9.525 24.765)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 8115645c-ea63-4e3d-86d7-868a4ce7f72a))
   (fp_line (start -4.625 -14.075) (end -4.625 -12.925)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 3240868b-db72-4ab3-8ab8-b805c58ae486))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp daee9e8e-0fac-4874-8f56-15653b972a39))
   (fp_line (start -2.375 -14.075) (end -2.375 -12.925)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 6407b070-7d4c-46fd-968f-5dd74ca5539b))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 1ae6d6a0-adc2-4eb9-90b3-3e1bec7e1df3))
   (fp_line (start -0.0509 4.955) (end 1.2191 6.225)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 25541a4d-b865-4539-8285-71d98fe12f7d))
   (fp_line (start 1.2191 4.955) (end -0.0509 6.225)
@@ -304,48 +304,35 @@
   (fp_line (start 9.525 23.495) (end 8.255 24.765)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 7aff75dd-1962-406a-ac05-a5becc4293f1))
   (fp_line (start 10 25.5) (end -10 25.5)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp b873fa4b-1708-42f0-a586-30f511206e8d))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 10fb2e95-c538-4c22-afa4-99937ca7855e))
   (fp_line (start 10.5 -25) (end 10.5 25)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp a59368f3-ca82-4574-9c65-87ddf7ea5fcb))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 9de29d85-36de-4b7f-b3db-995536f91e2c))
   (fp_rect (start -10.16 -25.4) (end -7.62 -22.86)
     (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp ce401454-792e-4ee7-ab40-6b492bdf0ad3))
   (fp_rect (start -6.5 -21.1) (end -4.9 -20.3)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 4c271ac0-587b-43dd-8794-fbf9e5b75c8f))
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 2c13b52f-8656-47c6-8aec-e783b92f2188))
   (fp_rect (start -6.2 -21.1) (end -5.2 -20.3)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 0389d7b8-ad20-4035-8ccd-274a55a52991))
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp d7ff2297-666f-4e67-8742-a1f38d9c8e69))
   (fp_rect (start -5.1 -15.625) (end -1.9 -11.375)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp f50b84d8-2300-4e62-a967-b939b805e366))
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 5479ea43-c64f-433f-aac9-6e66cd4444f6))
   (fp_rect (start -0.6859 4.32) (end 1.8541 6.86)
     (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp 03fb48df-419b-4b42-b8ec-ddd0c0e394b3))
   (fp_rect (start 7.62 22.86) (end 10.16 25.4)
     (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp 438bf42c-0b48-4df2-89cf-792b3324f5b5))
   (fp_arc (start -10 25.5) (mid -10.353553 25.353553) (end -10.5 25)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp ca9bcc5f-3e8e-4f6f-bbfb-21ccb87f1820))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 51b8d2ad-f24e-4ec4-9969-f071559249d1))
   (fp_arc (start -4.625 -14.075) (mid -3.5 -15.2) (end -2.375 -14.075)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 54f65c5d-afb2-4854-9451-3db672688b1b))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 37252a7a-5e51-43a7-9216-454e949ea2cc))
   (fp_arc (start -2.375 -12.925) (mid -3.5 -11.8) (end -4.625 -12.925)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 88f13405-3a61-49a5-927a-76e10eebec1e))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp fd4997f7-b16e-4ec9-aac9-80292a7119c3))
   (fp_arc (start 10 -25.5) (mid 10.353553 -25.353553) (end 10.5 -25)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 5f964bba-0411-43e1-904c-31191d9a1440))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp c6fb0371-f51c-4aea-b839-8cf3b07e3a68))
   (fp_arc (start 10.5 25) (mid 10.353553 25.353553) (end 10 25.5)
-    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 033182c3-d4e8-417c-a53d-dc53785409a2))
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 3d469b0e-f13f-496d-8497-e648557ed3d4))
   (fp_circle (center -5.7 23.39) (end -4.65 23.39)
     (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 581f0ea8-3b6b-42be-aa3c-22dd6b155200))
   (fp_circle (center 5.7 23.39) (end 6.75 23.39)
     (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 83c405a2-ac89-4433-b096-2419d9c1882f))
-  (fp_poly
-    (pts
-      (xy 3.79 -21.2)
-      (xy 3.79 -26.2)
-      (xy 4 -26.2)
-      (xy 4 -26.9)
-      (xy -4 -26.9)
-      (xy -4 -26.2)
-      (xy -3.79 -26.2)
-      (xy -3.79 -21.2)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp f2454767-75a8-4e51-974d-3d8b4a3df90c))
   (fp_poly
     (pts
       (xy -4.5 -27.4)
@@ -358,7 +345,20 @@
       (xy -4.5 -25.75)
     )
 
-    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp afe63491-e54c-435a-a1a0-da253b043800))
+    (stroke (width 0.05) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 5b93f133-2dbb-4016-a1a8-76395163d25e))
+  (fp_poly
+    (pts
+      (xy 3.79 -21.2)
+      (xy 3.79 -26.2)
+      (xy 4 -26.2)
+      (xy 4 -26.9)
+      (xy -4 -26.9)
+      (xy -4 -26.2)
+      (xy -3.79 -26.2)
+      (xy -3.79 -21.2)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 07e8f9da-3629-47f7-a5bb-d1738440b304))
   (pad "" np_thru_hole circle (at -5.7 -23.5) (size 3.8 3.8) (drill 2.1) (layers "*.Mask")
     (solder_mask_margin 0.85) (clearance 1.05) (tstamp 621776c6-8635-4884-af43-46cd41f3b9ae))
   (pad "" np_thru_hole circle (at 5.7 -23.5) (size 3.8 3.8) (drill 2.1) (layers "*.Mask")
@@ -366,7 +366,7 @@
   (zone (net 0) (net_name "") (layers "*.Cu" "*.Paste") (tstamp 87dc664b-5f8a-4c38-9df5-22c5cda6773e) (name "RF Copper Keep Out") (hatch full 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -413,7 +413,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer "F.CrtYd") (tstamp 3aabc09c-cee2-40d2-9570-b049f26ff53d) (name "USB Cable") (hatch edge 0.5)
+  (zone (net 0) (net_name "") (layer "F.CrtYd") (tstamp 9317476f-0908-4100-b392-ca563fe71ecd) (name "USB Cable") (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
     (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour allowed) (footprints allowed))
@@ -585,28 +585,28 @@
       fb4bc53d-5812-416e-b4cf-cb7b70a0c7e6
     )
   )
-  (group "" (id 2d6834c0-0d5f-4d4a-a00a-1f531af2b630)
+  (group "" (id ff9ff928-fd3a-4401-93d4-202ee0f0f3b4)
     (members
-      033182c3-d4e8-417c-a53d-dc53785409a2
-      0389d7b8-ad20-4035-8ccd-274a55a52991
-      186cb01c-e451-40ca-8111-2f8edd70cddb
-      203dc8eb-2e8d-4f0f-ada7-8f99300b807b
-      2d97f14a-d394-4e42-b89c-b1af8c291467
-      3240868b-db72-4ab3-8ab8-b805c58ae486
-      3aabc09c-cee2-40d2-9570-b049f26ff53d
-      4c271ac0-587b-43dd-8794-fbf9e5b75c8f
-      54f65c5d-afb2-4854-9451-3db672688b1b
-      5f964bba-0411-43e1-904c-31191d9a1440
-      6407b070-7d4c-46fd-968f-5dd74ca5539b
-      88f13405-3a61-49a5-927a-76e10eebec1e
-      94ec0e80-31e6-4fc2-b84b-4ec8efd845e1
-      a59368f3-ca82-4574-9c65-87ddf7ea5fcb
-      afe63491-e54c-435a-a1a0-da253b043800
-      b873fa4b-1708-42f0-a586-30f511206e8d
-      c85b3c8a-36cc-459c-80cf-f114b3c51a30
-      ca9bcc5f-3e8e-4f6f-bbfb-21ccb87f1820
-      f2454767-75a8-4e51-974d-3d8b4a3df90c
-      f50b84d8-2300-4e62-a967-b939b805e366
+      0631f34d-d234-423d-b77c-05bdbccecc41
+      07e8f9da-3629-47f7-a5bb-d1738440b304
+      10fb2e95-c538-4c22-afa4-99937ca7855e
+      1ae6d6a0-adc2-4eb9-90b3-3e1bec7e1df3
+      2c13b52f-8656-47c6-8aec-e783b92f2188
+      37252a7a-5e51-43a7-9216-454e949ea2cc
+      3d469b0e-f13f-496d-8497-e648557ed3d4
+      51b8d2ad-f24e-4ec4-9969-f071559249d1
+      5479ea43-c64f-433f-aac9-6e66cd4444f6
+      5b93f133-2dbb-4016-a1a8-76395163d25e
+      83bbf0e2-1bd5-44c0-8010-7f273670013e
+      8571f27d-ed70-47f3-8e23-28ecb85c7119
+      88dc62c0-e04f-4f75-8ea6-a15b32cbc902
+      9317476f-0908-4100-b392-ca563fe71ecd
+      9de29d85-36de-4b7f-b3db-995536f91e2c
+      aafb618f-48c7-46ec-8df5-1d25d84acb03
+      c6fb0371-f51c-4aea-b839-8cf3b07e3a68
+      d7ff2297-666f-4e67-8742-a1f38d9c8e69
+      daee9e8e-0fac-4874-8f56-15653b972a39
+      fd4997f7-b16e-4ec9-aac9-80292a7119c3
     )
   )
   (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders_Socketed.wrl" hide
