@@ -18,6 +18,8 @@ Source project title "Ki-Lime Pi" created by Melissa Lee in 2022, and donated wi
 
 Comprehensive alternate pin definitions as defined in the RP2040 datasheet inspired by the [schematic symbol][URL-Gyger-Symbol] created by Markus Gyger.
 
+Including the BOOTSEL button and LED in footprint Fab layers was also inspired by Markus's [footprints][URL-Gyger-Footprints].
+
 
 ## Raspberry Pi
 
@@ -59,6 +61,7 @@ Liberapay logo acquired from Liberapay under the [*CC0 1.0 Universal*](https://g
 [URL-KiCad-StepUp]: <https://github.com/easyw/kicadStepUpMod>
 [URL-VSCodium]: <https://vscodium.com/>
 
+[URL-Gyger-Footprints]: <https://gitlab.com/mgyger/kicad-footprints/-/tree/pico/Module.pretty>
 [URL-Gyger-Symbol]: <https://gitlab.com/mgyger/kicad-symbols/-/blob/pico/MCU_Module.kicad_sym>
 [URL-Pico-Sheet]: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
 [URL-Pico-W-Sheet]: <https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf>
