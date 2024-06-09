@@ -200,7 +200,6 @@
   (pad "" np_thru_hole circle (at 5.7 23.5) (size 3.8 3.8) (drill 2.1) (layers "*.Mask")
     (solder_mask_margin 0.85) (clearance 1.05) (tstamp 038b2f5a-2a00-4b3d-8299-133eaa89ff63))
   (pad "1" smd custom (at -8.89 -24.13) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -218,7 +217,6 @@
     ) (tstamp 6a30fc39-f0af-47f9-a9c4-e5516105a225))
   (pad "2" smd roundrect (at -8.89 -21.59) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 20a0a12b-64ab-4d3b-99cf-6f2c3247a4a1))
   (pad "3" smd custom (at -8.89 -19.05) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -240,7 +238,6 @@
   (pad "6" smd roundrect (at -8.89 -11.43) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp b45e0cfa-048c-4105-b1ed-2f88c7b03a76))
   (pad "7" smd roundrect (at -8.89 -8.89) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 33ceeb5e-c799-45b1-9cb2-5bd83dfb0821))
   (pad "8" smd custom (at -8.89 -6.35) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -262,7 +259,6 @@
   (pad "11" smd roundrect (at -8.89 1.27) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp ca6cedf1-b4e2-4e2d-b88d-16cedb1ac803))
   (pad "12" smd roundrect (at -8.89 3.81) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 3940a61b-bbe8-41f1-8d05-71f3f31cdbd0))
   (pad "13" smd custom (at -8.89 6.35) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -284,7 +280,6 @@
   (pad "16" smd roundrect (at -8.89 13.97) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 975708b0-0586-483f-9b8c-ee9a2bc1240b))
   (pad "17" smd roundrect (at -8.89 16.51) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 73880913-214c-4e8e-a0bd-52c4ec56831a))
   (pad "18" smd custom (at -8.89 19.05) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -306,7 +301,6 @@
   (pad "21" smd roundrect (at 8.89 24.13) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp bec494de-5d44-484a-8164-cfd07947604d))
   (pad "22" smd roundrect (at 8.89 21.59) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp cf20865a-22cd-4b35-b78d-e7eea0e0d935))
   (pad "23" smd custom (at 8.89 19.05) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -328,7 +322,6 @@
   (pad "26" smd roundrect (at 8.89 11.43) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 63b97c79-e53a-4a30-ad9c-f6fd48db045e))
   (pad "27" smd roundrect (at 8.89 8.89) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp b556fb44-7ef1-4a16-9507-99a5c75b7760))
   (pad "28" smd custom (at 8.89 6.35) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -350,7 +343,6 @@
   (pad "31" smd roundrect (at 8.89 -1.27) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp be88a513-103f-4752-856b-3b7d7e636a58))
   (pad "32" smd roundrect (at 8.89 -3.81) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 09d20b56-e92b-43aa-853f-706b178e3b9d))
   (pad "33" smd custom (at 8.89 -6.35) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -372,7 +364,6 @@
   (pad "36" smd roundrect (at 8.89 -13.97) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp bf2c2d91-3895-4b91-a83c-a7dd00a1a664))
   (pad "37" smd roundrect (at 8.89 -16.51) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp a6ab3f8f-ccdc-440a-a0b4-c59dcb7c28ef))
   (pad "38" smd custom (at 8.89 -19.05) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -393,7 +384,6 @@
   (pad "40" smd roundrect (at 8.89 -24.13) (size 3.2 1.6) (drill (offset 0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 83f5e243-9b04-4607-9005-ef87c2e8dd70))
   (pad "D1" smd roundrect (at -2.54 23.9 90) (size 3.2 1.6) (drill (offset -0.8 0)) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp eb8483fb-d854-4228-b412-c2be47907635))
   (pad "D2" smd custom (at 0 23.9 270) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
