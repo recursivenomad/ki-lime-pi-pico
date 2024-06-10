@@ -1,7 +1,7 @@
 (footprint "RaspberryPi_Pico_Original_SMD_HandSolder" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Raspberry Pi Pico (original only) surface-mount footprint with debug pads for hand soldering (not compatible with Pico W), https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
-  (tags "Raspberry Pi Pico module usb pcb swd")
+  (tags "Raspberry Pi Pico module usb pcb swd handsolder")
   (attr smd)
   (fp_text reference "REF**" (at 11.7475 24.765 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))

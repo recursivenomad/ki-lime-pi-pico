@@ -1,6 +1,6 @@
 (footprint "RaspberryPi_Pico_ModularElements" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Modular footprint elements for the Raspberry Pi Pico, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+  (descr "Modular footprint elements for the Raspberry Pi Pico and Pico W, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
   (attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
   (fp_text reference "REF**" (at 52.4325 -65.5025 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))

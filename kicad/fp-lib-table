@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/RaspberryPi_Pico/Module_RaspberryPi_Pico.pretty")(options "")(descr ""))
-  (lib (name "Module_RaspberryPi_Pico_ModularElements")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/RaspberryPi_Pico_ModularElements/Module_RaspberryPi_Pico_ModularElements.pretty")(options "")(descr ""))
+  (lib (name "Module_RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/RaspberryPi_Pico/Module_RaspberryPi_Pico.pretty")(options "")(descr "Footprints for the Raspberry Pi Pico in its various forms and implementations"))
+  (lib (name "Module_RaspberryPi_Pico_ModularElements")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/RaspberryPi_Pico_ModularElements/Module_RaspberryPi_Pico_ModularElements.pretty")(options "")(descr "Modular footprint elements for the Raspberry Pi Pico and Pico W"))
 )
