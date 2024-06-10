@@ -1045,7 +1045,7 @@
       e727e634-1f7d-4319-b6b5-c8c218da542c
     )
   )
-  (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"
+  (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W.wrl"
     (offset (xyz -0.0000000000000018 0.0000000000000004 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

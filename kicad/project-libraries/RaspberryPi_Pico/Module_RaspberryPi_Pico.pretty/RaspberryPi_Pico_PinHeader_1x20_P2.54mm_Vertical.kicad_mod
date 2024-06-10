@@ -118,7 +118,7 @@
   (pad "19" thru_hole circle (at 0 45.72) (size 1.6 1.6) (drill 1) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp fe860644-0583-46d8-9a7e-bd4ccb58e54b))
   (pad "20" thru_hole circle (at 0 48.26) (size 1.6 1.6) (drill 1) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp 2b48150d-ff7b-4188-bf1c-5ab293a6baa4))
   (model ":KICAD7_3DMODEL_DIR:Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step"
-    (offset (xyz 0 -24.13 0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
