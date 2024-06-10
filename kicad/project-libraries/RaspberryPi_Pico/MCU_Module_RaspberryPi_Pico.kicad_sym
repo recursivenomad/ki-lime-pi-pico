@@ -1209,12 +1209,38 @@
     (symbol "RaspberryPi_Pico_MultiPart-Socket_B_1_1"
       (polyline
         (pts
+          (xy -2.54 -34.29)
+          (xy 2.54 -34.29)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -25.4)
+          (xy -2.54 -17.78)
+        )
+        (stroke (width 0.254) (type dot))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -19.05 25.4)
           (xy -2.54 25.4)
           (xy -2.54 -17.78)
           (xy -19.05 -17.78)
         )
         (stroke (width 0.254) (type dash))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -34.29)
+          (xy -2.54 -25.4)
+          (xy 2.54 -25.4)
+          (xy 2.54 -34.29)
+        )
+        (stroke (width 0.254) (type dot))
         (fill (type none))
       )
       (polyline
