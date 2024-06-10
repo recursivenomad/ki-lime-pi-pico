@@ -724,12 +724,12 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f3a136e9-e725-4262-a65a-2aa48ddcda6c))
   (fp_arc (start 98.18 -2.6375) (mid 98.358665 -3.068835) (end 98.79 -3.2475)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4d7fa0e3-8ef2-4408-a099-a170924320c7))
-  (fp_arc (start 102.300119 -24.421572) (mid 101.942182 -24.537628) (end 101.720443 -24.841635)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 255946ae-126f-4a29-b21d-b71449b0f78d))
+  (fp_arc (start 102.300119 -24.421572) (mid 101.868755 -24.600208) (end 101.690119 -25.031572)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 73c75b4d-bd4d-4f1f-928a-db69a602a6f9))
   (fp_arc (start 118.79 -3.2475) (mid 119.221335 -3.068835) (end 119.4 -2.6375)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f6b354c2-096f-49b2-8a40-3b50376a7fa6))
-  (fp_arc (start 122.879795 -24.841635) (mid 122.658065 -24.537615) (end 122.300119 -24.421572)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 9c31b733-6591-4ffd-a983-359520ec3cf9))
+  (fp_arc (start 122.910119 -25.031572) (mid 122.731454 -24.600237) (end 122.300119 -24.421572)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e82f5268-e5d5-4692-ae0a-b9ec812149b4))
   (fp_arc (start 127.075 -2.6375) (mid 127.253665 -3.068835) (end 127.685 -3.2475)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f638536a-b81d-4655-9f01-276fc417f75c))
   (fp_arc (start 132.76 -24.8625) (mid 132.402063 -24.978556) (end 132.180324 -25.282563)
@@ -2875,11 +2875,11 @@
   (group "" (id 423a552b-1b6b-4beb-89c6-2ad1ab41f7a3)
     (members
       1b422db1-167e-4c8b-8cde-7af59c919b99
-      255946ae-126f-4a29-b21d-b71449b0f78d
       5eba2766-6562-4f29-8851-4c67def1e92c
+      73c75b4d-bd4d-4f1f-928a-db69a602a6f9
       801eea09-e788-4dc7-b012-eafed019a74b
-      9c31b733-6591-4ffd-a983-359520ec3cf9
       cd6b2bf2-5791-4238-8e4f-8805ccacb712
+      e82f5268-e5d5-4692-ae0a-b9ec812149b4
     )
   )
   (group "" (id ebcd8b3d-f5fd-4426-be2e-8bdf4c5aedf2)
