@@ -15,17 +15,9 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1b20b689-cf11-4eba-a151-2b51529f66dd)
   )
-  (fp_text user "Board Keep Out USB Cable" (at 6.985 -37.465 270 unlocked) (layer "Cmts.User")
-      (effects (font (size 0.6667 0.6667) (thickness 0.1)))
-    (tstamp 8d0bf071-a229-461b-9d80-b44cc7dbbdeb)
-  )
   (fp_text user "Keep Out" (at 0 -36.195 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a1d29cad-4a86-465b-92e9-4b5ec6d39462)
-  )
-  (fp_text user "Board Keep Out USB Cable" (at -6.985 -37.465 90 unlocked) (layer "Cmts.User")
-      (effects (font (size 0.6667 0.6667) (thickness 0.1)))
-    (tstamp f96f2192-d907-4714-9e8c-d58031176655)
   )
   (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -592,7 +584,6 @@
       7642d373-6209-4f31-870e-b1f3a85d492c
       81af51db-18a6-4087-b120-170d25ce5ea7
       88fe8ebb-384b-43fb-9f65-1b5b57e552b8
-      8d0bf071-a229-461b-9d80-b44cc7dbbdeb
       90906645-8456-4d9c-bb6d-dd42c299bd9d
       9b6dc2c7-d82b-4cb1-9545-56b1b2442be0
       a1d29cad-4a86-465b-92e9-4b5ec6d39462
@@ -600,7 +591,6 @@
       b916ee2b-0db4-4bc0-8aa6-be0b0defe00c
       c799ed77-6fe2-479c-9fe1-724a1f06d4ed
       f0ba32d6-4d6a-4153-9932-2d1950813da0
-      f96f2192-d907-4714-9e8c-d58031176655
     )
   )
   (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"

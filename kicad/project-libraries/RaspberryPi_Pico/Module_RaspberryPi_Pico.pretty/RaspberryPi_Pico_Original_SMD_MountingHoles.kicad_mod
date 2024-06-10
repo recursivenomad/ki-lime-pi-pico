@@ -11,17 +11,9 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0d39661e-f40b-4a60-8ec8-51a5d8c091da)
   )
-  (fp_text user "Board Keep Out USB Cable" (at -6.985 -37.465 90 unlocked) (layer "Cmts.User")
-      (effects (font (size 0.6667 0.6667) (thickness 0.1)))
-    (tstamp 1d765eb3-3b29-4c64-b4ee-462efff2f5c9)
-  )
   (fp_text user "Keep Out" (at 0 -36.195 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5286999d-bd05-4f5c-8a10-10d8ae1f2a0e)
-  )
-  (fp_text user "Board Keep Out USB Cable" (at 6.985 -37.465 270 unlocked) (layer "Cmts.User")
-      (effects (font (size 0.6667 0.6667) (thickness 0.1)))
-    (tstamp 7355607f-021a-4d0c-ae33-4dde57a897fd)
   )
   (fp_text user "USB Cable" (at 0 -38.735 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -593,7 +585,6 @@
       077c1320-08ce-4de1-9f33-7686cbc552d0
       0b0260a0-3fba-408a-ad74-dec4adb4ba4d
       0b7a6c51-2939-4632-b15c-75ba5a454bbc
-      1d765eb3-3b29-4c64-b4ee-462efff2f5c9
       1f40d21e-0edd-4684-86de-5423988e8fd5
       2a3d31fd-ed9c-426a-961c-75729c8687d6
       35956983-b6e2-4863-890a-2fe2395d895b
@@ -602,7 +593,6 @@
       5286999d-bd05-4f5c-8a10-10d8ae1f2a0e
       57214b65-31b4-41bb-a38b-12c32dd2dd75
       662eb03d-b3fd-4d81-8cf3-4f20afff5205
-      7355607f-021a-4d0c-ae33-4dde57a897fd
       8bf8a358-d1d8-4dd1-a344-e754e0d2a0c8
       8d4b264d-2415-4279-b2d6-0438fde00981
       ac0ebcd6-7ef5-4633-b125-e0e23fcabe64

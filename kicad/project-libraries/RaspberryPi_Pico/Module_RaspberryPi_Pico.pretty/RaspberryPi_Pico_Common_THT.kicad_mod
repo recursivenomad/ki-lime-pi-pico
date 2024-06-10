@@ -11,21 +11,17 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0d39661e-f40b-4a60-8ec8-51a5d8c091da)
   )
-  (fp_text user "Antenna" (at 0 22.535 unlocked) (layer "Cmts.User")
+  (fp_text user "Possible Antenna" (at 0 19.685 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 157de6c7-1001-499c-92e1-a619934c2636)
+    (tstamp 49a63f03-0a12-440d-82d9-75a77e84891d)
+  )
+  (fp_text user "Keep Out" (at 0 21.59 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 516eba92-a27e-4e04-98ef-d5eefc3ab6a5)
   )
   (fp_text user "USB Cable" (at 0 -37.465 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 75782982-c773-407f-a0d5-4eb52f04922a)
-  )
-  (fp_text user "Copper" (at 0 18.7325 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp bf07216e-07e4-4b29-b726-6c3abe441f14)
-  )
-  (fp_text user "Keep Out" (at 0 20.32 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cf4d37a2-c115-4091-928f-2326c6e1bc54)
   )
   (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -70,7 +66,7 @@
   (fp_line (start -1.24609 -21.09) (end 1.24609 -21.09)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3089a626-f6ec-4c79-87f9-4d5f0ce103c6))
   (fp_line (start 3.6 25.61) (end -3.6 25.61)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f51b0d10-c0ae-4803-988a-2afcc5b6ab5b))
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bd3b171c-a044-4eb9-bda2-e1918b796351))
   (fp_line (start 3.6 25.61) (end 10 25.61)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e3db75e3-9461-4f59-8557-78da89d48d70))
   (fp_line (start 3.9 -26.09) (end 3.9 -24.694)
@@ -105,12 +101,12 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 0505b153-40df-4d90-8fd6-3a05d38c8a3d))
   (fp_arc (start -10.61 -25) (mid -10.431335 -25.431335) (end -10 -25.61)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c868890c-40ce-4e27-b2f0-88ce0a470e82))
-  (fp_arc (start -10 25.61) (mid -10.431335 25.431335) (end -10.61 25)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp cd3808f5-c5cf-4cad-b602-374804e7a74a))
+  (fp_arc (start -10 25.61) (mid -10.357937 25.493944) (end -10.579676 25.189937)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp cbbbed10-bd43-4bd7-ae32-fe16276710d4))
   (fp_arc (start 10 -25.61) (mid 10.431335 -25.431335) (end 10.61 -25)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ae1e1459-6309-448c-bd0d-4eed06dd6da9))
-  (fp_arc (start 10.61 25) (mid 10.431335 25.431335) (end 10 25.61)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ffdc2260-9396-4bd4-b015-cfb787f2c402))
+  (fp_arc (start 10.579676 25.189937) (mid 10.357947 25.493958) (end 10 25.61)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e9e16b63-ba12-4ec8-94b3-f9455d572f07))
   (fp_circle (center -5.7 -23.5) (end -4.76 -23.5)
     (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (tstamp c097e965-66e3-4a4e-8040-3a313dfc4d59))
   (fp_circle (center -5.7 23.5) (end -4.76 23.5)
@@ -335,7 +331,7 @@
     ) (tstamp 4557df3e-e75a-497f-abf9-22b99c3509f4))
   (pad "39" thru_hole circle (at 8.89 -21.59) (size 1.6 1.6) (drill 1) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp 9bf7cf0a-6f1c-4a42-b387-9abe5a3c52fb))
   (pad "40" thru_hole circle (at 8.89 -24.13) (size 1.6 1.6) (drill 1) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp 45796a97-08c0-4441-938f-b8a240d047f9))
-  (zone (net 0) (net_name "") (layers "*.Cu" "*.Paste") (tstamp 84f9d93e-2f27-42ca-a02b-a5164e8f93b2) (name "Antenna Copper Keep Out") (hatch full 0.5)
+  (zone (net 0) (net_name "") (layers "*.Cu" "*.Paste") (tstamp 9e1026bb-0fbb-4d92-ae13-89f6ed1b11d7) (name "Antenna Copper Keep Out") (hatch full 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
@@ -371,15 +367,14 @@
       )
     )
   )
-  (group "" (id f3398951-98ae-404a-8c2b-0909d86ee19a)
+  (group "" (id 28f03493-934a-40ef-bf07-a700afac068e)
     (members
-      157de6c7-1001-499c-92e1-a619934c2636
-      84f9d93e-2f27-42ca-a02b-a5164e8f93b2
-      bf07216e-07e4-4b29-b726-6c3abe441f14
-      cd3808f5-c5cf-4cad-b602-374804e7a74a
-      cf4d37a2-c115-4091-928f-2326c6e1bc54
-      f51b0d10-c0ae-4803-988a-2afcc5b6ab5b
-      ffdc2260-9396-4bd4-b015-cfb787f2c402
+      49a63f03-0a12-440d-82d9-75a77e84891d
+      516eba92-a27e-4e04-98ef-d5eefc3ab6a5
+      9e1026bb-0fbb-4d92-ae13-89f6ed1b11d7
+      bd3b171c-a044-4eb9-bda2-e1918b796351
+      cbbbed10-bd43-4bd7-ae32-fe16276710d4
+      e9e16b63-ba12-4ec8-94b3-f9455d572f07
     )
   )
   (group "" (id 4b2a189a-06b7-4355-9773-76355c907a3d)

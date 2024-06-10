@@ -7,38 +7,38 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp ea31613f-a0a2-4f5a-9373-bee042a054d1)
   )
-  (fp_text value "RaspberryPi_Pico_OptionalKeepoutRF" (at 0 36.195 unlocked) (layer "F.Fab") hide
+  (fp_text value "RaspberryPi_Pico_OptionalKeepoutRF" (at 0 36.195 unlocked) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0d39661e-f40b-4a60-8ec8-51a5d8c091da)
   )
-  (fp_text user "v Suggested board edge for RF v" (at 0 16.365 unlocked) (layer "Cmts.User")
+  (fp_text user "2.4 GHz RF Keep Out" (at 0 31.75 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 05c13b11-bffb-427b-af67-76d55ef36f21)
+  )
+  (fp_text user "^ Suggested board edge for RF ^" (at -14.05 26.67 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
-    (tstamp 2c4a17fe-14cd-44d4-9fbd-2cdb9bad8d32)
+    (tstamp 1f07a15d-ab4b-47ce-ac99-1b011e1abd9a)
+  )
+  (fp_text user "^ Suggested board edge for RF ^" (at 14.05 26.67 unlocked) (layer "Cmts.User")
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    (tstamp 378d6a1f-7d98-4c61-96a8-31cd60015d16)
   )
   (fp_text user "Keep unobstructed by metal as far as possible in all dimensions" (at 0 33.9725 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
-    (tstamp 2f6b0802-9a34-46fe-be9d-77834d5d201e)
+    (tstamp 8ba7646f-3410-4b7e-9354-9a6e92bc33e9)
   )
-  (fp_text user "^ Suggested board edge for RF ^" (at 14.05 26.9875 unlocked) (layer "Cmts.User")
+  (fp_text user "^ Suggested board edge for RF ^" (at 0 17.78 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)))
-    (tstamp 7a5d8c39-d9e1-4d81-b303-764301db2ecb)
+    (tstamp ad6b2d46-d63f-4d78-a85c-c87399965902)
   )
-  (fp_text user "Copper Keep Out" (at 0 29.5275 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ab6ed012-9798-4e0a-a913-2e6b66a4ce6f)
-  )
-  (fp_text user "^ Suggested board edge for RF ^" (at -14.05 26.9875 unlocked) (layer "Cmts.User")
-      (effects (font (size 0.5 0.5) (thickness 0.075)))
-    (tstamp c65e4e9e-a369-4628-b31f-9271621328be)
-  )
-  (fp_text user "2.4 GHz RF" (at 0 31.75 unlocked) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e5aae26a-edd3-4282-88c9-9af5cd66037f)
-  )
-  (zone (net 0) (net_name "") (layers "*.Cu" "*.Paste") (tstamp 5ac01cfd-09e6-40c4-bf34-09c17eb761fe) (name "RF Copper Keep Out") (hatch full 0.5)
+  (fp_circle (center -5.7 23.5) (end -4.65 23.5)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 82f31566-8d6b-4211-8754-77aa301d76db))
+  (fp_circle (center 5.7 23.5) (end 6.75 23.5)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 160c447b-6388-48c1-8242-12e3011512bf))
+  (zone (net 0) (net_name "") (layers "*.Cu" "*.Paste") (tstamp ee247754-2270-409a-ad04-c8ac65db609d) (name "RF Copper Keep Out") (hatch full 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -49,7 +49,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer "Edge.Cuts") (tstamp e3c40725-9464-43cd-89ec-74437fcc40eb) (name "Board Keep Out Suggestion RF") (hatch edge 0.5)
+  (zone (net 0) (net_name "") (layer "Edge.Cuts") (tstamp e578e5ea-ecaa-4070-a90d-95a0c77d4f06) (name "Board Keep Out Suggestion RF") (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
     (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour allowed) (footprints allowed))
@@ -67,16 +67,17 @@
       )
     )
   )
-  (group "" (id 5063fa96-4cdd-40fa-b323-a6d886c338cd)
+  (group "" (id ae46f597-14c9-45f0-bcaf-d5e88c0493c8)
     (members
-      2c4a17fe-14cd-44d4-9fbd-2cdb9bad8d32
-      2f6b0802-9a34-46fe-be9d-77834d5d201e
-      5ac01cfd-09e6-40c4-bf34-09c17eb761fe
-      7a5d8c39-d9e1-4d81-b303-764301db2ecb
-      ab6ed012-9798-4e0a-a913-2e6b66a4ce6f
-      c65e4e9e-a369-4628-b31f-9271621328be
-      e3c40725-9464-43cd-89ec-74437fcc40eb
-      e5aae26a-edd3-4282-88c9-9af5cd66037f
+      05c13b11-bffb-427b-af67-76d55ef36f21
+      160c447b-6388-48c1-8242-12e3011512bf
+      1f07a15d-ab4b-47ce-ac99-1b011e1abd9a
+      378d6a1f-7d98-4c61-96a8-31cd60015d16
+      82f31566-8d6b-4211-8754-77aa301d76db
+      8ba7646f-3410-4b7e-9354-9a6e92bc33e9
+      ad6b2d46-d63f-4d78-a85c-c87399965902
+      e578e5ea-ecaa-4070-a90d-95a0c77d4f06
+      ee247754-2270-409a-ad04-c8ac65db609d
     )
   )
   (model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_Socket.wrl"

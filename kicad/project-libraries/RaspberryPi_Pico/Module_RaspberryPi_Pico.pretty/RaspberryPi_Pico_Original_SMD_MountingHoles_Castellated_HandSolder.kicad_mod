@@ -15,10 +15,6 @@
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify left))
     (tstamp 39fe8273-f919-4fc1-906f-18a417ee9c55)
   )
-  (fp_text user "Board Keep Out USB Cable" (at 6.985 -37.465 270 unlocked) (layer "Cmts.User")
-      (effects (font (size 0.6667 0.6667) (thickness 0.1)))
-    (tstamp 52576680-1365-42c6-a737-13764bbf0aab)
-  )
   (fp_text user "Incomplete board edge must be connected" (at -6.6675 -27.94 unlocked) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.075)) (justify right))
     (tstamp 67f36916-fa50-423b-b843-74c454a12cd6)
@@ -30,10 +26,6 @@
   (fp_text user "USB Cable" (at 0 -38.735 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b4d6a7ab-f263-4c24-9760-86dad0bb55a3)
-  )
-  (fp_text user "Board Keep Out USB Cable" (at -6.985 -37.465 90 unlocked) (layer "Cmts.User")
-      (effects (font (size 0.6667 0.6667) (thickness 0.1)))
-    (tstamp ff1b38b5-7fad-431a-adf3-aa3d084ba3b8)
   )
   (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -721,7 +713,6 @@
       4b44ec15-7b4c-4c43-9c7f-344479d52bbe
       4b87377b-8b7a-4aa8-a57d-aafb45f525e1
       4f174578-0163-49c0-a189-3faf29aa4676
-      52576680-1365-42c6-a737-13764bbf0aab
       5381837c-9d5a-47ea-8a37-3ad0dcca797e
       5e576027-0186-4ab0-ad5c-d62563306e78
       63d228c1-0817-4df7-a98f-185e3a126f34
@@ -738,7 +729,6 @@
       d7bea2d7-14ef-455d-bc86-b130a44dd5a4
       d9e34e8d-1a76-4bda-88e4-fe2b475efe6e
       e572468c-d2ab-4710-abeb-f66a0ce2e11f
-      ff1b38b5-7fad-431a-adf3-aa3d084ba3b8
     )
   )
   (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"
