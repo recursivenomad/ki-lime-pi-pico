@@ -492,7 +492,7 @@
       f9242e89-ae13-4c80-8b25-81b9eae42fef
     )
   )
-  (model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_Socket.wrl"
+  (model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_Socket.wrl" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
@@ -507,12 +507,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H.wrl" hide
+  (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H_Socketed.wrl"
+  (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H_Socketed.wrl" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
