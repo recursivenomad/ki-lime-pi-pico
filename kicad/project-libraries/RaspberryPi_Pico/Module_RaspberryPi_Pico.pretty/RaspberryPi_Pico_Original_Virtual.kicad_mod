@@ -544,12 +544,12 @@
     )
   )
   (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders_Socketed.wrl"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 0 -1.46))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
   (model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_H_Socketed.wrl" hide
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 0 -1.46))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
