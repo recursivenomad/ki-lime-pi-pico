@@ -126,7 +126,9 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 
 
 
-### Financially supporting this project:
+### Donations:
+
+*Accepted, but not expected*
 
 
 
