@@ -141,10 +141,10 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
   > ~ *Gifts an unconditional donation*
   >
   > [!["Sponsor" button with shaking hands](./_md-assets/images/donation-icons/button-sponsor.png)][URL-Sponsor]
-  > ~ *Sends a donation specifically to sponsor open-source development*
+  > ~ *Sends a donation specifically to support open-source development*
   >
   > [!["Pledge" button with shaking hands surrounded by rotating arrows](./_md-assets/images/donation-icons/button-pledge.png)][URL-Pledge]
-  > ~ *Sets up a recurring donation to sponsor open-source development*  
+  > ~ *Sets up a recurring donation to support open-source development*  
   > &nbsp;
 
 </details>
@@ -156,7 +156,7 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
   > *Unconditional donations*  
   > [`monero:`][URL-Monero-Donate]![](./)`8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1`
   >
-  > *Donations specifically to sponsor open-source development*  
+  > *Donations specifically to support open-source development*  
   > [`monero:`][URL-Monero-Sponsor]![](./)`84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS`
 
 </details>
@@ -168,7 +168,7 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
   > *Unconditional donations*  
   > [`ethereum:`][URL-Ether-Donate]![](./)`0xD1b824f2Ec3D609e816B04A301124129602A5238`
   >
-  > *Donations specifically to sponsor open-source development*  
+  > *Donations specifically to support open-source development*  
   > [`ethereum:`][URL-Ether-Sponsor]![](./)`0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2`
 
 </details>
@@ -180,7 +180,7 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
   > *Unconditional donations*  
   > [`bitcoin:`][URL-Bitcoin-Donate]![](./)`bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2`
   >
-  > *Donations specifically to sponsor open-source development*  
+  > *Donations specifically to support open-source development*  
   > [`bitcoin:`][URL-Bitcoin-Sponsor]![](./)`bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns`
 
 </details>
@@ -196,11 +196,11 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 (via Stripe)"
 
 [URL-Sponsor]: <https://donate.stripe.com/4gw9CE9hW8UbeCQcN2>
-"Send a donation to sponsor open-source development
+"Send a donation to support open-source development
 (via Stripe)"
 
 [URL-Pledge]: <https://buy.stripe.com/dR64ikgKofizeCQeVe>
-"Set up a recurring donation to sponsor open-source development
+"Set up a recurring donation to support open-source development
 (via Stripe)"
 
 [URL-Monero-Donate]: <monero:8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1?recipient_name=recursivenomad&tx_description=Donation> "Donate with Monero"
