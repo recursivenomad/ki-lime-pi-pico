@@ -1,6 +1,7 @@
 # Ki-Lime Pi Pico project attributions
 
 
+
 ## Peter S. Hollander
 
 Model, footprint, and symbol source files and documentation created and compiled by Peter S. Hollander between 2022 and 2024, and made freely available under the [*MIT-0*][URL-MIT-0] license.
@@ -9,9 +10,11 @@ Model, footprint, and symbol source files and documentation created and compiled
 *Repository: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>*
 
 
+
 ## Melissa Lee
 
 Source project title "Ki-Lime Pi" created by Melissa Lee in 2022, and donated with unconditional permission 🥧
+
 
 
 ## Markus Gyger
@@ -19,6 +22,7 @@ Source project title "Ki-Lime Pi" created by Melissa Lee in 2022, and donated wi
 Comprehensive alternate pin definitions as defined in the RP2040 datasheet inspired by the [schematic symbol][URL-Gyger-Symbol] created by Markus Gyger.
 
 Including the BOOTSEL button and LED in footprint Fab layers was also inspired by Markus's [footprints][URL-Gyger-Footprints].
+
 
 
 ## Raspberry Pi
@@ -36,11 +40,14 @@ Original assets which were referenced for geometry/organization (model, symbol, 
   - Pico W Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-PicoW-KiCAD.zip>
 
 
+
 ## Liberapay
 
 Liberapay logo acquired from Liberapay under the [*CC0 1.0 Universal*](https://github.com/liberapay/liberapay.com#license) public domain dedication.
 
 &nbsp;
+
+
 
 
 
@@ -51,6 +58,9 @@ Liberapay logo acquired from Liberapay under the [*CC0 1.0 Universal*](https://g
 - [FreeCAD][URL-FreeCAD] - Parametric 3D modelling
   - [KiCad StepUp addon][URL-KiCad-StepUp] - VRML model exporting
 - [VSCodium][URL-VSCodium] - VRML model material bulk editing
+
+
+
 
 
 
