@@ -3,7 +3,7 @@
 
 ## Peter S. Hollander
 
-Model, footprint, and symbol source files and documentation created and compiled by Peter S. Hollander between 2022 and 2023, and made freely available under the [*MIT-0*][URL-MIT-0] license.
+Model, footprint, and symbol source files and documentation created and compiled by Peter S. Hollander between 2022 and 2024, and made freely available under the [*MIT-0*][URL-MIT-0] license.
 
 *Contact: <recursivenomad@protonmail.com>*  
 *Repository: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>*
