@@ -155,10 +155,10 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 <details><summary> Monero (XMR) </summary>
 
   > *Unconditional donations*  
-  > [`monero:`][URL-Monero-Donate]![](./)`8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1`
+  > [`monero:`][URI-Monero-Donate]![](./)`8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1`
   >
   > *Donations specifically to support open-source development*  
-  > [`monero:`][URL-Monero-Sponsor]![](./)`84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS`
+  > [`monero:`][URI-Monero-Sponsor]![](./)`84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS`
 
 </details>
 
@@ -167,10 +167,10 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 <details><summary> Ether (ETH) </summary>
 
   > *Unconditional donations*  
-  > [`ethereum:`][URL-Ether-Donate]![](./)`0xD1b824f2Ec3D609e816B04A301124129602A5238`
+  > [`ethereum:`][URI-Ether-Donate]![](./)`0xD1b824f2Ec3D609e816B04A301124129602A5238`
   >
   > *Donations specifically to support open-source development*  
-  > [`ethereum:`][URL-Ether-Sponsor]![](./)`0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2`
+  > [`ethereum:`][URI-Ether-Sponsor]![](./)`0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2`
 
 </details>
 
@@ -179,10 +179,10 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 <details><summary> Bitcoin (BTC) </summary>
 
   > *Unconditional donations*  
-  > [`bitcoin:`][URL-Bitcoin-Donate]![](./)`bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2`
+  > [`bitcoin:`][URI-Bitcoin-Donate]![](./)`bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2`
   >
   > *Donations specifically to support open-source development*  
-  > [`bitcoin:`][URL-Bitcoin-Sponsor]![](./)`bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns`
+  > [`bitcoin:`][URI-Bitcoin-Sponsor]![](./)`bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns`
 
 </details>
 
@@ -204,17 +204,12 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 "Set up a recurring donation to support open-source development
 (via Stripe)"
 
-[URL-Monero-Donate]: <monero:8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1?recipient_name=recursivenomad&tx_description=Donation> "Donate with Monero"
-
-[URL-Monero-Sponsor]: <monero:84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS?recipient_name=recursivenomad&tx_description=Sponsoring%20open-source%20development> "Sponsor with Monero"
-
-[URL-Ether-Donate]: <ethereum:0xD1b824f2Ec3D609e816B04A301124129602A5238> "Donate with Ether"
-
-[URL-Ether-Sponsor]: <ethereum:0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2> "Sponsor with Ether"
-
-[URL-Bitcoin-Donate]: <bitcoin:bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2?label=recursivenomad&message=Donation> "Donate with Bitcoin"
-
-[URL-Bitcoin-Sponsor]: <bitcoin:bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns?label=recursivenomad&message=Sponsoring%20open-source%20development> "Sponsor with Bitcoin"
+[URI-Monero-Donate]: <monero:8Bhyeo232EVDiK7aRSzHGRC28RZ1H6FL55V6CVyCVtxdDRQXHk8btPU8Wr5G8K3AWgaK19JfYbshKfHWqc177jwtCtCSaz1?recipient_name=recursivenomad&tx_description=Donation> "Donate with Monero"
+[URI-Monero-Sponsor]: <monero:84FR721bYUHGY2SHWWBe5hHSmJqp11dX32j6wM6h8oWL3UczEMqC2X58StfNG8JC3NKSWas1W17YL3qPCJSsPuVh2eMGctS?recipient_name=recursivenomad&tx_description=Sponsoring%20open-source%20development> "Sponsor with Monero"
+[URI-Ether-Donate]: <ethereum:0xD1b824f2Ec3D609e816B04A301124129602A5238> "Donate with Ether"
+[URI-Ether-Sponsor]: <ethereum:0x3DFbbc82329c74846fe2ce3bfE4BCB660A1968f2> "Sponsor with Ether"
+[URI-Bitcoin-Donate]: <bitcoin:bc1qadq5kyuuc7etgu5ywlygnaepqhzgc2u7gxkze2?label=recursivenomad&message=Donation> "Donate with Bitcoin"
+[URI-Bitcoin-Sponsor]: <bitcoin:bc1q2pffcm4xxkp59mz5y0ea52lw5gk408dfglsgns?label=recursivenomad&message=Sponsoring%20open-source%20development> "Sponsor with Bitcoin"
 
 
 
