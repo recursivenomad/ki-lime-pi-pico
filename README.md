@@ -6,11 +6,11 @@
 &nbsp;
 
 
-![Image of all available Raspberry Pi Pico footprint variations](./_md-assets/images/footprints.png "Raspberry Pi Pico KiCad footprint variations")  
-*The offered footprints of the Raspberry Pi Pico; all footprints also have a variant with mounting holes.*
+![Image of many available Raspberry Pi Pico footprint variations](./_md-assets/images/footprints.png "Raspberry Pi Pico KiCad footprint variations")  
+*Some of the offered footprints of the Raspberry Pi Pico; additional more specific footprints also included.*
 
-![Image of all available Raspberry Pi Pico schematic variations](./_md-assets/images/schematics.png "Raspberry Pi Pico KiCad schematic variations")  
-*The offered schematics of the Raspberry Pi Pico; many pins provide alternate pin definitions.*
+![Image of many available Raspberry Pi Pico schematic variations](./_md-assets/images/schematics.png "Raspberry Pi Pico KiCad schematic variations")  
+*Some of the offered schematic symbols of the Raspberry Pi Pico; many pins provide alternate pin definitions.*
 
 ![GIF of all available Raspberry Pi Pico 3D model variations](./_md-assets/images/models.gif "Raspberry Pi Pico 3D model variations")  
 *The models feature the original Pico, Pico H, Pico W, and Pico WH; they are able to be visualised in surface-mount, through-hole, and socketed forms.*
@@ -29,8 +29,9 @@
   - Hand-solderable test points (ie. USB signals) in footprints with underside castellations
   - Optional pin labels as an add-on footprint
   - Optional keepout zone for 2.4 GHz RF on shared footprints
+  - Ability to add individual schematic symbols for sockets, and a virtual Pico for the BOM and rendering
 - **Diverse 3D models** for surface-mount, through-hole, and socketed forms of the Pico, Pico H, Pico W, and Pico WH using photorealistic materials
-- Majority adherence to the [KiCad Library Conventions][URL-KLC] version 3.0.34
+- Majority adherence to the [KiCad Library Conventions][URL-KLC] version 3.0.41
 
 &nbsp;
 
