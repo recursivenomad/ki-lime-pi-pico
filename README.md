@@ -1,7 +1,10 @@
-**A comprehensive KiCad Library for the Raspberry Pi Pico** 🥧
-==============================================================
+**Source of the comprehensive KiCad Library for the Raspberry Pi Pico** 🥧
+==========================================================================
 
-### Providing footprints, symbols, and models for the module in its various forms and implementations
+### Providing footprints, symbols, and models for the module's various forms & implementations
+
+> *For the submodule, see [Ki-Lime Pi Pico To-Go][URL-Submodule]*
+
 
 [<img src="../../../gitlab-redirect/raw/main/redirect.png" alt="" style="max-width: 100%;">][URL-Repository]
 
@@ -21,6 +24,8 @@
 
 ***Features***
 ==============
+
+### *Note that this repository only contains the*
 
 - **KiCad 7.0 support**
 - **Schematics with alternate pin definitions** to select more specific behaviours for each GPIO, as well as specify power directionality
@@ -121,6 +126,7 @@ Although attribution is not required, sharing when you've made something with my
 
 *Repository: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>*  
 *Releases: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>*  
+*Submodule: <https://github.com/recurisvenomad/ki-lime-pi-pico-to-go/>*  
 *Contact: <recursivenomad@protonmail.com>*
 
 ----------------------
@@ -223,6 +229,7 @@ Although attribution is not required, sharing when you've made something with my
 
 [URL-Repository]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>
 [URL-Releases]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>
+[URL-Submodule]: <https://github.com/recurisvenomad/ki-lime-pi-pico-to-go>
 
 [URL-KiCad-Forums-cdwilson]: <https://forum.kicad.info/t/21104>
 [URL-KiCad-Forums-mgyger]: <https://forum.kicad.info/t/35844/12>
