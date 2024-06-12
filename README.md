@@ -3,7 +3,7 @@
 
 ### Providing footprints, symbols, and models for the module in its various forms and implementations
 
-&nbsp;
+[<img src="../../../gitlab-redirect/raw/main/redirect.png" alt="" style="max-width: 100%;">][URL-Repository]
 
 
 ![Image of many available Raspberry Pi Pico footprint variations](./_md-assets/images/footprints.png "Raspberry Pi Pico KiCad footprint variations")  
@@ -220,6 +220,7 @@ This work is made freely available under the [*MIT-0*][URL-MIT-0] license, rende
 
 [URL-MIT-0]: <https://opensource.org/license/mit-0/>
 
+[URL-Repository]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>
 [URL-Releases]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>
 
 [URL-KiCad-Forums-cdwilson]: <https://forum.kicad.info/t/21104>
