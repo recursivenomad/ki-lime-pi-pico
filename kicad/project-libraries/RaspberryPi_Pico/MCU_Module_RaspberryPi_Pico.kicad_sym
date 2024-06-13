@@ -740,9 +740,7 @@
 						)
 					)
 				)
-				(alternate "AGND_IN" power_in line)
-				(alternate "GND" power_out line)
-				(alternate "GND_IN" power_in line)
+				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -15.24 180)
@@ -1753,9 +1751,7 @@
 						)
 					)
 				)
-				(alternate "AGND_IN" power_in line)
-				(alternate "GND" power_out line)
-				(alternate "GND_IN" power_in line)
+				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -15.24 180)
@@ -3069,9 +3065,7 @@
 						)
 					)
 				)
-				(alternate "AGND_IN" power_in line)
-				(alternate "GND" power_out line)
-				(alternate "GND_IN" power_in line)
+				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -15.24 180)
@@ -4327,9 +4321,7 @@
 						)
 					)
 				)
-				(alternate "AGND_IN" power_in line)
-				(alternate "GND" power_out line)
-				(alternate "GND_IN" power_in line)
+				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -15.24 180)
