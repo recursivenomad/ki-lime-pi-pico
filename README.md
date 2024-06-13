@@ -3,7 +3,7 @@
 
 ### Providing footprints, symbols, & models for the module's various forms & implementations
 
-> *For the submodule, see [Ki-Lime Pi Pico To-Go][URL-Submodule]*
+> *For the git submodule, see [Ki-Lime Pi To-Go][URL-Submodule]*
 
 
 [<img src="../../../gitlab-redirect/raw/main/redirect.png" alt="" style="max-width: 100%;">][URL-Repository]
@@ -126,7 +126,7 @@ Although attribution is not required, sharing when you've made something with my
 
 *Repository: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>*  
 *Releases: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>*  
-*Submodule: <https://github.com/recursivenomad/ki-lime-pi-pico-to-go/>*  
+*Submodule: <https://github.com/recursivenomad/ki-lime-pi-to-go/>*  
 *Contact: <recursivenomad@protonmail.com>*
 
 ----------------------
@@ -229,7 +229,7 @@ Although attribution is not required, sharing when you've made something with my
 
 [URL-Repository]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>
 [URL-Releases]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>
-[URL-Submodule]: <https://github.com/recursivenomad/ki-lime-pi-pico-to-go>
+[URL-Submodule]: <https://github.com/recursivenomad/ki-lime-pi-to-go>
 
 [URL-KiCad-Forums-cdwilson]: <https://forum.kicad.info/t/21104>
 [URL-KiCad-Forums-mgyger]: <https://forum.kicad.info/t/35844/12>
