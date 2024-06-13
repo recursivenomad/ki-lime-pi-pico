@@ -843,7 +843,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 40.64 270)
 				(length 3.81)
 				(name "VSYS"
@@ -860,7 +860,7 @@
 						)
 					)
 				)
-				(alternate "VSYS_OUT" power_out line)
+				(alternate "VSYS_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at -22.86 17.78 0)
@@ -1857,7 +1857,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 40.64 270)
 				(length 3.81)
 				(name "VSYS"
@@ -1874,7 +1874,7 @@
 						)
 					)
 				)
-				(alternate "VSYS_OUT" power_out line)
+				(alternate "VSYS_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at -22.86 17.78 0)
@@ -3174,7 +3174,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 40.64 270)
 				(length 3.81)
 				(name "VSYS"
@@ -3191,7 +3191,7 @@
 						)
 					)
 				)
-				(alternate "VSYS_OUT" power_out line)
+				(alternate "VSYS_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at 22.86 12.7 180)
@@ -4433,7 +4433,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 40.64 270)
 				(length 3.81)
 				(name "VSYS"
@@ -4450,7 +4450,7 @@
 						)
 					)
 				)
-				(alternate "VSYS_OUT" power_out line)
+				(alternate "VSYS_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at -22.86 17.78 0)
