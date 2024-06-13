@@ -25,7 +25,7 @@
 ***Features***
 ==============
 
-- **KiCad 7.0 support**
+- **KiCad 8.0 support** *(For KiCad 7.0 support, see [release 1.1.0][URL-Release-7.0-Support])*
 - **Schematics with alternate pin definitions** to select more specific behaviours for each GPIO, as well as specify power directionality
 - **Generic and specific footprints** for the Pico and Pico W
   - Through-hole and surface-mount footprints with and without mounting holes
@@ -45,7 +45,7 @@
 
 > *If you want to include this library as a git submodule, check out [Ki-Lime Pi To-Go][URL-Submodule]*
 
-- Ensure you are running KiCad 7.0 or later
+- Ensure you are running KiCad 8.0 or later *(For KiCad 7.0 support, see [release 1.1.0][URL-Release-7.0-Support])*
 - Download the most recent [release][URL-Releases] of the library
 - Unzip the file contents
 - If not already created, create a new KiCad project
@@ -229,6 +229,7 @@ Although attribution is not required, sharing when you've made something with my
 
 [URL-Repository]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>
 [URL-Releases]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/>
+[URL-Release-7.0-Support]: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/-/releases/1.1.0>
 [URL-Submodule]: <https://github.com/recursivenomad/ki-lime-pi-to-go>
 
 [URL-KiCad-Forums-cdwilson]: <https://forum.kicad.info/t/21104>
