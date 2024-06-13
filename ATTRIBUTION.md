@@ -11,12 +11,6 @@ Model, footprint, and symbol source files and documentation created and compiled
 
 
 
-## Melissa Lee
-
-Source project title "Ki-Lime Pi" created by Melissa Lee in 2022, and donated with unconditional permission 🥧
-
-
-
 ## Markus Gyger
 
 Comprehensive alternate pin definitions as defined in the RP2040 datasheet inspired by the [schematic symbol][URL-Gyger-Symbol] created by Markus Gyger.
@@ -38,12 +32,6 @@ Original assets which were referenced for geometry/organization (model, symbol, 
   - RP2040 Symbol: <https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip>
   - Pico Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-KiCAD.zip>
   - Pico W Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-PicoW-KiCAD.zip>
-
-
-
-## Liberapay
-
-Liberapay logo acquired from Liberapay under the [*CC0 1.0 Universal*](https://github.com/liberapay/liberapay.com#license) public domain dedication.
 
 &nbsp;
 
