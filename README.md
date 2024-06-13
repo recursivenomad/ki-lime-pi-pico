@@ -25,8 +25,6 @@
 ***Features***
 ==============
 
-### *Note that this repository only contains the*
-
 - **KiCad 7.0 support**
 - **Schematics with alternate pin definitions** to select more specific behaviours for each GPIO, as well as specify power directionality
 - **Generic and specific footprints** for the Pico and Pico W
@@ -44,6 +42,8 @@
 
 ***How do I use this library?***
 ================================
+
+> *If you want to include this library as a git submodule, check out [Ki-Lime Pi To-Go][URL-Submodule]*
 
 - Ensure you are running KiCad 7.0 or later
 - Download the most recent [release][URL-Releases] of the library
