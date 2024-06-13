@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 31.75 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "Cmts.User")
 		(hide yes)
 		(uuid "ea31613f-a0a2-4f5a-9373-bee042a054d1")
 		(effects
@@ -21,7 +21,7 @@
 	(property "Value" "RaspberryPi_Pico_OptionalPinLabels"
 		(at 0 29.845 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "Cmts.User")
 		(hide yes)
 		(uuid "0d39661e-f40b-4a60-8ec8-51a5d8c091da")
 		(effects
