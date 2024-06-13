@@ -769,7 +769,7 @@
 				(alternate "UART0_TX" output line)
 				(alternate "USB_VBUS_DET" input line)
 			)
-			(pin input line
+			(pin power_in line
 				(at 22.86 -5.08 180)
 				(length 3.81)
 				(name "ADC_VREF"
@@ -786,7 +786,6 @@
 						)
 					)
 				)
-				(alternate "ADC_VREF_POW" power_in line)
 			)
 			(pin power_out line
 				(at -5.08 40.64 270)
@@ -1783,7 +1782,7 @@
 				(alternate "UART0_TX" output line)
 				(alternate "USB_VBUS_DET" input line)
 			)
-			(pin input line
+			(pin power_in line
 				(at 22.86 -5.08 180)
 				(length 3.81)
 				(name "ADC_VREF"
@@ -1800,7 +1799,6 @@
 						)
 					)
 				)
-				(alternate "ADC_VREF_POW" power_in line)
 			)
 			(pin power_out line
 				(at -5.08 40.64 270)
@@ -3100,7 +3098,7 @@
 				(alternate "UART0_TX" output line)
 				(alternate "USB_VBUS_DET" input line)
 			)
-			(pin input line
+			(pin power_in line
 				(at 22.86 -5.08 180)
 				(length 3.81)
 				(name "ADC_VREF"
@@ -3117,7 +3115,6 @@
 						)
 					)
 				)
-				(alternate "ADC_VREF_POW" power_in line)
 			)
 			(pin power_out line
 				(at -5.08 40.64 270)
@@ -4359,7 +4356,7 @@
 				(alternate "UART0_TX" output line)
 				(alternate "USB_VBUS_DET" input line)
 			)
-			(pin input line
+			(pin power_in line
 				(at 22.86 -5.08 180)
 				(length 3.81)
 				(name "ADC_VREF"
@@ -4376,7 +4373,6 @@
 						)
 					)
 				)
-				(alternate "ADC_VREF_POW" power_in line)
 			)
 			(pin power_out line
 				(at -5.08 40.64 270)
