@@ -9,7 +9,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "A"
 			(at -19.05 38.1 0)
 			(effects
 				(font
@@ -1020,7 +1020,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "A"
 			(at -19.05 38.1 0)
 			(effects
 				(font
@@ -3590,7 +3590,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "A"
 			(at -19.05 38.1 0)
 			(effects
 				(font
@@ -4761,7 +4761,7 @@
 	)
 	(symbol "RaspberryPi_Pico_W"
 		(extends "RaspberryPi_Pico")
-		(property "Reference" "U"
+		(property "Reference" "A"
 			(at -19.05 38.1 0)
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 	)
 	(symbol "RaspberryPi_Pico_W_DebugPins"
 		(extends "RaspberryPi_Pico_DebugPins")
-		(property "Reference" "U"
+		(property "Reference" "A"
 			(at -19.05 38.1 0)
 			(effects
 				(font
@@ -4961,7 +4961,7 @@
 	)
 	(symbol "RaspberryPi_Pico_W_SecondaryPins"
 		(extends "RaspberryPi_Pico_SecondaryPins")
-		(property "Reference" "U"
+		(property "Reference" "A"
 			(at -19.05 38.1 0)
 			(effects
 				(font
