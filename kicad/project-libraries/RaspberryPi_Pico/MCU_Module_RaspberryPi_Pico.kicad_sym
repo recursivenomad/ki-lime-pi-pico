@@ -3819,9 +3819,9 @@
 				(alternate "USB_OVCUR_DET" input line)
 				(alternate "~{SPI1_CSn}" bidirectional line)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -38.1 90)
-				(length 3.81)
+				(length 3.81) hide
 				(name "GND"
 					(effects
 						(font
@@ -3836,7 +3836,6 @@
 						)
 					)
 				)
-				(alternate "GND_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at -22.86 -2.54 0)
@@ -4217,9 +4216,9 @@
 				(alternate "UART1_CTS" input line)
 				(alternate "USB_VBUS_DET" input line)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -38.1 90)
-				(length 3.81) hide
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -4234,6 +4233,7 @@
 						)
 					)
 				)
+				(alternate "GND_IN" power_in line)
 			)
 			(pin input line
 				(at -22.86 -20.32 0)
