@@ -4949,7 +4949,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?Original?Virtual*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?W?Virtual*"
 			(at 0 0 0)
 			(effects
 				(font
