@@ -63,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_Common* RaspberryPi_Pico_Original*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?Original*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1074,7 +1074,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_Original_SMD*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Original?SMD*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2141,7 +2141,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_Original_Virtual*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Original?Virtual*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*1x20_*P2.54mm*Vertical*"
+		(property "ki_fp_filters" "*1x20*P2.54mm*Vertical*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*1x20_*P2.54mm*Vertical*"
+		(property "ki_fp_filters" "*1x20*P2.54mm*Vertical*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3445,7 +3445,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*1x03_*P2.54mm*Vertical*"
+		(property "ki_fp_filters" "*1x03*P2.54mm*Vertical*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_Original_SMD RaspberryPi_Pico_Original_SMD_MoutingHoles RaspberryPi_Pico_Original_SMD_MoutingHoles_HandSolder_Castellated"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Original?SMD RaspberryPi?Pico?Original?SMD?MoutingHoles RaspberryPi?Pico?Original?SMD?MoutingHoles?HandSolder?Castellated"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_Common* RaspberryPi_Pico_W*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?W*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4881,7 +4881,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_W_SMD*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?W?SMD*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4949,7 +4949,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_Original_Virtual*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Original?Virtual*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5015,7 +5015,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi_Pico_W_SMD RaspberryPi_Pico_W_SMD_MountingHoles RaspberryPi_Pico_W_SMD_MountingHoles_HandSolder_Castellated"
+		(property "ki_fp_filters" "RaspberryPi?Pico?W?SMD RaspberryPi?Pico?W?SMD?MountingHoles RaspberryPi?Pico?W?SMD?MountingHoles?HandSolder?Castellated"
 			(at 0 0 0)
 			(effects
 				(font
