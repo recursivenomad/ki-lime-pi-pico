@@ -2645,7 +2645,7 @@
 	)
 	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico.wrl"
 		(offset
-			(xyz -0.0000000000000018 0.0000000000000004 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -2657,7 +2657,7 @@
 	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W.wrl"
 		(hide yes)
 		(offset
-			(xyz -0.0000000000000018 0.0000000000000004 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
