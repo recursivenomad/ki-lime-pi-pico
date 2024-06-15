@@ -165,7 +165,7 @@
 		(at 0 0)
 		(size 1.6 1.6)
 		(drill 1)
-		(layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.125)
 		(uuid "a4de5d66-f1a5-4c41-a2c0-35c3c34b7936")
