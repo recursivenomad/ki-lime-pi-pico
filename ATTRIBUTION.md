@@ -46,6 +46,7 @@ Original assets which were referenced for geometry/organization (model, symbol, 
 - [FreeCAD][URL-FreeCAD] - Parametric 3D modelling
   - [KiCad StepUp addon][URL-KiCad-StepUp] - VRML model exporting
 - [VSCodium][URL-VSCodium] - VRML model material bulk editing
+- [KiCad Library utilities][URL-KiCad-Utils] - Python scripts to ensure adherence to KiCad Library Conventions
 
 
 
@@ -58,6 +59,7 @@ Original assets which were referenced for geometry/organization (model, symbol, 
 [URL-KiCad]: <https://www.kicad.org/>
 [URL-KiCad-StepUp]: <https://github.com/easyw/kicadStepUpMod>
 [URL-VSCodium]: <https://vscodium.com/>
+[URL-KiCad-Utils]: <https://gitlab.com/kicad/libraries/kicad-library-utils>
 
 [URL-Gyger-Footprints]: <https://gitlab.com/mgyger/kicad-footprints/-/tree/pico/Module.pretty>
 [URL-Gyger-Symbol]: <https://gitlab.com/mgyger/kicad-symbols/-/blob/pico/MCU_Module.kicad_sym>
