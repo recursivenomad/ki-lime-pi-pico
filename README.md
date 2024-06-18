@@ -6,7 +6,7 @@
 > *For the git submodule, see [Ki-Lime Pi To-Go][URL-Submodule]*
 
 
-[<img src="../../../gitlab-redirect/raw/main/redirect.png" alt="" style="max-width: 100%;">][URL-Repository]
+[![](../../../gitlab-redirect/raw/main/redirect.png)][URL-Repository]
 
 
 ![Image of many available Raspberry Pi Pico footprint variations](./_md-assets/images/footprints.png "Raspberry Pi Pico KiCad footprint variations")  
