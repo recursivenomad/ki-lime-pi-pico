@@ -43,6 +43,8 @@ README.*
 !/README.*
 BUILDING.*
 !/BUILDING.*
+.gitattributes
+!/.gitattributes
 
 # Misc intermediary/meta files
 _untracked/
