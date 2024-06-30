@@ -1,3 +1,6 @@
+MIT-0 OR CC0-1.0
+
+
 MIT License - No Attribution Required
 
 Copyright (c) 2023-2024 Peter S. Hollander <recursivenomad@protonmail.com>
