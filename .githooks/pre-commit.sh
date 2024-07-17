@@ -6,7 +6,7 @@
 
 
 
-# 1.0.2
+# 1.0.3
 
 # Pre-commit git hook for committing reduced, usable, & trackable .FCStd files
 # ----------------------------------------------------------------------------
@@ -153,10 +153,15 @@ for file in "${StagedFiles[@]}"; do
 
     #echo "Staging uncompressed .FCStd for commit"
     git add "${file}"
-    echo $file "reduced, repacked, and staged for commit."
 
     #echo "Restoring unmodified .FCStd"
-    mv --force "${GitRoot}"/"${file}".bak "${GitRoot}"/"${file}"
+    if [[ `mv --force "${GitRoot}"/"${file}".bak "${GitRoot}"/"${file}"` ]]; then
+      echo $file "unable to be restored! Resave FreeCAD if it is open, or manually rename *.FCStd.bak to replace *.FCStd to restore the local file, then try again"
+      # TODO - Probably busy from FreeCAD autosaving; any workaround?
+      (( FCStdErrorCount+=1 )); continue
+    fi
+
+    echo $file "reduced, repacked, and staged for commit."
 
   fi
 
