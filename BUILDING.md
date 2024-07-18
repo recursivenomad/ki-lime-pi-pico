@@ -8,11 +8,23 @@
 
 # Development Environment
 
-  Parametric models created in [FreeCAD 0.20.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.2) with the [KiCad StepUp 10.7.7](https://github.com/easyw/kicadStepUpMod/tree/5dfb0eb7093ab7f67d0f91c9bbae6fb78de93d46) workbench addon
+  Parametric models exported using [FreeCAD 0.21.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.21.2) with the [KiCad StepUp 12.2.6](https://github.com/easyw/kicadStepUpMod/tree/a7da10da12e405d106e1e9eb551444a289859ee8) workbench addon
+
+  If you plan on committing changes to the .FCStd document and want (somewhat) trackable commits, then from the repository root call:
+
+  ```bash
+  mkdir -p .git/hooks
+  cp .githooks/pre-commit.sh .git/hooks/pre-commit
+  git config --local core.hooksPath .git/hooks
+  ```
+
+  *(If you are already using a `pre-commit` git hook, then manually add the content of `pre-commit.sh` to the existing hook instead)*
+
+  > *Copying the file at a known state curbs the security concerns of remote changes to a hook.  Always audit scripts before using them.*
 
   Exported VRML models modified in [VSCodium 1.74.3](https://github.com/VSCodium/vscodium/releases/tag/1.74.3.23010)
 
-  KiCad symbols and footprints created using KiCad 6.0.10 through 8.0.3 and finalized using [KiCad 8.0.3](https://github.com/KiCad/kicad-source-mirror/releases/tag/8.0.3)
+  KiCad symbols and footprints exported using [KiCad 8.0.3](https://github.com/KiCad/kicad-source-mirror/releases/tag/8.0.3)
 
 &nbsp;
 
@@ -39,7 +51,9 @@
 
   - Open the models source file at `.../ki-lime-pi-pico/models/RaspberryPi_Pico_Variations.FCStd` in FreeCAD
 
-  - In FreeCAD's `Tree view` panel, `right-click` on the root document name `RaspberryPi_Pico_Variations` and select `Mark to recompute`
+    > Note: If reproducible builds are important, be sure to stash any local changes to the file and reopen it before building so that you are recomputing from a known commit.  This is particularly important if you are using the `pre-commit` git hook described above.
+  
+  - If not already marked to recompute, in FreeCAD's `Tree view` panel `right-click` on the root document name `RaspberryPi_Pico_Variations` and select `Mark to recompute`
 
   - Click `Edit > Refresh` (or press `F5`) to recompute the entire document
 
@@ -50,7 +64,9 @@
 
   - In FreeCAD's `Tree view` panel, locate the contents of the folder `Export > KiCad Model Outputs > VRML - Manually Coloured Clones`
 
-  - Select the `Clone` you wish to export to a VRML file for KiCad (for example: `RaspberryPi_Pico`)
+  - If you are building from an official release commit, select the `Clone` you wish to export to a VRML file for KiCad (for example: `RaspberryPi_Pico`)  
+    If you are building from a custom modification, you will likely need to recreate the `Draft Clones` from the parametrically coloured `Compounds` in `Export > KiCad Model Outputs > STEP - Parametrically Coloured Compounds`
+
     <details><summary>Additional information regarding clones and colours</summary>
       
       > *KiCad StepUp provides a selection of fully-featured materials that can be exported to VRML files.  Although the selection is limited, it provides convenient labelling of materials that can be edited later.  I have created `Clones` of each variation (which as of FreeCAD 0.20.2 do **not** parametrically preserve colour) and pre-set each face colour to align with colours defined within KiCad StepUp.*
@@ -63,11 +79,31 @@
 
   - Click on KiCad StepUp's `Export 3D Model` button (a graphic of a black 6-pin IC with a green arrow pointing down and to the right)
 
-  - When prompted, I have used the default `Mesh Deviation` and `creaseAngle` and I find the results to be acceptable
+  - When prompted, I have used the values of `0.03 Mesh Deviation` and `0.5 creaseAngle` (old default values) and I find the results to be acceptable
 
-  - Accept all the KiCad StepUp colour association prompts
+  - If you are building from an official release commit, simply accept all the KiCad StepUp colour association prompts  
+    If you are building from newly created `Clones`, you will need to manually set KiCad StepUp's colour associations.
+    
+    <details> <summary> Additional information regarding KiCad StepUp colour association </summary>
+    
+      > This part can be frustrating, as many parts appear off-white but are different materials.
+      > When I built it, there are some colours which are automatically associated to a named material in KiCad StepUp; you shouldn't have to alter those.  
+      > The remaining non-automatic colours broadly presented themselves in the following order:
+      >
+      > - `metal silver` (soldered pads)
+      > - `pcb green`
+      > - `light brown label` (FR4 core)
+      > - `yellow body` (gold pins)
+      > - `brown body` (caps)
+      > - `resistor black body` (res/diode)
+      > - `led white` (led lens)
+      > - `light brown body` (led board)
+      > - `green body` (led phosphor)
+      > - `metal grey` (oscillator/wifi package)
+      >
+      > If this list doesn't appear to be accurate for you, then you can always set each colour to a high-contrasting material, and then select the appropriate material association in a second round of exporting.
 
-    > *Note that if you have recreated these `Clones` due to geometric changes, you will need to manually set these colour associations.  These instructions assume you are using the originally associated KiCad StepUp face colours*
+    </details>
 
   - Repeat this for all `Clones`
 
