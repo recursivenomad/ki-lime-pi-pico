@@ -51,7 +51,9 @@
 
   - Open the models source file at `.../ki-lime-pi-pico/models/RaspberryPi_Pico_Variations.FCStd` in FreeCAD
 
-    > Note: If reproducible builds are important, be sure to stash any local changes to the file and reopen it before building so that you are recomputing from a known commit.  This is particularly important if you are using the `pre-commit` git hook described above.
+    > Note: ~~If reproducible builds are important, be sure to stash any local changes to the file and reopen it before building so that you are recomputing from a known commit.~~  
+    > ~~This is particularly important if you are using the `pre-commit` git hook described above.~~  
+    > There is inconsistent noise generated with each recompute/export.  As a result, reproducible builds are not possible as built models will slightly differ each time.
   
   - If not already marked to recompute, in FreeCAD's `Tree view` panel `right-click` on the root document name `RaspberryPi_Pico_Variations` and select `Mark to recompute`
 
