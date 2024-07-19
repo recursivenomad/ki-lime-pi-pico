@@ -133,9 +133,7 @@ Although attribution is not required, sharing when you've made something with my
 
 
 
-### Donations:
-
-*Accepted, but not expected*
+### Donations
 
 
 
