@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico (wireless & original) versatile footprint for surface-mount or through-hole hand soldering, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+	(descr "Raspberry Pi Pico (wireless & original) versatile footprint for surface-mount or through-hole hand soldering, default socket model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "Raspberry Pi Pico module usb pcb antenna handsolder")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)

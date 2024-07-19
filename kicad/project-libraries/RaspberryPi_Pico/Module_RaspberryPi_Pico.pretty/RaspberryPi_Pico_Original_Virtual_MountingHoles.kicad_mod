@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico (original only) virtual footprint (no pads; not compatible with Pico W), https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+	(descr "Raspberry Pi Pico (original only) virtual footprint (no pads; not compatible with Pico W), default model is offset by a height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "Raspberry Pi Pico module usb pcb virtual")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)
@@ -1580,10 +1580,10 @@
 		(uuid "be0d86a0-8a7d-4981-852d-d8d84df60933")
 		(members "00c39226-4373-4c8a-8145-920493c1c60c" "24a42e9b-b8bd-40ce-9729-06417c1ba0ce"
 			"27de6b62-1407-488e-8235-f1fab67ae422" "2b0e2db1-f460-402f-9b2b-5a86cbd351a3"
-			"3089a626-f6ec-4c79-87f9-4d5f0ce103c6" "3447f0ae-8def-4d51-8339-b4c6c38f1028"
-			"41bd1edd-6543-4753-a1a3-ffd6edfb6afa" "43b78f9e-8441-4f86-8dd2-54d1368dd766"
-			"7b56f854-ace7-4fc3-bdb9-fe7697550766" "8e11a185-04d4-4c6a-afaa-61d2d1325dd5"
-			"9e8bdffc-bbc5-4932-b15f-cd864cb2f851" "a8e2b414-893e-4f2c-ac1a-bfb84fbd64d0"
+			"3447f0ae-8def-4d51-8339-b4c6c38f1028" "41bd1edd-6543-4753-a1a3-ffd6edfb6afa"
+			"43b78f9e-8441-4f86-8dd2-54d1368dd766" "7b56f854-ace7-4fc3-bdb9-fe7697550766"
+			"8e11a185-04d4-4c6a-afaa-61d2d1325dd5" "9e8bdffc-bbc5-4932-b15f-cd864cb2f851"
+			"a8e2b414-893e-4f2c-ac1a-bfb84fbd64d0"
 		)
 	)
 	(group ""
