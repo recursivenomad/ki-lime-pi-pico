@@ -3738,7 +3738,7 @@
 			"ef4bd962-9d53-407b-9d33-e53aac79a826" "fa2c4b9e-e6a1-43e6-bc60-2d7640e348e3"
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_Socket.wrl"
+	(model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_H8.51mm_Socket.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
