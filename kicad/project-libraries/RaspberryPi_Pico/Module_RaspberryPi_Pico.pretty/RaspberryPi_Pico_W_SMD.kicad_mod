@@ -825,18 +825,6 @@
 			)
 		)
 	)
-	(fp_text user "Keep Out"
-		(at 0 -36.195 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "181803e6-2f22-4ca4-b44a-c2e85677c1a5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "Antenna"
 		(at 0 19.685 0)
 		(unlocked yes)
@@ -858,18 +846,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.075)
-			)
-		)
-	)
-	(fp_text user "USB Cable"
-		(at 0 -38.735 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "80ba8ff1-792c-4928-a26b-0bee2e45f302")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -1693,35 +1669,6 @@
 		(net 0)
 		(net_name "")
 		(layer "Edge.Cuts")
-		(uuid "e9ae3db9-9df1-4117-9bc7-9d32bcdd4886")
-		(name "Board Keep Out USB Cable")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -6.2 -47.65) (xy 6.2 -47.65) (xy 6.2 -27.25) (xy -6.2 -27.25)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "Edge.Cuts")
 		(uuid "78b2069c-96d8-4303-a595-70e8e83a1bea")
 		(name "Board Keep Out Suggestion RF")
 		(hatch edge 0.5)
@@ -1744,36 +1691,6 @@
 		(polygon
 			(pts
 				(xy 7.1 26) (xy 21 26) (xy 21 35) (xy -21 35) (xy -21 26) (xy -7.1 26) (xy -7.1 17) (xy 7.1 17)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.CrtYd")
-		(uuid "0090991d-9971-4268-af3f-4ffa40f2f926")
-		(name "USB Cable Keep Out")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints not_allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -5.75 -27.7) (xy -3.94 -27.7) (xy -3.94 -27.4) (xy 3.94 -27.4) (xy 3.94 -27.7) (xy 5.75 -27.7)
-				(xy 5.75 -47.2) (xy -5.75 -47.2)
 			)
 		)
 	)
@@ -1858,16 +1775,14 @@
 	)
 	(group ""
 		(uuid "17314f5e-78d4-4cf1-9375-8c3ca526cb57")
-		(members "0090991d-9971-4268-af3f-4ffa40f2f926" "02fde3e4-ff70-4f24-aaef-9915188f5802"
-			"11c347fd-4a6d-4ebc-a5a3-1df9f74cbcd1" "181803e6-2f22-4ca4-b44a-c2e85677c1a5"
+		(members "02fde3e4-ff70-4f24-aaef-9915188f5802" "11c347fd-4a6d-4ebc-a5a3-1df9f74cbcd1"
 			"23a64cf4-3453-41e3-9635-a8fda23f107b" "35a94c67-b99c-4aa9-9d7a-3a6d7044bbfd"
 			"378a80e3-e8d0-4d69-b1e3-1ee4a6700f06" "3d122c79-ea5f-4573-bd0d-03c8830a7caf"
 			"666817a3-f89b-4365-a041-412fd81c3a9b" "6a900846-913c-40dc-92c3-2103e74dd31a"
-			"80ba8ff1-792c-4928-a26b-0bee2e45f302" "8d2c337f-a3fa-4181-9eea-56a12579c0dc"
-			"91ac7c22-778c-4530-8352-8adb011dcf76" "a72cc846-264f-4861-aa00-341e75fa91cf"
-			"b5ecc23e-0df6-4c02-9304-fc240c774b62" "c648aa29-1533-499e-b013-43f3222ffbd7"
-			"e2bc8e59-0a20-4992-a7d0-e7ed86e914e3" "e30dca59-3e05-4271-894b-6cca521fedfc"
-			"e9ae3db9-9df1-4117-9bc7-9d32bcdd4886" "ed3d60db-f517-47fe-bbe7-614e92d8f361"
+			"8d2c337f-a3fa-4181-9eea-56a12579c0dc" "91ac7c22-778c-4530-8352-8adb011dcf76"
+			"a72cc846-264f-4861-aa00-341e75fa91cf" "b5ecc23e-0df6-4c02-9304-fc240c774b62"
+			"c648aa29-1533-499e-b013-43f3222ffbd7" "e2bc8e59-0a20-4992-a7d0-e7ed86e914e3"
+			"e30dca59-3e05-4271-894b-6cca521fedfc" "ed3d60db-f517-47fe-bbe7-614e92d8f361"
 			"f0166d2f-28b4-4f6c-b2c7-9b19825138f3" "faca8e6d-0347-4dda-8002-a64bb533f22f"
 		)
 	)

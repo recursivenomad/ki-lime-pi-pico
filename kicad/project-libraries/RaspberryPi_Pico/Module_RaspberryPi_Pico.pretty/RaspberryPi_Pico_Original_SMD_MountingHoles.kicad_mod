@@ -825,30 +825,6 @@
 		(layer "F.Fab")
 		(uuid "4b9b3136-ab78-4463-92b9-f8ef51de9617")
 	)
-	(fp_text user "Keep Out"
-		(at 0 -36.195 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "5286999d-bd05-4f5c-8a10-10d8ae1f2a0e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "USB Cable"
-		(at 0 -38.735 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "8bf8a358-d1d8-4dd1-a344-e754e0d2a0c8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
@@ -1656,65 +1632,6 @@
 		(roundrect_rratio 0.2)
 		(uuid "9b514052-2f15-4f3c-9c1c-c7f13a3e7e64")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "Edge.Cuts")
-		(uuid "ac0ebcd6-7ef5-4633-b125-e0e23fcabe64")
-		(name "Board Keep Out USB Cable")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -6.2 -47.65) (xy 6.2 -47.65) (xy 6.2 -27.25) (xy -6.2 -27.25)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.CrtYd")
-		(uuid "2a3d31fd-ed9c-426a-961c-75729c8687d6")
-		(name "USB Cable Keep Out")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints not_allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -5.75 -27.7) (xy -3.94 -27.7) (xy -3.94 -27.4) (xy 3.94 -27.4) (xy 3.94 -27.7) (xy 5.75 -27.7)
-				(xy 5.75 -47.2) (xy -5.75 -47.2)
-			)
-		)
-	)
 	(group ""
 		(uuid "0aad304b-c4de-4153-a8ec-e3cdefa197fa")
 		(members "09d20b56-e92b-43aa-853f-706b178e3b9d" "1b937f0f-1938-4f29-b636-9f36d6715594"
@@ -1797,12 +1714,10 @@
 		(uuid "58d80cde-ed44-4066-9840-f9bf17c9f6c0")
 		(members "0568bae9-bb77-43a0-ae53-e7163a269868" "077c1320-08ce-4de1-9f33-7686cbc552d0"
 			"0b0260a0-3fba-408a-ad74-dec4adb4ba4d" "0b7a6c51-2939-4632-b15c-75ba5a454bbc"
-			"1f40d21e-0edd-4684-86de-5423988e8fd5" "2a3d31fd-ed9c-426a-961c-75729c8687d6"
-			"35956983-b6e2-4863-890a-2fe2395d895b" "49a8fb98-58f4-4c16-8e77-f71290a60b18"
-			"4b9b3136-ab78-4463-92b9-f8ef51de9617" "5286999d-bd05-4f5c-8a10-10d8ae1f2a0e"
+			"1f40d21e-0edd-4684-86de-5423988e8fd5" "35956983-b6e2-4863-890a-2fe2395d895b"
+			"49a8fb98-58f4-4c16-8e77-f71290a60b18" "4b9b3136-ab78-4463-92b9-f8ef51de9617"
 			"57214b65-31b4-41bb-a38b-12c32dd2dd75" "662eb03d-b3fd-4d81-8cf3-4f20afff5205"
-			"8bf8a358-d1d8-4dd1-a344-e754e0d2a0c8" "8d4b264d-2415-4279-b2d6-0438fde00981"
-			"ac0ebcd6-7ef5-4633-b125-e0e23fcabe64" "ac4e8a46-d5fe-44a6-adba-11bd3d8e9bfa"
+			"8d4b264d-2415-4279-b2d6-0438fde00981" "ac4e8a46-d5fe-44a6-adba-11bd3d8e9bfa"
 			"c3515075-32f2-4abf-ad5f-24d3908f57c4" "d19aed14-624a-48ac-a6d1-4bffb27faab4"
 			"dcb4dbb0-2547-4748-ac4c-806e27736dbd" "e1d8b0e3-017c-47a0-a3e6-02582930d514"
 			"ef377e07-0b64-4bfe-a824-546b0d0c7a5d" "f4b05cfb-6fe2-4c0b-9ff1-471dc53a748a"

@@ -1119,30 +1119,6 @@
 			(justify right)
 		)
 	)
-	(fp_text user "Keep Out"
-		(at 0 -36.195 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "a3327834-2386-452e-9f54-0ff49f2c0d74")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "USB Cable"
-		(at 0 -38.735 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "b4d6a7ab-f263-4c24-9760-86dad0bb55a3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
@@ -2006,35 +1982,6 @@
 		(net 0)
 		(net_name "")
 		(layer "Edge.Cuts")
-		(uuid "11d8cc4c-c86a-426e-953f-d525e34d0783")
-		(name "Board Keep Out USB Cable")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -6.2 -47.65) (xy 6.2 -47.65) (xy 6.2 -27.25) (xy -6.2 -27.25)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "Edge.Cuts")
 		(uuid "3343fb34-abf1-4026-a182-a1452c4746da")
 		(name "Board Keep Out Castellated TP")
 		(hatch edge 0.5)
@@ -2125,36 +2072,6 @@
 					(mid 3.432107 -26.749569)
 					(end 2.725 -27.042462)
 				)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.CrtYd")
-		(uuid "8879e731-680d-4811-9ed8-31ff93127a36")
-		(name "USB Cable Keep Out")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints not_allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -5.75 -27.7) (xy -3.94 -27.7) (xy -3.94 -27.4) (xy 3.94 -27.4) (xy 3.94 -27.7) (xy 5.75 -27.7)
-				(xy 5.75 -47.2) (xy -5.75 -47.2)
 			)
 		)
 	)
@@ -2254,15 +2171,13 @@
 	)
 	(group ""
 		(uuid "b5a1fcd2-87af-49fd-91e0-cf79e6a3ea89")
-		(members "11d8cc4c-c86a-426e-953f-d525e34d0783" "130018ad-9453-4cd2-a879-5180b596cf0f"
-			"3ebb9f34-6842-47df-844c-eaf6e9c7e1ba" "4b44ec15-7b4c-4c43-9c7f-344479d52bbe"
-			"4b87377b-8b7a-4aa8-a57d-aafb45f525e1" "4f174578-0163-49c0-a189-3faf29aa4676"
-			"5381837c-9d5a-47ea-8a37-3ad0dcca797e" "5e576027-0186-4ab0-ad5c-d62563306e78"
-			"63d228c1-0817-4df7-a98f-185e3a126f34" "8879e731-680d-4811-9ed8-31ff93127a36"
+		(members "130018ad-9453-4cd2-a879-5180b596cf0f" "3ebb9f34-6842-47df-844c-eaf6e9c7e1ba"
+			"4b44ec15-7b4c-4c43-9c7f-344479d52bbe" "4b87377b-8b7a-4aa8-a57d-aafb45f525e1"
+			"4f174578-0163-49c0-a189-3faf29aa4676" "5381837c-9d5a-47ea-8a37-3ad0dcca797e"
+			"5e576027-0186-4ab0-ad5c-d62563306e78" "63d228c1-0817-4df7-a98f-185e3a126f34"
 			"8af79515-f2e3-4403-9fdb-046338fd5b63" "95f83022-79b0-40c8-bf03-b3d04ac13dff"
 			"9a9141a8-0632-44c2-84f4-a884801ae853" "9e42cd84-2d80-4125-8352-e9955540e772"
-			"9f6ade6d-28c5-4be2-be82-901f80319319" "a3327834-2386-452e-9f54-0ff49f2c0d74"
-			"a569fa1e-0a7c-43c9-b493-58e38a923a30" "b4d6a7ab-f263-4c24-9760-86dad0bb55a3"
+			"9f6ade6d-28c5-4be2-be82-901f80319319" "a569fa1e-0a7c-43c9-b493-58e38a923a30"
 			"cb427d5f-f032-404c-8fa8-52d32b6a6eba" "d7bea2d7-14ef-455d-bc86-b130a44dd5a4"
 			"d9e34e8d-1a76-4bda-88e4-fe2b475efe6e" "e572468c-d2ab-4710-abeb-f66a0ce2e11f"
 		)

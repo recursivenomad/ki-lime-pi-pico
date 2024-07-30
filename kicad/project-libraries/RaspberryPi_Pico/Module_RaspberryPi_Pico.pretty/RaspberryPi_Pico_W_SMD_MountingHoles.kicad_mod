@@ -799,18 +799,6 @@
 			)
 		)
 	)
-	(fp_text user "USB Cable"
-		(at 0 -38.735 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "23ec4eb0-7780-4b32-8b87-56dada10de80")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "^ Suggested board edge for RF ^"
 		(at -14.05 26.67 0)
 		(unlocked yes)
@@ -876,18 +864,6 @@
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "d3967b98-3e3d-43f6-9e80-82833f19e44c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Keep Out"
-		(at 0 -36.195 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "fd0de813-2fcb-4893-8d7e-36390b586ec4")
 		(effects
 			(font
 				(size 1 1)
@@ -1709,35 +1685,6 @@
 		(net 0)
 		(net_name "")
 		(layer "Edge.Cuts")
-		(uuid "a10d47af-037e-43b5-bc10-d59fb0f11649")
-		(name "Board Keep Out USB Cable")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -6.2 -47.65) (xy 6.2 -47.65) (xy 6.2 -27.25) (xy -6.2 -27.25)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "Edge.Cuts")
 		(uuid "880c495b-a81c-4f85-9993-2c804660a5c7")
 		(name "Board Keep Out Suggestion RF")
 		(hatch edge 0.5)
@@ -1760,36 +1707,6 @@
 		(polygon
 			(pts
 				(xy 7.1 26) (xy 21 26) (xy 21 35) (xy -21 35) (xy -21 26) (xy -7.1 26) (xy -7.1 17) (xy 7.1 17)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.CrtYd")
-		(uuid "31774a0d-7be2-496d-8395-9ed183d4929e")
-		(name "USB Cable Keep Out")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints not_allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -5.75 -27.7) (xy -3.94 -27.7) (xy -3.94 -27.4) (xy 3.94 -27.4) (xy 3.94 -27.7) (xy 5.75 -27.7)
-				(xy 5.75 -47.2) (xy -5.75 -47.2)
 			)
 		)
 	)
@@ -1877,15 +1794,13 @@
 		(uuid "ba5398f9-e20e-414e-a593-8d16c1032bc6")
 		(members "11d04c5c-7f44-494c-bccf-46b561ab9ada" "12a7a2c2-e2c3-4780-a802-94efb956a543"
 			"177232ac-c8b2-434c-9c3e-ddc0180ed96e" "21628127-d405-451f-a60e-29671d06b8fc"
-			"23813233-a7db-49f0-9d1e-6761cf6d3ec3" "23ec4eb0-7780-4b32-8b87-56dada10de80"
-			"24e97a77-af4f-42a0-ba7a-a99af6cb483d" "289858ee-1aa5-4858-a0a4-87a16d9a6392"
-			"31774a0d-7be2-496d-8395-9ed183d4929e" "31926ec2-e8a2-4882-b9e3-e12489ac054c"
+			"23813233-a7db-49f0-9d1e-6761cf6d3ec3" "24e97a77-af4f-42a0-ba7a-a99af6cb483d"
+			"289858ee-1aa5-4858-a0a4-87a16d9a6392" "31926ec2-e8a2-4882-b9e3-e12489ac054c"
 			"387b2a23-dd30-4ccd-aa77-c70f33aa2ab7" "669926ea-7a35-4dd9-8c90-7ccfe69b2ec2"
 			"69a5cf88-95e4-4670-909d-f0ece65bc35f" "6ca1d9f8-42a0-46a7-8872-bbe9e00aa26a"
-			"731275c9-4d71-488f-a3dc-c4357e8c93bb" "a10d47af-037e-43b5-bc10-d59fb0f11649"
-			"ad5e03f1-09b9-41f4-9e9e-2962c1035569" "d1794432-40f8-47dc-a1ce-0a4fa76be9d2"
-			"f21976a6-a165-4476-a9b2-1200f9242a8e" "f28f4260-9417-4d87-a308-ba9c2cd96f1d"
-			"f8d6b9c3-4a06-4915-81af-11dbba9a035e" "fd0de813-2fcb-4893-8d7e-36390b586ec4"
+			"731275c9-4d71-488f-a3dc-c4357e8c93bb" "ad5e03f1-09b9-41f4-9e9e-2962c1035569"
+			"d1794432-40f8-47dc-a1ce-0a4fa76be9d2" "f21976a6-a165-4476-a9b2-1200f9242a8e"
+			"f28f4260-9417-4d87-a308-ba9c2cd96f1d" "f8d6b9c3-4a06-4915-81af-11dbba9a035e"
 		)
 	)
 	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W.wrl"
