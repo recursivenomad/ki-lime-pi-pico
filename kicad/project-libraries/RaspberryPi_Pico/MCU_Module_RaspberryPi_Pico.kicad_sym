@@ -857,7 +857,6 @@
 						)
 					)
 				)
-				(alternate "VSYS_IN" power_in line)
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
@@ -1869,7 +1868,6 @@
 						)
 					)
 				)
-				(alternate "VSYS_IN" power_in line)
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
@@ -3311,7 +3309,6 @@
 						)
 					)
 				)
-				(alternate "VSYS_IN" power_in line)
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
@@ -4568,7 +4565,6 @@
 						)
 					)
 				)
-				(alternate "VSYS_IN" power_in line)
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
