@@ -3,6 +3,8 @@
 
 # Backup files
 *-backups/
+_autosave-*
+*auto_saved_files*
 *.bak
 
 # Temporary files
