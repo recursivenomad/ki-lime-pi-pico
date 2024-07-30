@@ -899,7 +899,7 @@
 						)
 					)
 				)
-				(alternate "VBUS_HOST" power_in line)
+				(alternate "VBUS_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at -22.86 15.24 0)
@@ -1910,7 +1910,7 @@
 						)
 					)
 				)
-				(alternate "VBUS_HOST" power_in line)
+				(alternate "VBUS_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at -22.86 15.24 0)
@@ -3351,7 +3351,7 @@
 						)
 					)
 				)
-				(alternate "VBUS_HOST" power_in line)
+				(alternate "VBUS_IN" power_in line)
 			)
 			(pin passive line
 				(at 0 -38.1 90)
@@ -4607,7 +4607,7 @@
 						)
 					)
 				)
-				(alternate "VBUS_HOST" power_in line)
+				(alternate "VBUS_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at -22.86 15.24 0)
