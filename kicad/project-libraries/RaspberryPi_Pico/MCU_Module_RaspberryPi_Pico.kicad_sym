@@ -4790,7 +4790,7 @@
 						)
 					)
 				)
-				(alternate "USB_HOST_GND" power_in line)
+				(alternate "USB_GND_IN" power_in line)
 			)
 			(pin bidirectional line
 				(at 22.86 27.94 180)
