@@ -25,6 +25,8 @@ Original assets which were referenced for geometry/organization (model, symbol, 
 
 - [Raspberry Pi Pico Datasheet][URL-Pico-Sheet]
   - Pico Model: <https://datasheets.raspberrypi.com/pico/Pico-R3-step.zip>
+- [Raspberry Pi Pico 2 Datasheet][URL-Pico-2-Sheet]
+  - Pico 2 Model: <https://datasheets.raspberrypi.com/pico/Pico-2-step-20240708.zip>
 - [Raspberry Pi Pico W Datasheet][URL-Pico-W-Sheet]
   - Pico W Model: <https://datasheets.raspberrypi.com/picow/PicoW-step.zip>
 - [RP2040 Datasheet][URL-RP2040-Sheet]
@@ -32,6 +34,9 @@ Original assets which were referenced for geometry/organization (model, symbol, 
   - RP2040 Symbol: <https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip>
   - Pico Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-KiCAD.zip>
   - Pico W Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-PicoW-KiCAD.zip>
+- [RP2350 Datasheet][URL-RP2350-Sheet]
+- [Hardware design with the RP2350][URL-RP2350-Design]
+  - RP2350 Symbol: <https://datasheets.raspberrypi.com/rp2350/Minimal-KiCAD.zip>
 
 &nbsp;
 
@@ -65,6 +70,9 @@ Original assets which were referenced for geometry/organization (model, symbol, 
 [URL-Gyger-Footprints]: <https://gitlab.com/mgyger/kicad-footprints/-/tree/pico/Module.pretty>
 [URL-Gyger-Symbol]: <https://gitlab.com/mgyger/kicad-symbols/-/blob/pico/MCU_Module.kicad_sym>
 [URL-Pico-Sheet]: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
+[URL-Pico-2-Sheet]: <https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf>
 [URL-Pico-W-Sheet]: <https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf>
 [URL-RP2040-Design]: <https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf>
 [URL-RP2040-Sheet]: <https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf>
+[URL-RP2350-Design]: <https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf>
+[URL-RP2350-Sheet]: <https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf>
