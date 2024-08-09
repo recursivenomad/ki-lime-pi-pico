@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Supplementary USB cable keepout zone for the Raspberry Pi Pico and Pico W, to be added to other Raspberry Pi Pico footprints")
+	(descr "Supplementary USB cable keepout zone for the Raspberry Pi Pico and Pico W, to be added to other Raspberry Pi Pico footprints, also supports Raspberry Pi Pico 2")
 	(tags "Raspberry Pi Pico module keepout usb plug port cable clearance courtyard extra addon")
 	(property "Reference" "REF**"
 		(at 6.985 -46.585 0)
