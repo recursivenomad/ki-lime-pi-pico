@@ -26,6 +26,7 @@
 ==============
 
 - **KiCad 8.0 support** *(For KiCad 7.0 support, see [release 1.1.0][URL-Release-7.0-Support])*
+- **Pico 2 support**
 - **Schematics with alternate pin definitions** to select more specific behaviours for each GPIO, as well as specify power directionality
 - **Generic and specific footprints** for the Pico and Pico W
   - Through-hole and surface-mount footprints with and without mounting holes
