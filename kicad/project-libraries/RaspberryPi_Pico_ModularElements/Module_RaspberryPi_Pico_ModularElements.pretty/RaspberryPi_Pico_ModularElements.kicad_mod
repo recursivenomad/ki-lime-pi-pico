@@ -4500,7 +4500,7 @@
 			)
 		)
 	)
-	(fp_text user "Virtual debug pins (original)"
+	(fp_text user "Virtual debug pins (non-wireless)"
 		(at 398.26 40.7375 0)
 		(unlocked yes)
 		(layer "Cmts.User")
