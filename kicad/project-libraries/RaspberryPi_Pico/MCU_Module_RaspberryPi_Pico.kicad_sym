@@ -2178,6 +2178,14 @@
 					(type none)
 				)
 			)
+			(text "100k"
+				(at 7.3025 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
 			(text "VSYS"
 				(at 12.065 -1.905 0)
 				(effects
