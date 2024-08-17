@@ -2024,7 +2024,7 @@
 				(alternate "UART1_CTS" input line)
 				(alternate "USB_OVCUR_DET" input line)
 			)
-			(pin input clock
+			(pin input line
 				(at -22.86 30.48 0)
 				(length 3.81)
 				(name "SWCLK"
@@ -3665,7 +3665,7 @@
 					(type none)
 				)
 			)
-			(pin input clock
+			(pin input line
 				(at -22.86 30.48 0)
 				(length 3.81)
 				(name "SWCLK"
@@ -4731,7 +4731,7 @@
 				(alternate "UART1_CTS" input line)
 				(alternate "USB_OVCUR_DET" input line)
 			)
-			(pin input clock
+			(pin input line
 				(at -22.86 30.48 0)
 				(length 3.81)
 				(name "SWCLK"
