@@ -21,7 +21,7 @@ Including the BOOTSEL button and LED in footprint Fab layers was also inspired b
 
 ## Raspberry Pi
 
-Original assets which were referenced for geometry/organization (model, symbol, footprint) acquired from Raspberry Pi in 2022 via:
+Original assets which were referenced for geometry/organization (model, symbol, footprint) acquired from Raspberry Pi from 2022-2024 via:
 
 - [Raspberry Pi Pico Datasheet][URL-Pico-Sheet]
   - Pico Model: <https://datasheets.raspberrypi.com/pico/Pico-R3-step.zip>
