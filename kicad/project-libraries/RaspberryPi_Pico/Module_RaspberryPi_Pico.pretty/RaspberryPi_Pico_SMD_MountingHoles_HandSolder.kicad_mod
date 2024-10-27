@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico surface-mount footprint with debug pads for hand soldering (not compatible with Pico W), supports Raspberry Pi Pico 2, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+	(descr "Raspberry Pi Pico (non-W) surface-mount footprint with debug pads for hand soldering, supports Raspberry Pi Pico 2 (non-W), https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "Raspberry Pi Pico module usb pcb swd handsolder")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico virtual footprint (no pads; not compatible with Pico W), supports Raspberry Pi Pico 2, default model is offset by a height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+	(descr "Raspberry Pi Pico (non-W) virtual footprint (no pads), supports Raspberry Pi Pico 2 (non-W), default model is offset by a height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "Raspberry Pi Pico module usb pcb virtual")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)

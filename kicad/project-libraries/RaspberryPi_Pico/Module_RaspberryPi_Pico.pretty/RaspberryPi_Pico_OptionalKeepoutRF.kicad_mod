@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Supplementary RF keepout zone for the Raspberry Pi Pico W (wireless), to be added to other Raspberry Pi Pico footprints, also supports Raspberry Pi Pico 2, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
+	(descr "Supplementary RF keepout zone for the Raspberry Pi Pico W (wireless), to be added to other Raspberry Pi Pico footprints, supports Raspberry Pi Pico 2, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
 	(tags "Raspberry Pi Pico module keepout rf wireless extra addon")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)

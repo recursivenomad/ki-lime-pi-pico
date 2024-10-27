@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Through hole straight socket strip for individual placement alongside a virtual Raspberry Pi Pico, 1x20, 2.54mm pitch, single row, default socket model has height of 8.51mm, also supports Raspberry Pi Pico 2")
+	(descr "Through hole straight socket strip for individual placement alongside a virtual Raspberry Pi Pico, 1x20, 2.54mm pitch, single row, default socket model has height of 8.51mm, supports Raspberry Pi Pico 2")
 	(tags "Raspberry Pi Pico through hole socket strip THT 1x20 2.54mm single row")
 	(property "Reference" "REF**"
 		(at -2.2225 24.13 -90)

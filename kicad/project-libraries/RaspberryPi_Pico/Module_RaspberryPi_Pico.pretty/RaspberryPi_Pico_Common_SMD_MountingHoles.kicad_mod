@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi Pico common surface-mount footprint for reflow or hand soldering, also supports Raspberry Pi Pico 2, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+	(descr "Raspberry Pi Pico common (Pico & Pico W) surface-mount footprint for reflow or hand soldering, supports Raspberry Pi Pico 2, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 	(tags "Raspberry Pi Pico module usb pcb antenna handsolder")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)
