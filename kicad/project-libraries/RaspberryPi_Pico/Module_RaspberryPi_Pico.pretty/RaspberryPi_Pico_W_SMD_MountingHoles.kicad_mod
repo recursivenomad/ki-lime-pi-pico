@@ -315,7 +315,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c37c1c58-f581-41bb-934f-755ddf139a93")
+		(uuid "0f29a643-b548-44ca-8e3f-b0706a90b2f6")
 	)
 	(fp_line
 		(start 4.235 -25.61)
@@ -799,6 +799,18 @@
 			)
 		)
 	)
+	(fp_text user "Keep"
+		(at 1 -5 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "49fa4552-455d-472b-b151-826e96fcea2d")
+		(effects
+			(font
+				(size 0.3333 0.3333)
+				(thickness 0.05)
+			)
+		)
+	)
 	(fp_text user "^ Suggested board edge for RF ^"
 		(at -14.05 26.67 0)
 		(unlocked yes)
@@ -823,6 +835,18 @@
 			)
 		)
 	)
+	(fp_text user "Out"
+		(at 1 -4.365 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "7345b2c4-61d6-4296-9375-d1c9f187f9b3")
+		(effects
+			(font
+				(size 0.3333 0.3333)
+				(thickness 0.05)
+			)
+		)
+	)
 	(fp_text user "Keep Out"
 		(at 0 21.59 0)
 		(unlocked yes)
@@ -832,30 +856,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Out"
-		(at 1 -4.365 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "83adf0f2-717c-4638-8437-d84cb8cd1a69")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
-	(fp_text user "Copper"
-		(at 1 -5.635 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "9cc1cd53-837e-471d-bfaa-759dd6a12a87")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
 			)
 		)
 	)
@@ -883,18 +883,6 @@
 			)
 		)
 	)
-	(fp_text user "Keep"
-		(at 1 -5 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "c2a31e1e-ebdf-48e3-afb4-2700682b242f")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
 	(fp_text user "2.4 GHz RF Keep Out"
 		(at 0 31.75 0)
 		(unlocked yes)
@@ -904,6 +892,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Copper"
+		(at 1 -5.635 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "ee4d5665-1408-4bb9-8d54-0702ceb2c31a")
+		(effects
+			(font
+				(size 0.3333 0.3333)
+				(thickness 0.05)
 			)
 		)
 	)
@@ -1111,25 +1111,25 @@
 		(at -2.725 -24)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "75ca8585-081e-48e0-80c2-5042232e66a5")
+		(uuid "10e8979c-3ac4-4149-925f-ad71aa668b1d")
 	)
 	(pad "" smd oval
 		(at -2.425 -20.97)
 		(size 1.05 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "e97e460c-40ce-402d-b684-c0c97440b1ee")
+		(uuid "d5a1fea9-bc71-4372-821a-42576809e9c9")
 	)
 	(pad "" smd oval
 		(at 2.425 -20.97)
 		(size 1.05 1.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7b0105a6-1c43-4f8e-a868-1134ba111877")
+		(uuid "4c4cd380-62b4-4df4-8824-be7199efe65c")
 	)
 	(pad "" smd oval
 		(at 2.725 -24)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "6ec1e638-6b28-4e26-a392-0a2e31e21852")
+		(uuid "3a588944-1853-4c7d-af4a-38601c997172")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.7 -23.5)
@@ -1981,42 +1981,42 @@
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "e54c5105-5a32-46e0-9510-8a33a3252073")
+		(uuid "e25e8c15-3365-4273-acc4-42782bccaa80")
 	)
 	(pad "TP2" smd roundrect
 		(at 1 -24.3)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "bdf51efc-d781-4c17-9f7b-6623f8842709")
+		(uuid "1e91c76b-2561-4be0-8b94-e1928aa86129")
 	)
 	(pad "TP3" smd roundrect
 		(at -1 -24.3)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "b7d0ef17-7b6d-4640-b9dc-e2465253945d")
+		(uuid "97389c8b-aaa7-4834-a9af-ed0145ae6f3a")
 	)
 	(pad "TP4" smd roundrect
-		(at -2.5 -17.5)
+		(at -2.5 -16)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "176352ac-ca2e-4cc3-b7a5-88a60019e1c4")
+		(uuid "74dd815b-f5e8-482a-a457-e341e7e2739f")
 	)
 	(pad "TP5" smd roundrect
-		(at -2.5 -15)
+		(at -2.5 -13.5)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "ff2164d2-6265-4eb9-a46f-f42b70ff93cd")
+		(uuid "1d176dfc-1b65-4722-9b6e-92484b2d2b27")
 	)
 	(pad "TP6" smd roundrect
-		(at -2.5 -12.5)
+		(at -2.5 -11)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
-		(uuid "5d7cd526-1256-4192-bc60-fe60a0e4a14e")
+		(uuid "464b5738-8f9a-4a58-8fa2-18b436f5525a")
 	)
 	(zone
 		(net 0)
@@ -2081,7 +2081,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "9c8b60aa-3970-48e6-be66-0e852e50ecc5")
+		(uuid "0d6681c9-b5ae-4178-9aac-3a175f676d7d")
 		(name "Pad Keep Out TP7")
 		(hatch full 0.5)
 		(connect_pads
@@ -2113,7 +2113,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "a8039541-a442-4dd1-9a69-be287fe72841")
+		(uuid "0f63b71a-5818-455e-a91a-97c43779f1e1")
 		(name "Pad Keep Out TP7")
 		(hatch full 0.5)
 		(connect_pads
@@ -2229,15 +2229,15 @@
 		)
 	)
 	(group ""
-		(uuid "58304999-3279-4a14-bf30-33af93422150")
-		(members "176352ac-ca2e-4cc3-b7a5-88a60019e1c4" "5d7cd526-1256-4192-bc60-fe60a0e4a14e"
-			"6ec1e638-6b28-4e26-a392-0a2e31e21852" "75ca8585-081e-48e0-80c2-5042232e66a5"
-			"7b0105a6-1c43-4f8e-a868-1134ba111877" "83adf0f2-717c-4638-8437-d84cb8cd1a69"
-			"9c8b60aa-3970-48e6-be66-0e852e50ecc5" "9cc1cd53-837e-471d-bfaa-759dd6a12a87"
-			"a8039541-a442-4dd1-9a69-be287fe72841" "b7d0ef17-7b6d-4640-b9dc-e2465253945d"
-			"bdf51efc-d781-4c17-9f7b-6623f8842709" "c2a31e1e-ebdf-48e3-afb4-2700682b242f"
-			"c37c1c58-f581-41bb-934f-755ddf139a93" "e54c5105-5a32-46e0-9510-8a33a3252073"
-			"e97e460c-40ce-402d-b684-c0c97440b1ee" "ff2164d2-6265-4eb9-a46f-f42b70ff93cd"
+		(uuid "78bba8d5-65f2-454d-a2a9-bd7c8e3e9744")
+		(members "0d6681c9-b5ae-4178-9aac-3a175f676d7d" "0f29a643-b548-44ca-8e3f-b0706a90b2f6"
+			"0f63b71a-5818-455e-a91a-97c43779f1e1" "10e8979c-3ac4-4149-925f-ad71aa668b1d"
+			"1d176dfc-1b65-4722-9b6e-92484b2d2b27" "1e91c76b-2561-4be0-8b94-e1928aa86129"
+			"3a588944-1853-4c7d-af4a-38601c997172" "464b5738-8f9a-4a58-8fa2-18b436f5525a"
+			"49fa4552-455d-472b-b151-826e96fcea2d" "4c4cd380-62b4-4df4-8824-be7199efe65c"
+			"7345b2c4-61d6-4296-9375-d1c9f187f9b3" "74dd815b-f5e8-482a-a457-e341e7e2739f"
+			"97389c8b-aaa7-4834-a9af-ed0145ae6f3a" "d5a1fea9-bc71-4372-821a-42576809e9c9"
+			"e25e8c15-3365-4273-acc4-42782bccaa80" "ee4d5665-1408-4bb9-8d54-0702ceb2c31a"
 		)
 	)
 	(group ""
