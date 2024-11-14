@@ -25,10 +25,12 @@ Original assets which were referenced for geometry/organization (model, symbol, 
 
 - [Raspberry Pi Pico Datasheet][URL-Pico-Sheet]
   - Pico Model: <https://datasheets.raspberrypi.com/pico/Pico-R3-step.zip>
+  - Pico Board Files: <https://datasheets.raspberrypi.com/pico/RPi-Pico-R3-PUBLIC-20200119.zip>
 - [Raspberry Pi Pico 2 Datasheet][URL-Pico-2-Sheet]
   - Pico 2 Model: <https://datasheets.raspberrypi.com/pico/Pico-2-step-20240708.zip>
 - [Raspberry Pi Pico W Datasheet][URL-Pico-W-Sheet]
   - Pico W Model: <https://datasheets.raspberrypi.com/picow/PicoW-step.zip>
+  - Pico W Board Files: <https://datasheets.raspberrypi.com/picow/RPi-PicoW-PUBLIC-20220607.zip>
 - [RP2040 Datasheet][URL-RP2040-Sheet]
 - [Hardware design with the RP2040][URL-RP2040-Design]
   - RP2040 Symbol: <https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip>
