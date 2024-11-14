@@ -647,6 +647,20 @@
 	)
 	(fp_poly
 		(pts
+			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
+			(xy 5.9 -3.2) (xy 5.2 -3.9) (xy 4.55 -3.9) (xy 4.3 -4.15) (xy 4.3 -11.05) (xy 4.85 -11.6) (xy 7.15 -11.6)
+			(xy 7.78 -12.23) (xy 10.5 -12.23)
+		)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "695377c1-1ec3-40d3-9f4e-0ccf91059280")
+	)
+	(fp_poly
+		(pts
 			(xy -4.5 -27.4) (xy 4.5 -27.4) (xy 4.5 -25.75) (xy 11.54 -25.75) (xy 11.54 26.55) (xy -11.54 26.55)
 			(xy -11.54 -25.75) (xy -4.5 -25.75)
 		)
@@ -838,6 +852,18 @@
 			(font
 				(size 0.3333 0.3333)
 				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "AGND Plane"
+		(at 5.08 -7.62 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "4e1e41bf-7908-4500-9ad9-e5feb94fad71")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
 			)
 		)
 	)
@@ -2135,7 +2161,8 @@
 	(group ""
 		(uuid "bbb1d6ac-3067-4d55-8b13-1d47542aed15")
 		(members "04a77aa1-036c-4382-910d-ee3346aaeb8b" "4cdfb585-b7d4-4fe2-966e-60309ee599d3"
-			"55b83b36-9516-4c4e-b64f-051975288fda" "7450b698-62d4-408e-8065-3208c8b6337c"
+			"4e1e41bf-7908-4500-9ad9-e5feb94fad71" "55b83b36-9516-4c4e-b64f-051975288fda"
+			"695377c1-1ec3-40d3-9f4e-0ccf91059280" "7450b698-62d4-408e-8065-3208c8b6337c"
 			"835c2509-3448-44fb-a4d6-d6a2de3dbb8e" "842acf38-c4fc-4155-9ab1-2376310fd191"
 			"843d99b1-eefa-4796-ad7e-74f2cb7b4281" "97c5cb20-4625-4759-b1d1-fb9ebc707b33"
 			"ad228dec-93ce-4b35-b1f3-559d96cfb538" "b80884aa-9519-480f-87e6-565c3d7015a4"

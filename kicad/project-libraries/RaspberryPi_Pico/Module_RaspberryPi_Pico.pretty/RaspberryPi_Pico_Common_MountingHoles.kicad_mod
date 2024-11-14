@@ -1183,6 +1183,20 @@
 	)
 	(fp_poly
 		(pts
+			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
+			(xy 5.9 -3.2) (xy 5.2 -3.9) (xy 4.55 -3.9) (xy 4.3 -4.15) (xy 4.3 -11.05) (xy 4.85 -11.6) (xy 7.15 -11.6)
+			(xy 7.78 -12.23) (xy 10.5 -12.23)
+		)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d5c633ae-dd0b-43cf-9acc-112e0728ba7f")
+	)
+	(fp_poly
+		(pts
 			(xy -4.5 -27.4) (xy 4.5 -27.4) (xy 4.5 -25.75) (xy 11.54 -25.75) (xy 11.54 26.55) (xy -11.54 26.55)
 			(xy -11.54 -25.75) (xy -4.5 -25.75)
 		)
@@ -1458,6 +1472,18 @@
 			(font
 				(size 0.3333 0.3333)
 				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "AGND Plane"
+		(at 5.08 -7.62 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "59f9cce4-73eb-4b86-bd29-adc58a8c0850")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
 			)
 		)
 	)
@@ -3541,11 +3567,12 @@
 		(members "1a7cb90a-ddf3-4bab-9c4e-ea67ba7bbaa0" "2bfbd164-474f-46af-8608-43829833466a"
 			"4af5ba37-d2c3-4d98-92e0-a58e04d42068" "4b3b60b1-7466-4df2-8c41-9acdafe38dc9"
 			"51e99f4d-aea5-4e64-b96d-bea9f668ee9f" "5415fec0-8504-49b9-80e1-d8461e324625"
-			"5c472679-225f-4e01-b0d4-ec49c10819a0" "6ac16294-2df8-49c7-b634-100a52f79576"
-			"77ab07e2-e505-499d-938a-a21ef4efa809" "8b8d9959-8a74-487a-abd3-722e0fe3294a"
-			"9db3cc21-d557-4a57-88f2-281576b3a12f" "ad4162bc-42d0-43ae-aa18-73de7554cc34"
-			"af63ef84-abc7-4362-8edc-c3dab33b22e9" "b98ca78b-125b-4838-8f3b-5b9a2e149dfa"
-			"be7d5a0b-5a14-4443-8373-c663c51a316e" "c6457ddb-b5b6-486e-aaf5-0ede3021fb0a"
+			"59f9cce4-73eb-4b86-bd29-adc58a8c0850" "5c472679-225f-4e01-b0d4-ec49c10819a0"
+			"6ac16294-2df8-49c7-b634-100a52f79576" "77ab07e2-e505-499d-938a-a21ef4efa809"
+			"8b8d9959-8a74-487a-abd3-722e0fe3294a" "9db3cc21-d557-4a57-88f2-281576b3a12f"
+			"ad4162bc-42d0-43ae-aa18-73de7554cc34" "af63ef84-abc7-4362-8edc-c3dab33b22e9"
+			"b98ca78b-125b-4838-8f3b-5b9a2e149dfa" "be7d5a0b-5a14-4443-8373-c663c51a316e"
+			"c6457ddb-b5b6-486e-aaf5-0ede3021fb0a" "d5c633ae-dd0b-43cf-9acc-112e0728ba7f"
 			"dcc0ffe1-19e5-4f7b-ab89-36d11500c8d6" "e1532e19-5d5d-4d80-bee5-9f8fda663418"
 		)
 	)

@@ -643,6 +643,20 @@
 	)
 	(fp_poly
 		(pts
+			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
+			(xy 5.9 -3.2) (xy 5.2 -3.9) (xy 4.55 -3.9) (xy 4.3 -4.15) (xy 4.3 -11.05) (xy 4.85 -11.6) (xy 7.15 -11.6)
+			(xy 7.78 -12.23) (xy 10.5 -12.23)
+		)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "b82b2a38-d6b9-41df-b80c-7ffb050186eb")
+	)
+	(fp_poly
+		(pts
 			(xy -4.5 -27.4) (xy 4.5 -27.4) (xy 4.5 -25.75) (xy 11.54 -25.75) (xy 11.54 26.55) (xy -11.54 26.55)
 			(xy -11.54 -25.75) (xy -4.5 -25.75)
 		)
@@ -824,6 +838,18 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "4b9b3136-ab78-4463-92b9-f8ef51de9617")
+	)
+	(fp_text user "AGND Plane"
+		(at 5.08 -7.62 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "65986948-d0bb-4cad-bec6-ab042a831a94")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
 	)
 	(fp_text user "Copper"
 		(at 1 -5.635 0)
@@ -2120,15 +2146,6 @@
 		)
 	)
 	(group ""
-		(uuid "49e888c5-d6bf-4125-8fc7-d23779359abe")
-		(members "34d89ddd-fa4f-42d0-8543-9fdc591b4395" "35a6b26e-8c05-4134-abe9-5b1c76eee211"
-			"4d1aef9a-4300-4679-8948-368c1cd03230" "81c80ca2-8656-4bb8-8831-093a48b713a4"
-			"9b975c35-eec0-46ae-b333-819d121bcfad" "9e242478-b0d1-4628-b8e9-8d6c4b4d8c48"
-			"a4ecdd36-1d8a-4493-9345-83f1a9b81909" "c60d7f04-ea82-459c-b2dc-f1be8302658b"
-			"c871fdd9-fef3-4928-b449-e0e72bea2560" "c93e5376-98da-41bb-a976-5624d972f679"
-		)
-	)
-	(group ""
 		(uuid "e9e64e77-0b0f-42d5-a633-d19d89247668")
 		(members "09b137d3-d4c3-4b51-8c45-3e23b6c8907d" "0aaa47f4-5b7f-4170-9593-17915d6bd0d4"
 			"0e3bd43d-f48e-41df-b943-97b852a6d96b" "1383695e-0909-409b-8702-185ca268f09e"
@@ -2171,6 +2188,16 @@
 			"e98c6b81-02ef-4072-8bfd-4cf061d5f152" "f011275a-4705-46d0-859a-7ad70fef7f67"
 			"f06085a1-4ef1-4a7e-99a3-f7c49aca82f3" "fd1bfc91-ee0f-4107-a8de-8c2fe5dd3cc0"
 			"fe58ace2-0019-459e-9cd0-24a5521d5e88" "ff494c63-1121-4e36-82af-8b0e2af9b4e1"
+		)
+	)
+	(group ""
+		(uuid "49e888c5-d6bf-4125-8fc7-d23779359abe")
+		(members "34d89ddd-fa4f-42d0-8543-9fdc591b4395" "35a6b26e-8c05-4134-abe9-5b1c76eee211"
+			"4d1aef9a-4300-4679-8948-368c1cd03230" "65986948-d0bb-4cad-bec6-ab042a831a94"
+			"81c80ca2-8656-4bb8-8831-093a48b713a4" "9b975c35-eec0-46ae-b333-819d121bcfad"
+			"9e242478-b0d1-4628-b8e9-8d6c4b4d8c48" "a4ecdd36-1d8a-4493-9345-83f1a9b81909"
+			"b82b2a38-d6b9-41df-b80c-7ffb050186eb" "c60d7f04-ea82-459c-b2dc-f1be8302658b"
+			"c871fdd9-fef3-4928-b449-e0e72bea2560" "c93e5376-98da-41bb-a976-5624d972f679"
 		)
 	)
 	(group ""

@@ -707,6 +707,20 @@
 	)
 	(fp_poly
 		(pts
+			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
+			(xy 5.9 -3.2) (xy 5.2 -3.9) (xy 4.55 -3.9) (xy 4.3 -4.15) (xy 4.3 -11.05) (xy 4.85 -11.6) (xy 7.15 -11.6)
+			(xy 7.78 -12.23) (xy 10.5 -12.23)
+		)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "4a42b87f-7dbb-4356-ae19-06416dce771c")
+	)
+	(fp_poly
+		(pts
 			(xy -4.5 -27.4) (xy 4.5 -27.4) (xy 4.5 -25.75) (xy 11.54 -25.75) (xy 11.54 26.55) (xy -11.54 26.55)
 			(xy -11.54 -25.75) (xy -4.5 -25.75)
 		)
@@ -1042,6 +1056,18 @@
 			(font
 				(size 0.3333 0.3333)
 				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "AGND Plane"
+		(at 5.08 -7.62 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "f788b138-ff96-4aaa-b0df-30bcaaa18cf8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
 			)
 		)
 	)
@@ -2868,12 +2894,13 @@
 		(members "049acd2e-2a5a-4c6d-98b7-1b94481ed766" "06505959-7b6d-49fd-aca3-88134ca9dbd5"
 			"12fc3e72-f66c-489c-9281-e932945acae7" "2cdde00f-abdb-42e8-9a57-578513d0fd14"
 			"40a4cc19-7be8-4b3d-b61d-3f876f93c9d9" "47a0b427-6f0b-4809-81db-1d8a3e318752"
-			"596d80fa-a154-4108-9077-9ced83880b6d" "5cd2c594-8319-4e79-9a50-81958f6a7456"
-			"679fd41b-1be6-4edc-969d-e454211d1d05" "834ade37-1c12-40da-a1bc-e6959c29041e"
-			"8b19f214-e4ee-489d-a69c-7b2474668639" "979d114b-fa82-4236-ae54-75e579a4ec68"
-			"a3ac7e9f-f827-4581-9c76-314d9e864fc8" "bae62214-ce11-4bf1-a5a6-4052e8d3d0ee"
-			"d414eddb-b532-4013-a31a-3b5fe50b1922" "d82d57e9-ef7e-4255-9669-cdd003c1e2f2"
-			"d9ff38d2-1fdb-4715-a609-2bdb6094681e" "fa3dc999-33d8-4818-b23d-c39e29f7a8da"
+			"4a42b87f-7dbb-4356-ae19-06416dce771c" "596d80fa-a154-4108-9077-9ced83880b6d"
+			"5cd2c594-8319-4e79-9a50-81958f6a7456" "679fd41b-1be6-4edc-969d-e454211d1d05"
+			"834ade37-1c12-40da-a1bc-e6959c29041e" "8b19f214-e4ee-489d-a69c-7b2474668639"
+			"979d114b-fa82-4236-ae54-75e579a4ec68" "a3ac7e9f-f827-4581-9c76-314d9e864fc8"
+			"bae62214-ce11-4bf1-a5a6-4052e8d3d0ee" "d414eddb-b532-4013-a31a-3b5fe50b1922"
+			"d82d57e9-ef7e-4255-9669-cdd003c1e2f2" "d9ff38d2-1fdb-4715-a609-2bdb6094681e"
+			"f788b138-ff96-4aaa-b0df-30bcaaa18cf8" "fa3dc999-33d8-4818-b23d-c39e29f7a8da"
 		)
 	)
 	(group ""

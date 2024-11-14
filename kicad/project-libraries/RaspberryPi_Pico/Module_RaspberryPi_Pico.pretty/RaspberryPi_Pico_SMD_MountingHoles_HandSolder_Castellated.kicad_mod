@@ -671,6 +671,20 @@
 		(layer "F.SilkS")
 		(uuid "391ee025-3da9-42fc-8810-472b08eea749")
 	)
+	(fp_poly
+		(pts
+			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
+			(xy 5.9 -3.2) (xy 5.2 -3.9) (xy 4.55 -3.9) (xy 4.3 -4.15) (xy 4.3 -11.05) (xy 4.85 -11.6) (xy 7.15 -11.6)
+			(xy 7.78 -12.23) (xy 10.5 -12.23)
+		)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "e9140a3d-7d26-4b1f-a35b-5b2887c1693a")
+	)
 	(fp_line
 		(start -6.35 -27.94)
 		(end -4.7625 -26.3525)
@@ -1104,6 +1118,18 @@
 				(thickness 0.075)
 			)
 			(justify left)
+		)
+	)
+	(fp_text user "AGND Plane"
+		(at 5.08 -7.62 90)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "369d1401-cd19-44b7-9ef0-c2f0a6d26838")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
 		)
 	)
 	(fp_text user "Copper"
@@ -2592,15 +2618,6 @@
 		)
 	)
 	(group ""
-		(uuid "4b23c8c1-261c-4c27-9501-23ae2f3756c7")
-		(members "0168cacd-5593-4367-b5d6-bcadf4f7c608" "213ecf63-f206-43c9-a208-343060d28ffa"
-			"277458c2-b0fd-4622-98a5-586a6803b9ce" "391ee025-3da9-42fc-8810-472b08eea749"
-			"5ae39ac8-4e2e-4d78-88b1-c68c351661f4" "6cffb664-a9b3-4d8e-9c42-93bc125dfd74"
-			"76382e9f-b4e1-4153-942d-e65c2a5ed6ec" "a2c5f451-1618-4a04-b3f3-361137e023c6"
-			"de9ae0e6-3503-422d-aa8b-d71c48104f05" "f4c44c89-2bd8-4d30-81f4-179a01137a1d"
-		)
-	)
-	(group ""
 		(uuid "924a292e-c2e8-4440-b33d-6c67c8f03bcf")
 		(members "00499cf4-f980-43b1-ba62-3a434b3a1019" "02173bbc-e825-4823-9c0a-8a190867217b"
 			"04e69c04-0ab4-4693-a310-e6fcfff644a2" "0e517ebc-cdc6-45f0-aaab-534035661958"
@@ -2643,6 +2660,16 @@
 			"f59b288f-ef51-4abf-841a-465dac6bba06" "f83bb627-22d2-48c9-9594-f9db06aa2738"
 			"fb1bd794-22a5-451f-9ae4-521ed9fff44c" "fd3c9225-ddbd-45dd-accb-7d854bb98fb0"
 			"fd4ffaf9-8533-4f1c-a7aa-c764a4e6bdcb" "fd6e6ce9-8175-427b-9d5e-d996c1e57fcd"
+		)
+	)
+	(group ""
+		(uuid "4b23c8c1-261c-4c27-9501-23ae2f3756c7")
+		(members "0168cacd-5593-4367-b5d6-bcadf4f7c608" "213ecf63-f206-43c9-a208-343060d28ffa"
+			"277458c2-b0fd-4622-98a5-586a6803b9ce" "369d1401-cd19-44b7-9ef0-c2f0a6d26838"
+			"391ee025-3da9-42fc-8810-472b08eea749" "5ae39ac8-4e2e-4d78-88b1-c68c351661f4"
+			"6cffb664-a9b3-4d8e-9c42-93bc125dfd74" "76382e9f-b4e1-4153-942d-e65c2a5ed6ec"
+			"a2c5f451-1618-4a04-b3f3-361137e023c6" "de9ae0e6-3503-422d-aa8b-d71c48104f05"
+			"e9140a3d-7d26-4b1f-a35b-5b2887c1693a" "f4c44c89-2bd8-4d30-81f4-179a01137a1d"
 		)
 	)
 	(group ""
