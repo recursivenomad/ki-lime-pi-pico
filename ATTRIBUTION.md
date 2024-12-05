@@ -31,6 +31,7 @@ Original assets which were referenced for geometry/organization (model, symbol, 
 - [Raspberry Pi Pico W Datasheet][URL-Pico-W-Sheet]
   - Pico W Model: <https://datasheets.raspberrypi.com/picow/PicoW-step.zip>
   - Pico W Board Files: <https://datasheets.raspberrypi.com/picow/RPi-PicoW-PUBLIC-20220607.zip>
+- [Raspeberry Pi Pico 2 W Datasheet][URL-Pico-2-W-Sheet]
 - [RP2040 Datasheet][URL-RP2040-Sheet]
 - [Hardware design with the RP2040][URL-RP2040-Design]
   - RP2040 Symbol: <https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip>
@@ -74,6 +75,7 @@ Original assets which were referenced for geometry/organization (model, symbol, 
 [URL-Pico-Sheet]: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
 [URL-Pico-2-Sheet]: <https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf>
 [URL-Pico-W-Sheet]: <https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf>
+[URL-Pico-W-2-Sheet]: <https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf>
 [URL-RP2040-Design]: <https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf>
 [URL-RP2040-Sheet]: <https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf>
 [URL-RP2350-Design]: <https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf>

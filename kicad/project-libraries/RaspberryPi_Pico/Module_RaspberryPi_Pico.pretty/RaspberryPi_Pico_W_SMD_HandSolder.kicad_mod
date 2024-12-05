@@ -859,18 +859,6 @@
 		(layer "F.Fab")
 		(uuid "dd701248-06ab-4f6d-8ba6-524922cdcfe6")
 	)
-	(fp_text user "Copper"
-		(at 1 -5.635 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "055114ee-69a9-49ab-9220-02f2080dbe6b")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
 	(fp_text user "Exposed Copper Keep Out"
 		(at -2.5 -14.25 90)
 		(unlocked yes)
@@ -943,18 +931,6 @@
 			)
 		)
 	)
-	(fp_text user "Out"
-		(at 1 -4.365 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "41cd17f5-e357-4d9b-92d6-9ffa6c2522e9")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
 	(fp_text user "Keep Out"
 		(at 0 -36.195 0)
 		(unlocked yes)
@@ -976,18 +952,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.075)
-			)
-		)
-	)
-	(fp_text user "Keep"
-		(at 1 -5 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "8d83e224-c716-4f3f-8ba3-c17f6c9c5120")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
 			)
 		)
 	)
@@ -2416,38 +2380,6 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "F.Paste")
-		(uuid "76bd8360-c188-4246-a4bc-165457886031")
-		(name "Pad Keep Out TP7")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 0.052139 -5.515545) (xy 0.086068 -5.642167) (xy 0.151612 -5.755694) (xy 0.244306 -5.848388)
-				(xy 0.357833 -5.913932) (xy 0.484455 -5.947861) (xy 0.55 -5.95) (xy 1 -5.95) (xy 1 -4.05) (xy 0.55 -4.05)
-				(xy 0.484455 -4.052139) (xy 0.357833 -4.086068) (xy 0.244306 -4.151612) (xy 0.151612 -4.244306)
-				(xy 0.086068 -4.357833) (xy 0.052139 -4.484455) (xy 0.05 -4.55) (xy 0.05 -5.45)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "F.Paste")
 		(uuid "8e8ea3d5-4ab4-493a-87d1-a0a674c06d3c")
 		(name "Pad Keep Out TP2")
 		(hatch full 0.5)
@@ -2473,38 +2405,6 @@
 				(xy 1.848388 -23.529306) (xy 1.913933 -23.642833) (xy 1.947861 -23.769455) (xy 1.95 -23.835) (xy 1.95 -24.735)
 				(xy 1.947861 -24.800545) (xy 1.913933 -24.927167) (xy 1.848388 -25.040694) (xy 1.755694 -25.133388)
 				(xy 1.642167 -25.198933) (xy 1.515545 -25.232861) (xy 1.45 -25.235) (xy 1 -25.235)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "F.Paste")
-		(uuid "d3ba9af9-0e74-4614-b036-7f110dbafb01")
-		(name "Pad Keep Out TP7")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 1 -4.05) (xy 1.45 -4.05) (xy 1.515545 -4.052139) (xy 1.642167 -4.086067) (xy 1.755694 -4.151612)
-				(xy 1.848388 -4.244306) (xy 1.913933 -4.357833) (xy 1.947861 -4.484455) (xy 1.95 -4.55) (xy 1.95 -5.45)
-				(xy 1.947861 -5.515545) (xy 1.913933 -5.642167) (xy 1.848388 -5.755694) (xy 1.755694 -5.848388)
-				(xy 1.642167 -5.913933) (xy 1.515545 -5.947861) (xy 1.45 -5.95) (xy 1 -5.95)
 			)
 		)
 	)
@@ -2611,20 +2511,18 @@
 	)
 	(group ""
 		(uuid "9e2f4e1d-4f03-4fc0-b299-5252b913bf70")
-		(members "055114ee-69a9-49ab-9220-02f2080dbe6b" "07e15c8d-2146-430d-8371-8ba19985be54"
-			"194afe2c-b919-4059-af59-50c30b68cbde" "1c3c79d3-b785-4998-8b2e-48dcce9fd4b2"
-			"26bedcbb-332c-4dd7-be75-068357c2bfc1" "2c746860-cef5-4d7c-acb5-87beceed5bac"
-			"2d058cdc-3894-4abe-b589-f47aa4c39552" "2e40ffa7-dda1-4781-ad42-3dcae763a13c"
-			"32347b2c-ad98-4d03-bc69-21dbafa8ae6e" "41cd17f5-e357-4d9b-92d6-9ffa6c2522e9"
+		(members "07e15c8d-2146-430d-8371-8ba19985be54" "194afe2c-b919-4059-af59-50c30b68cbde"
+			"1c3c79d3-b785-4998-8b2e-48dcce9fd4b2" "26bedcbb-332c-4dd7-be75-068357c2bfc1"
+			"2c746860-cef5-4d7c-acb5-87beceed5bac" "2d058cdc-3894-4abe-b589-f47aa4c39552"
+			"2e40ffa7-dda1-4781-ad42-3dcae763a13c" "32347b2c-ad98-4d03-bc69-21dbafa8ae6e"
 			"4fd9c5b4-125a-4114-bf72-ecbf2155b4ce" "5d9f3399-fe6d-4878-953f-fba4e0a499f0"
 			"5f2e2710-1519-4f8c-80ec-453a35f4d619" "63268102-1cec-4c69-b10f-e5a7e9faccc0"
-			"76bd8360-c188-4246-a4bc-165457886031" "785f8477-80e4-4615-ad3b-3a076d77e06d"
-			"7daf3f50-a107-425d-a54e-50e39bc1a503" "83f2b25e-4fd1-4cc8-8a12-b9e5b77f134d"
-			"8d83e224-c716-4f3f-8ba3-c17f6c9c5120" "8e8ea3d5-4ab4-493a-87d1-a0a674c06d3c"
+			"785f8477-80e4-4615-ad3b-3a076d77e06d" "7daf3f50-a107-425d-a54e-50e39bc1a503"
+			"83f2b25e-4fd1-4cc8-8a12-b9e5b77f134d" "8e8ea3d5-4ab4-493a-87d1-a0a674c06d3c"
 			"9209a177-aba7-4784-ab14-1db1e986751a" "afea2bfc-2ea4-4c3e-a003-63fd532991c5"
 			"b854be7f-a2b7-499c-9a7f-30b963f68246" "bf5aadb7-427f-4577-a3f2-e754a1436312"
-			"d3ba9af9-0e74-4614-b036-7f110dbafb01" "d52cafa9-7b55-4236-9ba2-85a1ba15927d"
-			"dc5724bc-c5d2-4a86-8d30-c00fe32fc60e" "f083448e-9265-4927-819e-be8f25de1da1"
+			"d52cafa9-7b55-4236-9ba2-85a1ba15927d" "dc5724bc-c5d2-4a86-8d30-c00fe32fc60e"
+			"f083448e-9265-4927-819e-be8f25de1da1"
 		)
 	)
 	(group ""

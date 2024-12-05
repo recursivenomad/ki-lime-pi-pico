@@ -789,18 +789,6 @@
 		(layer "F.Fab")
 		(uuid "6a900846-913c-40dc-92c3-2103e74dd31a")
 	)
-	(fp_text user "Keep"
-		(at 1 -5 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "03742faa-56b4-41f0-b6d4-b390eba01083")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
 	(fp_text user "2.4 GHz RF Keep Out"
 		(at 0 31.75 0)
 		(unlocked yes)
@@ -861,18 +849,6 @@
 			)
 		)
 	)
-	(fp_text user "Out"
-		(at 1 -4.365 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "6e92c911-5abc-471a-ab84-6322b1c64b99")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
-			)
-		)
-	)
 	(fp_text user "^ Suggested board edge for RF ^"
 		(at -14.05 26.67 0)
 		(unlocked yes)
@@ -882,18 +858,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.075)
-			)
-		)
-	)
-	(fp_text user "Copper"
-		(at 1 -5.635 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "d1059434-89e5-4684-861c-e11d193c5ecf")
-		(effects
-			(font
-				(size 0.3333 0.3333)
-				(thickness 0.05)
 			)
 		)
 	)
@@ -2064,70 +2028,6 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "F.Paste")
-		(uuid "42afd41b-044e-4573-ba71-7d5577bde600")
-		(name "Pad Keep Out TP7")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 0.052139 -5.515545) (xy 0.086068 -5.642167) (xy 0.151612 -5.755694) (xy 0.244306 -5.848388)
-				(xy 0.357833 -5.913932) (xy 0.484455 -5.947861) (xy 0.55 -5.95) (xy 1 -5.95) (xy 1 -4.05) (xy 0.55 -4.05)
-				(xy 0.484455 -4.052139) (xy 0.357833 -4.086068) (xy 0.244306 -4.151612) (xy 0.151612 -4.244306)
-				(xy 0.086068 -4.357833) (xy 0.052139 -4.484455) (xy 0.05 -4.55) (xy 0.05 -5.45)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "F.Paste")
-		(uuid "501dac2f-07fb-4864-ae1f-dc2e0e72ec77")
-		(name "Pad Keep Out TP7")
-		(hatch full 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 1 -4.05) (xy 1.45 -4.05) (xy 1.515545 -4.052139) (xy 1.642167 -4.086067) (xy 1.755694 -4.151612)
-				(xy 1.848388 -4.244306) (xy 1.913933 -4.357833) (xy 1.947861 -4.484455) (xy 1.95 -4.55) (xy 1.95 -5.45)
-				(xy 1.947861 -5.515545) (xy 1.913933 -5.642167) (xy 1.848388 -5.755694) (xy 1.755694 -5.848388)
-				(xy 1.642167 -5.913933) (xy 1.515545 -5.947861) (xy 1.45 -5.95) (xy 1 -5.95)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
 		(layer "Edge.Cuts")
 		(uuid "78b2069c-96d8-4303-a595-70e8e83a1bea")
 		(name "Board Keep Out Suggestion RF")
@@ -2214,14 +2114,12 @@
 	)
 	(group ""
 		(uuid "1f4bc4c3-3f3f-4d88-afdd-c9ef3c958900")
-		(members "03742faa-56b4-41f0-b6d4-b390eba01083" "0d593358-244b-4333-ad96-e03ae01217c1"
-			"1666864c-7d1a-4e4b-8e19-17d633d77db3" "173e9ec8-b882-4ab1-ab52-d9a5eb51cea6"
-			"17c6e78a-927f-4f73-9fc7-e0c2c55517a3" "3202bccd-f48d-40e0-9902-b432b7c15f55"
-			"42afd41b-044e-4573-ba71-7d5577bde600" "501dac2f-07fb-4864-ae1f-dc2e0e72ec77"
-			"5100346b-1170-4ccd-9f03-73420b7b1f49" "6285563c-c62f-470c-b4c9-e620f43e0d26"
-			"6e92c911-5abc-471a-ab84-6322b1c64b99" "8f06d79f-867c-49a3-b407-6187b1910fa7"
+		(members "0d593358-244b-4333-ad96-e03ae01217c1" "1666864c-7d1a-4e4b-8e19-17d633d77db3"
+			"173e9ec8-b882-4ab1-ab52-d9a5eb51cea6" "17c6e78a-927f-4f73-9fc7-e0c2c55517a3"
+			"3202bccd-f48d-40e0-9902-b432b7c15f55" "5100346b-1170-4ccd-9f03-73420b7b1f49"
+			"6285563c-c62f-470c-b4c9-e620f43e0d26" "8f06d79f-867c-49a3-b407-6187b1910fa7"
 			"a0a6aa02-eacc-40d0-b920-08d7f3df6987" "ada08587-7e69-4c3d-bfbf-61328b33223a"
-			"bb7e0e2b-6b89-439b-9cd0-792e06949393" "d1059434-89e5-4684-861c-e11d193c5ecf"
+			"bb7e0e2b-6b89-439b-9cd0-792e06949393"
 		)
 	)
 	(group ""
