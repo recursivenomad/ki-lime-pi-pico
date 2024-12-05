@@ -63,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?Original*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1038,7 +1038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Original_SMD_HandSolder"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_SMD_HandSolder"
 			(at 0 -49.53 0)
 			(effects
 				(font
@@ -1074,7 +1074,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?Original?SMD*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?SMD*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Original_Virtual"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Virtual"
 			(at 0 -49.53 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?Original?Virtual*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Virtual*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Original_SMD"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_SMD"
 			(at 0 -49.53 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?Original?SMD RaspberryPi?Pico?Original?SMD?MoutingHoles RaspberryPi?Pico?Original?SMD?MoutingHoles?HandSolder?Castellated"
+		(property "ki_fp_filters" "RaspberryPi?Pico?SMD RaspberryPi?Pico?SMD?MoutingHoles RaspberryPi?Pico?SMD?MoutingHoles?HandSolder?Castellated"
 			(at 0 0 0)
 			(effects
 				(font
