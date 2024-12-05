@@ -3779,7 +3779,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?SMD RaspberryPi?Pico?SMD?MoutingHoles RaspberryPi?Pico?SMD?MoutingHoles?HandSolder?Castellated"
+		(property "ki_fp_filters" "RaspberryPi?Pico?SMD RaspberryPi?Pico?SMD?MountingHoles RaspberryPi?Pico?SMD?MountingHoles?HandSolder?Castellated"
 			(at 0 0 0)
 			(effects
 				(font
