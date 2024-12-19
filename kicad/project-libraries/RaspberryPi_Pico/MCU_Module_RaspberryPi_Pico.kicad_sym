@@ -3779,7 +3779,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?SMD RaspberryPi?Pico?SMD?MountingHoles RaspberryPi?Pico?SMD?MountingHoles?HandSolder?Castellated"
+		(property "ki_fp_filters" "RaspberryPi?Pico?SMD RaspberryPi?Pico?SMD*Castellated"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4950,7 +4950,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?W*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?W?SMD*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5150,7 +5150,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?W?SMD RaspberryPi?Pico?W?SMD?MountingHoles RaspberryPi?Pico?W?SMD?MountingHoles?HandSolder?Castellated"
+		(property "ki_fp_filters" "RaspberryPi?Pico?W?SMD RaspberryPi?Pico?W?SMD*Castellated"
 			(at 0 0 0)
 			(effects
 				(font
