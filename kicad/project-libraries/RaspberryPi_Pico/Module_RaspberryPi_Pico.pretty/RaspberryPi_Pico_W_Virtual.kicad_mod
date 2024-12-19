@@ -1367,19 +1367,6 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.5 -27.3) (xy 4.5 -27.3) (xy 4.5 -25.75) (xy 11.54 -25.75) (xy 11.54 26.55) (xy -11.54 26.55)
-			(xy -11.54 -25.75) (xy -4.5 -25.75)
-		)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "5b93f133-2dbb-4016-a1a8-76395163d25e")
-	)
-	(fp_poly
-		(pts
 			(xy 3.79 -21.2) (xy 3.79 -26.2) (xy 4 -26.2) (xy 4 -26.8) (xy -4 -26.8) (xy -4 -26.2) (xy -3.79 -26.2)
 			(xy -3.79 -21.2)
 		)
@@ -1434,6 +1421,19 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "bb14dd94-70c1-4c0c-9e2d-0e0e39ca18dc")
+	)
+	(fp_poly
+		(pts
+			(xy -4.5 -27.3) (xy 4.5 -27.3) (xy 4.5 -25.75) (xy 11.54 -25.75) (xy 11.54 26.55) (xy -11.54 26.55)
+			(xy -11.54 -25.75) (xy -4.5 -25.75)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "5b93f133-2dbb-4016-a1a8-76395163d25e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
