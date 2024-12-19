@@ -98,7 +98,7 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 - Antenna info:
   - <https://www.antenna-theory.com/design/raspberry-pi-antenna.php>
     - <https://youtu.be/MQ8gCsPoo6k>
-  - <https://www.tablix.org/~avian/blog/archives/2022/03/effect_of_ground_cutout_on_the_cm4_antenna/>
+  - <https://web.archive.org/web/20230605172314/https://www.tablix.org/~avian/blog/archives/2022/03/effect_of_ground_cutout_on_the_cm4_antenna/>
 - Possible antenna radiation pattern:
   - <https://abracon.com/parametric/antennas/PRO-EB-592>
     - <https://abracon.com/datasheets/PRO-EB-592.pdf>
@@ -118,7 +118,7 @@ To use, simply add a symbol to your schematic as you would any other; symbols sh
 ***License / Access***
 ======================
 
-This work is made freely available under your choice of the [*MIT-0*](./LICENSE.txt) license or [*CC0-1.0*][URL-CC0].  
+This work is made freely available under your choice of the [*MIT-0*](./LICENSE.txt) license or [*CC0-1.0*][URL-CC0] public domain dedication.  
 Although attribution is not required, sharing when you've made something with my work is really cool 💖
 
 *No additional/conflicting permissions were present in this repository at the time of release.*
