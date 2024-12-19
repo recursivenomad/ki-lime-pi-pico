@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico (non-W) surface-mount footprint for reflow soldering with test points and debug pads, supports Raspberry Pi Pico 2 (non-W), https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
-	(tags "Raspberry Pi Pico module usb pcb swd")
+	(tags "module usb pcb swd")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)
 		(unlocked yes)

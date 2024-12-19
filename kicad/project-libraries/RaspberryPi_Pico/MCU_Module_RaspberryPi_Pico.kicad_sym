@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd debug"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2129,7 +2129,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico internal pull up pull-up resistor erc rule rules"
+		(property "ki_keywords" "pull up error rule rules custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2267,7 +2267,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb virtual"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2436,7 +2436,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico connector socket"
+		(property "ki_keywords" "connector socket virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3012,7 +3012,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico connector socket"
+		(property "ki_keywords" "connector socket virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3571,7 +3571,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico connector socket"
+		(property "ki_keywords" "connector socket debug virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3770,7 +3770,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd debug"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4941,7 +4941,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb CYW43439 wireless wifi bluetooth"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb CYW43439 wifi bluetooth"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5007,7 +5007,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd debug CYW43439 wireless wifi bluetooth"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd CYW43439 wifi bluetooth"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb CYW43439 wireless wifi bluetooth virtual"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb CYW43439 wifi bluetooth virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5141,7 +5141,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Raspberry Pi Pico microcontroller module RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd debug CYW43439 wireless wifi bluetooth"
+		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd CYW43439 wifi bluetooth"
 			(at 0 0 0)
 			(effects
 				(font

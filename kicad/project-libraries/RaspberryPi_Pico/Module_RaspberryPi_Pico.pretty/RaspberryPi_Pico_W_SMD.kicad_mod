@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi Pico W surface-mount footprint for reflow soldering with test points and debug pads (not compatible with non-wireless Pico), supports Raspberry Pi Pico 2 W, https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf")
-	(tags "Raspberry Pi Pico module usb pcb swd antenna")
+	(tags "module usb pcb swd antenna")
 	(property "Reference" "REF**"
 		(at 11.7475 24.765 0)
 		(unlocked yes)
