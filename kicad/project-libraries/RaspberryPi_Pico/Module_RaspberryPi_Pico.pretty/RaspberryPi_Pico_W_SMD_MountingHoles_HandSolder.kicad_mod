@@ -295,7 +295,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "08048ddd-3826-49e6-9c0a-ee9d73cb7de4")
+		(uuid "25dd555f-22f5-4f5d-8636-07f99616d659")
 	)
 	(fp_line
 		(start -5.237939 -25.61)
@@ -305,7 +305,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fc630d03-f45e-4b14-9d83-91590b778bda")
+		(uuid "d76ff881-38ab-4e07-a0d7-b22b72407564")
 	)
 	(fp_line
 		(start -4.235 -25.61)
@@ -395,7 +395,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "59f52400-8927-4c71-9d25-b83d5069397d")
+		(uuid "70a2a8e9-0623-4f54-a65e-0d24aad23fb4")
 	)
 	(fp_line
 		(start 6.162061 -25.61)
@@ -405,7 +405,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e4899311-f517-4760-84e8-931974b4839e")
+		(uuid "42a26623-0d43-4a49-88ac-de8753274098")
 	)
 	(fp_line
 		(start 10 -25.61)
@@ -652,6 +652,17 @@
 		(uuid "e70611c1-b948-48b8-995f-b8588e9ce7a2")
 	)
 	(fp_circle
+		(center -5.7 -23.5)
+		(end -4.65 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "7b9bac11-2794-48ac-8caa-cd610341d518")
+	)
+	(fp_circle
 		(center -5.7 23.5)
 		(end -4.65 23.5)
 		(stroke
@@ -659,7 +670,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Dwgs.User")
+		(layer "Cmts.User")
 		(uuid "9d005e94-1eed-490c-b6dd-f50cf7e48eab")
 	)
 	(fp_circle
@@ -670,8 +681,19 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Dwgs.User")
+		(layer "Cmts.User")
 		(uuid "8cce491f-4082-443f-ad80-8fb8c0da0932")
+	)
+	(fp_circle
+		(center 5.73 -23.5)
+		(end 6.78 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "b4e76b31-d186-46aa-a80c-b587570fc4a5")
 	)
 	(fp_poly
 		(pts
@@ -1217,15 +1239,6 @@
 		(uuid "3c44b324-f94a-4a3d-907b-dc9ca2544d93")
 	)
 	(pad "" np_thru_hole circle
-		(at -5.7 -23.5)
-		(size 3.8 3.8)
-		(drill 2.1)
-		(layers "*.Mask")
-		(solder_mask_margin 0.85)
-		(clearance 1.05)
-		(uuid "74c66321-5d2e-49b4-ba63-8b5cda771ce9")
-	)
-	(pad "" np_thru_hole circle
 		(at -2.725 -24)
 		(size 2.2 2.2)
 		(drill 2.2)
@@ -1252,15 +1265,6 @@
 		(drill 2.2)
 		(layers "*.Mask")
 		(uuid "7248e108-7e52-4d00-b4ca-9419084f6c9d")
-	)
-	(pad "" np_thru_hole circle
-		(at 5.7 -23.5)
-		(size 3.8 3.8)
-		(drill 2.1)
-		(layers "*.Mask")
-		(solder_mask_margin 0.85)
-		(clearance 1.05)
-		(uuid "ca460574-0aeb-4ae5-817e-460f4d78b964")
 	)
 	(pad "" smd rect
 		(at 8.89 -24.13)
@@ -2616,10 +2620,10 @@
 		)
 	)
 	(group ""
-		(uuid "4dcf0fce-d289-45f9-b854-c8928cfb1ff6")
-		(members "08048ddd-3826-49e6-9c0a-ee9d73cb7de4" "59f52400-8927-4c71-9d25-b83d5069397d"
-			"74c66321-5d2e-49b4-ba63-8b5cda771ce9" "ca460574-0aeb-4ae5-817e-460f4d78b964"
-			"e4899311-f517-4760-84e8-931974b4839e" "fc630d03-f45e-4b14-9d83-91590b778bda"
+		(uuid "5a03c0a3-2809-425c-93da-7bc8cc5c6630")
+		(members "25dd555f-22f5-4f5d-8636-07f99616d659" "42a26623-0d43-4a49-88ac-de8753274098"
+			"70a2a8e9-0623-4f54-a65e-0d24aad23fb4" "7b9bac11-2794-48ac-8caa-cd610341d518"
+			"b4e76b31-d186-46aa-a80c-b587570fc4a5" "d76ff881-38ab-4e07-a0d7-b22b72407564"
 		)
 	)
 	(group ""
