@@ -1,4 +1,4 @@
-(footprint "RaspberryPi_Pico_Common_THT_MountingHoles"
+(footprint "RaspberryPi_Pico_Common_THT"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -18,7 +18,7 @@
 			(justify left)
 		)
 	)
-	(property "Value" "RaspberryPi_Pico_Common_THT_MountingHoles"
+	(property "Value" "RaspberryPi_Pico_Common_THT"
 		(at 0 27.94 0)
 		(unlocked yes)
 		(layer "F.Fab")

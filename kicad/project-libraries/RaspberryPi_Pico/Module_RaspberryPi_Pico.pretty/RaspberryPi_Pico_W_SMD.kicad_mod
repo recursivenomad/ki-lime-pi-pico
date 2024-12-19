@@ -1,4 +1,4 @@
-(footprint "RaspberryPi_Pico_W_SMD_MountingHoles"
+(footprint "RaspberryPi_Pico_W_SMD"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -18,7 +18,7 @@
 			(justify left)
 		)
 	)
-	(property "Value" "RaspberryPi_Pico_W_SMD_MountingHoles"
+	(property "Value" "RaspberryPi_Pico_W_SMD"
 		(at 0 27.94 0)
 		(unlocked yes)
 		(layer "F.Fab")
