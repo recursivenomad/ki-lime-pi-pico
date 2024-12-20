@@ -449,7 +449,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "4aca264f-6f34-4880-b126-cc80b3f96eba")
 	)
 	(fp_circle
@@ -460,7 +460,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "834d1fa7-c403-4798-a22d-0eea1ec9855f")
 	)
 	(fp_circle
@@ -471,7 +471,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "befd5b95-ffd5-412d-a5ff-9eadf0a8db1e")
 	)
 	(fp_circle
@@ -482,7 +482,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "df8d692d-b811-4ff0-8ce0-9867aa868cbd")
 	)
 	(fp_poly

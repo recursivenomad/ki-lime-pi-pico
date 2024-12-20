@@ -701,6 +701,50 @@
 		(layer "F.SilkS")
 		(uuid "5e0da745-647e-4654-835b-f80d5bf010da")
 	)
+	(fp_circle
+		(center -5.7 -23.5)
+		(end -4.65 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "9cf6b616-f790-41a7-9b0b-37ce2649ee17")
+	)
+	(fp_circle
+		(center -5.7 23.49)
+		(end -4.65 23.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "6a91d836-dde9-483d-ade2-69085d811cdb")
+	)
+	(fp_circle
+		(center 5.73 -23.5)
+		(end 6.78 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "9e4bbf42-1e4c-412d-8442-3c171d17454c")
+	)
+	(fp_circle
+		(center 5.73 23.49)
+		(end 6.78 23.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "77527c73-5bb1-4292-b7c2-0e2e58cf28ef")
+	)
 	(fp_poly
 		(pts
 			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
@@ -714,50 +758,6 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "870c8b85-5e4f-434d-affd-7a90d6d7ab0a")
-	)
-	(fp_circle
-		(center -5.7 -23.5)
-		(end -4.65 -23.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "9cf6b616-f790-41a7-9b0b-37ce2649ee17")
-	)
-	(fp_circle
-		(center -5.7 23.49)
-		(end -4.65 23.49)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "6a91d836-dde9-483d-ade2-69085d811cdb")
-	)
-	(fp_circle
-		(center 5.73 -23.5)
-		(end 6.78 -23.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "9e4bbf42-1e4c-412d-8442-3c171d17454c")
-	)
-	(fp_circle
-		(center 5.73 23.49)
-		(end 6.78 23.49)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "77527c73-5bb1-4292-b7c2-0e2e58cf28ef")
 	)
 	(fp_poly
 		(pts

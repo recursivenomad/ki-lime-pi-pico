@@ -1192,6 +1192,39 @@
 		(layer "Dwgs.User")
 		(uuid "77be64c3-fa0a-4f12-8655-2382b5039c03")
 	)
+	(fp_circle
+		(center -5.7 23.49)
+		(end -4.65 23.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "ca0b7dd1-668f-41fc-b5eb-e152d8e8fd71")
+	)
+	(fp_circle
+		(center 5.73 -23.5)
+		(end 6.78 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "cf506797-8d83-4429-a546-4768963029d6")
+	)
+	(fp_circle
+		(center 5.73 23.49)
+		(end 6.78 23.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "8e25d8a1-4a8d-4435-b585-baca7152b87b")
+	)
 	(fp_poly
 		(pts
 			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
@@ -1205,39 +1238,6 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "d5c633ae-dd0b-43cf-9acc-112e0728ba7f")
-	)
-	(fp_circle
-		(center -5.7 23.49)
-		(end -4.65 23.49)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "ca0b7dd1-668f-41fc-b5eb-e152d8e8fd71")
-	)
-	(fp_circle
-		(center 5.73 -23.5)
-		(end 6.78 -23.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "cf506797-8d83-4429-a546-4768963029d6")
-	)
-	(fp_circle
-		(center 5.73 23.49)
-		(end 6.78 23.49)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "8e25d8a1-4a8d-4435-b585-baca7152b87b")
 	)
 	(fp_poly
 		(pts

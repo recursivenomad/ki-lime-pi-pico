@@ -77,7 +77,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "82f31566-8d6b-4211-8754-77aa301d76db")
 	)
 	(fp_circle
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "160c447b-6388-48c1-8242-12e3011512bf")
 	)
 	(fp_text user "2.4 GHz RF Keep Out"

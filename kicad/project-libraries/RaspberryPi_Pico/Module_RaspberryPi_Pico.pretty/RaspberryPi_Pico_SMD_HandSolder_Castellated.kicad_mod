@@ -671,6 +671,50 @@
 		(layer "F.SilkS")
 		(uuid "391ee025-3da9-42fc-8810-472b08eea749")
 	)
+	(fp_circle
+		(center -5.7 -23.5)
+		(end -4.65 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f407c761-0b6c-44ea-8c30-21a57f5e3cc6")
+	)
+	(fp_circle
+		(center -5.7 23.49)
+		(end -4.65 23.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "17b3a012-5c4c-4403-8d49-f35735d6e873")
+	)
+	(fp_circle
+		(center 5.73 -23.5)
+		(end 6.78 -23.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d7a97d94-9daf-4a4f-9353-9ba83c107818")
+	)
+	(fp_circle
+		(center 5.73 23.49)
+		(end 6.78 23.49)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "4155924e-137b-4efd-80a7-7b9275fe6984")
+	)
 	(fp_poly
 		(pts
 			(xy 10.5 -0.47) (xy 2.12 -0.47) (xy 1.9 -0.7) (xy 1.9 -1.6) (xy 2.37 -2.07) (xy 5.65 -2.07) (xy 5.9 -2.3)
@@ -746,28 +790,6 @@
 		(uuid "e0039875-25bf-4bc3-bd52-52a40ed5a25e")
 	)
 	(fp_circle
-		(center -5.7 -23.5)
-		(end -4.65 -23.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "f407c761-0b6c-44ea-8c30-21a57f5e3cc6")
-	)
-	(fp_circle
-		(center -5.7 23.49)
-		(end -4.65 23.49)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "17b3a012-5c4c-4403-8d49-f35735d6e873")
-	)
-	(fp_circle
 		(center -3.725 -25.5)
 		(end -3.225 -25.5)
 		(stroke
@@ -788,28 +810,6 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "a85564de-a6ce-45f0-a685-b95d7cae1aef")
-	)
-	(fp_circle
-		(center 5.73 -23.5)
-		(end 6.78 -23.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "d7a97d94-9daf-4a4f-9353-9ba83c107818")
-	)
-	(fp_circle
-		(center 5.73 23.49)
-		(end 6.78 23.49)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "4155924e-137b-4efd-80a7-7b9275fe6984")
 	)
 	(fp_line
 		(start -3.725 -23.989213)
