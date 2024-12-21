@@ -2240,7 +2240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Virtual"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_THT_Virtual"
 			(at 0 -49.53 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?Virtual*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?THT?Virtual*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5048,7 +5048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_W_Virtual"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_W_THT_Virtual"
 			(at 0 -49.53 0)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RaspberryPi?Pico?W?Virtual*"
+		(property "ki_fp_filters" "RaspberryPi?Pico?W?THT?Virtual*"
 			(at 0 0 0)
 			(effects
 				(font
