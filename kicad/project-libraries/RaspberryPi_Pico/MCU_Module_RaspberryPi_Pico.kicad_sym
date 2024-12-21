@@ -4914,7 +4914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_W_SMD_HandSolder"
 			(at 0 -49.53 0)
 			(effects
 				(font
@@ -4980,7 +4980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_W_SMD"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_W_SMD_HandSolder"
 			(at 0 -49.53 0)
 			(effects
 				(font
