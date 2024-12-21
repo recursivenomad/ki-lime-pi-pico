@@ -1391,8 +1391,8 @@
 		(uuid "69d720ab-0327-486b-bfa4-6a19b0d8bff1")
 	)
 	(fp_circle
-		(center -5.7 23.49)
-		(end -4.65 23.49)
+		(center -5.7 23.5)
+		(end -4.65 23.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -1402,8 +1402,8 @@
 		(uuid "632c0fd6-557f-427a-bbe8-c928a8adc905")
 	)
 	(fp_circle
-		(center 5.73 -23.5)
-		(end 6.78 -23.5)
+		(center 5.7 -23.5)
+		(end 6.75 -23.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -1413,8 +1413,8 @@
 		(uuid "aa1807ec-30eb-4c5f-9f88-9128e17c185f")
 	)
 	(fp_circle
-		(center 5.73 23.49)
-		(end 6.78 23.49)
+		(center 5.7 23.5)
+		(end 6.75 23.5)
 		(stroke
 			(width 0.12)
 			(type solid)
