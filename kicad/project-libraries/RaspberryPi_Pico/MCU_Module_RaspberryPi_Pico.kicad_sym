@@ -880,7 +880,7 @@
 				(alternate "PWM1_A" output line)
 				(alternate "SPI0_SCK" bidirectional clock)
 				(alternate "UART0_CTS" input line)
-				(alternate "USB_VBUS_DET" input line)
+				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin power_out line
 				(at 5.08 40.64 270)
@@ -1891,7 +1891,7 @@
 				(alternate "PWM1_A" output line)
 				(alternate "SPI0_SCK" bidirectional clock)
 				(alternate "UART0_CTS" input line)
-				(alternate "USB_VBUS_DET" input line)
+				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin power_out line
 				(at 5.08 40.64 270)
@@ -2844,7 +2844,7 @@
 				(alternate "PWM1_A" output line)
 				(alternate "SPI0_SCK" bidirectional clock)
 				(alternate "UART0_CTS" input line)
-				(alternate "USB_VBUS_DET" input line)
+				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
 				(at -22.86 15.24 0)
@@ -4596,7 +4596,7 @@
 				(alternate "PWM1_A" output line)
 				(alternate "SPI0_SCK" bidirectional clock)
 				(alternate "UART0_CTS" input line)
-				(alternate "USB_VBUS_DET" input line)
+				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin power_out line
 				(at 5.08 40.64 270)
