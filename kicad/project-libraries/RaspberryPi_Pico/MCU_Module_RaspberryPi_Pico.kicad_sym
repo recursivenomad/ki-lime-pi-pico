@@ -654,7 +654,7 @@
 				)
 				(alternate "GND_IN" power_in line)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "RUN"
@@ -671,7 +671,7 @@
 						)
 					)
 				)
-				(alternate "~{RESET}" input line)
+				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -10.16 180)
@@ -803,7 +803,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "3V3_EN"
@@ -820,7 +820,7 @@
 						)
 					)
 				)
-				(alternate "~{3V3_DISABLE}" input line)
+				(alternate "~{3V3_DISABLE}" passive line)
 			)
 			(pin passive line
 				(at 0 -38.1 90)
@@ -1665,7 +1665,7 @@
 				)
 				(alternate "GND_IN" power_in line)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "RUN"
@@ -1682,7 +1682,7 @@
 						)
 					)
 				)
-				(alternate "~{RESET}" input line)
+				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -10.16 180)
@@ -1814,7 +1814,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "3V3_EN"
@@ -1831,7 +1831,7 @@
 						)
 					)
 				)
-				(alternate "~{3V3_DISABLE}" input line)
+				(alternate "~{3V3_DISABLE}" passive line)
 			)
 			(pin passive line
 				(at 0 -38.1 90)
@@ -3114,7 +3114,7 @@
 				(alternate "UART0_TX" output line)
 				(alternate "USB_VBUS_DET" input line)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "RUN"
@@ -3131,7 +3131,7 @@
 						)
 					)
 				)
-				(alternate "~{RESET}" input line)
+				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -10.16 180)
@@ -3263,7 +3263,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "3V3_EN"
@@ -3280,7 +3280,7 @@
 						)
 					)
 				)
-				(alternate "~{3V3_DISABLE}" input line)
+				(alternate "~{3V3_DISABLE}" passive line)
 			)
 			(pin passive line
 				(at 0 -38.1 90)
@@ -4370,7 +4370,7 @@
 				)
 				(alternate "GND_IN" power_in line)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "RUN"
@@ -4387,7 +4387,7 @@
 						)
 					)
 				)
-				(alternate "~{RESET}" input line)
+				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
 				(at 22.86 -10.16 180)
@@ -4519,7 +4519,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "3V3_EN"
@@ -4536,7 +4536,7 @@
 						)
 					)
 				)
-				(alternate "~{3V3_DISABLE}" input line)
+				(alternate "~{3V3_DISABLE}" passive line)
 			)
 			(pin passive line
 				(at 0 -38.1 90)
