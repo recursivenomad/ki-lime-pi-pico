@@ -122,7 +122,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -21.59) (xy 18.415 -21.59) (xy 19.05 -20.32)
+					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -436,7 +436,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 15.24 180)
+				(at 22.86 12.7 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -459,7 +459,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 12.7 180)
+				(at 22.86 10.16 180)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -500,7 +500,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at 22.86 7.62 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -523,7 +523,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 7.62 180)
+				(at 22.86 5.08 180)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -546,7 +546,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 5.08 180)
+				(at 22.86 2.54 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -570,7 +570,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 2.54 180)
+				(at 22.86 0 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -612,7 +612,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 0 180)
+				(at 22.86 -2.54 180)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -674,7 +674,7 @@
 				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -10.16 180)
+				(at 22.86 -12.7 180)
 				(length 3.81)
 				(name "GPIO26_ADC0"
 					(effects
@@ -699,7 +699,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 -12.7 180)
+				(at 22.86 -15.24 180)
 				(length 3.81)
 				(name "GPIO27_ADC1"
 					(effects
@@ -724,7 +724,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin power_out line
-				(at 22.86 -20.32 180)
+				(at 22.86 -22.86 180)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -743,7 +743,7 @@
 				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -15.24 180)
+				(at 22.86 -17.78 180)
 				(length 3.81)
 				(name "GPIO28_ADC2"
 					(effects
@@ -768,7 +768,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin power_in line
-				(at 22.86 -5.08 180)
+				(at 22.86 -7.62 180)
 				(length 3.81)
 				(name "ADC_VREF"
 					(effects
@@ -1133,7 +1133,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -21.59) (xy 18.415 -21.59) (xy 19.05 -20.32)
+					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -1447,7 +1447,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 15.24 180)
+				(at 22.86 12.7 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -1470,7 +1470,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 12.7 180)
+				(at 22.86 10.16 180)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -1511,7 +1511,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at 22.86 7.62 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -1534,7 +1534,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 7.62 180)
+				(at 22.86 5.08 180)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -1557,7 +1557,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 5.08 180)
+				(at 22.86 2.54 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -1581,7 +1581,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 2.54 180)
+				(at 22.86 0 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -1623,7 +1623,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 0 180)
+				(at 22.86 -2.54 180)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -1685,7 +1685,7 @@
 				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -10.16 180)
+				(at 22.86 -12.7 180)
 				(length 3.81)
 				(name "GPIO26_ADC0"
 					(effects
@@ -1710,7 +1710,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 -12.7 180)
+				(at 22.86 -15.24 180)
 				(length 3.81)
 				(name "GPIO27_ADC1"
 					(effects
@@ -1735,7 +1735,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin power_out line
-				(at 22.86 -20.32 180)
+				(at 22.86 -22.86 180)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -1754,7 +1754,7 @@
 				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -15.24 180)
+				(at 22.86 -17.78 180)
 				(length 3.81)
 				(name "GPIO28_ADC2"
 					(effects
@@ -1779,7 +1779,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin power_in line
-				(at 22.86 -5.08 180)
+				(at 22.86 -7.62 180)
 				(length 3.81)
 				(name "ADC_VREF"
 					(effects
@@ -2198,7 +2198,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -21.59) (xy 18.415 -21.59) (xy 19.05 -20.32)
+					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -2512,7 +2512,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 15.24 180)
+				(at 22.86 12.7 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -2535,7 +2535,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 12.7 180)
+				(at 22.86 10.16 180)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -2576,7 +2576,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at 22.86 7.62 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -2599,7 +2599,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 7.62 180)
+				(at 22.86 5.08 180)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -2622,7 +2622,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 5.08 180)
+				(at 22.86 2.54 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -2646,7 +2646,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 2.54 180)
+				(at 22.86 0 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -2688,7 +2688,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 0 180)
+				(at 22.86 -2.54 180)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
@@ -2750,7 +2750,7 @@
 				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -10.16 180)
+				(at 22.86 -12.7 180)
 				(length 3.81)
 				(name "GPIO26_ADC0"
 					(effects
@@ -2775,7 +2775,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 -12.7 180)
+				(at 22.86 -15.24 180)
 				(length 3.81)
 				(name "GPIO27_ADC1"
 					(effects
@@ -2800,7 +2800,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin power_out line
-				(at 22.86 -20.32 180)
+				(at 22.86 -22.86 180)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -2819,7 +2819,7 @@
 				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -15.24 180)
+				(at 22.86 -17.78 180)
 				(length 3.81)
 				(name "GPIO28_ADC2"
 					(effects
@@ -2844,7 +2844,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin power_in line
-				(at 22.86 -5.08 180)
+				(at 22.86 -7.62 180)
 				(length 3.81)
 				(name "ADC_VREF"
 					(effects
@@ -3365,7 +3365,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -21.59) (xy 18.415 -21.59) (xy 19.05 -20.32)
+					(xy 0 -34.29) (xy 1.27 -33.655) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -4109,7 +4109,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 15.24 180)
+				(at 22.86 12.7 180)
 				(length 3.81)
 				(name "GPIO16"
 					(effects
@@ -4151,7 +4151,7 @@
 				(alternate "~{RESET}" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -10.16 180)
+				(at 22.86 -12.7 180)
 				(length 3.81)
 				(name "GPIO26_ADC0"
 					(effects
@@ -4176,7 +4176,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 -12.7 180)
+				(at 22.86 -15.24 180)
 				(length 3.81)
 				(name "GPIO27_ADC1"
 					(effects
@@ -4201,7 +4201,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin power_out line
-				(at 22.86 -20.32 180)
+				(at 22.86 -22.86 180)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -4220,7 +4220,7 @@
 				(alternate "GND" passive line)
 			)
 			(pin bidirectional line
-				(at 22.86 -15.24 180)
+				(at 22.86 -17.78 180)
 				(length 3.81)
 				(name "GPIO28_ADC2"
 					(effects
@@ -4245,7 +4245,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin power_in line
-				(at 22.86 -5.08 180)
+				(at 22.86 -7.62 180)
 				(length 3.81)
 				(name "ADC_VREF"
 					(effects
@@ -4337,7 +4337,7 @@
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
-				(at 22.86 12.7 180)
+				(at 22.86 10.16 180)
 				(length 3.81)
 				(name "GPIO17"
 					(effects
@@ -4397,7 +4397,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at 22.86 7.62 180)
 				(length 3.81)
 				(name "GPIO18"
 					(effects
@@ -4420,7 +4420,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 7.62 180)
+				(at 22.86 5.08 180)
 				(length 3.81)
 				(name "GPIO19"
 					(effects
@@ -4443,7 +4443,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at 22.86 5.08 180)
+				(at 22.86 2.54 180)
 				(length 3.81)
 				(name "GPIO20"
 					(effects
@@ -4467,7 +4467,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at 22.86 2.54 180)
+				(at 22.86 0 180)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -4509,7 +4509,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 0 180)
+				(at 22.86 -2.54 180)
 				(length 3.81)
 				(name "GPIO22"
 					(effects
