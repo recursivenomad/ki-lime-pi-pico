@@ -3142,7 +3142,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 25.4 180)
+				(at 22.86 30.48 180)
 				(length 3.81)
 				(name "USB_GND"
 					(effects
@@ -3179,7 +3179,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 30.48 180)
+				(at 22.86 25.4 180)
 				(length 3.81)
 				(name "USB_DP"
 					(effects
@@ -3197,7 +3197,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 22.86 -27.94 180)
+				(at 22.86 20.32 180)
 				(length 3.81)
 				(name "~{SMPS_PS}"
 					(effects
@@ -3217,7 +3217,7 @@
 				(alternate "~{SMPS_PS_UNSAFE}" output line)
 			)
 			(pin output line
-				(at 22.86 20.32 180)
+				(at 22.86 17.78 180)
 				(length 3.81)
 				(name "LED_OUT"
 					(effects
