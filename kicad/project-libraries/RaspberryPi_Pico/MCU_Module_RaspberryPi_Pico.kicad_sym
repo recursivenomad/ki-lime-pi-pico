@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb swd"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2132,7 +2132,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb virtual custom"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2301,7 +2301,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "connector socket virtual custom"
+		(property "ki_keywords" "connector virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2877,7 +2877,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "connector socket virtual custom"
+		(property "ki_keywords" "connector virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "connector socket debug virtual custom"
+		(property "ki_keywords" "connector debug virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3635,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb swd"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb CYW43439 wifi bluetooth"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb wifi bluetooth"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4872,7 +4872,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd CYW43439 wifi bluetooth"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb swd wifi bluetooth"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4931,7 +4931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Versatile and inexpensive wireless microcontroller module (virtual representation) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
+		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
 			(at 0 -54.61 0)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb CYW43439 wifi bluetooth virtual custom"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb wifi bluetooth virtual custom"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "RP2040 M0+ RP2350A M33 RISC-V Hazard3 usb swd CYW43439 wifi bluetooth"
+		(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb swd wifi bluetooth"
 			(at 0 0 0)
 			(effects
 				(font
