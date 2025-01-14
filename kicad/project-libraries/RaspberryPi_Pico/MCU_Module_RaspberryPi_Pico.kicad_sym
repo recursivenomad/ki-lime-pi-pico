@@ -147,7 +147,7 @@
 		)
 		(symbol "RaspberryPi_Pico_1_1"
 			(pin bidirectional line
-				(at -22.86 22.86 0)
+				(at -22.86 15.24 0)
 				(length 3.81)
 				(name "GPIO0"
 					(effects
@@ -170,7 +170,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 5.08 0)
+				(at -22.86 -2.54 0)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -193,7 +193,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 2.54 0)
+				(at -22.86 -5.08 0)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -216,7 +216,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 0 0)
+				(at -22.86 -7.62 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -257,7 +257,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -2.54 0)
+				(at -22.86 -10.16 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -280,7 +280,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -5.08 0)
+				(at -22.86 -12.7 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -303,7 +303,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 -7.62 0)
+				(at -22.86 -15.24 0)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -326,7 +326,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -10.16 0)
+				(at -22.86 -17.78 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -367,7 +367,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -12.7 0)
+				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -390,7 +390,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 20.32 0)
+				(at -22.86 12.7 0)
 				(length 3.81)
 				(name "GPIO1"
 					(effects
@@ -413,7 +413,7 @@
 				(alternate "~{SPI0_CSn}" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -22.86 -15.24 0)
+				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -655,7 +655,7 @@
 				(alternate "GND_IN" power_in line)
 			)
 			(pin passive line
-				(at -22.86 -20.32 0)
+				(at -22.86 22.86 0)
 				(length 3.81)
 				(name "RUN"
 					(effects
@@ -804,7 +804,7 @@
 				)
 			)
 			(pin passive line
-				(at -22.86 -22.86 0)
+				(at -22.86 20.32 0)
 				(length 3.81)
 				(name "3V3_EN"
 					(effects
@@ -860,7 +860,7 @@
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
-				(at -22.86 17.78 0)
+				(at -22.86 10.16 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -902,7 +902,7 @@
 				(alternate "VBUS_IN" power_in line)
 			)
 			(pin bidirectional line
-				(at -22.86 15.24 0)
+				(at -22.86 7.62 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -925,7 +925,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 12.7 0)
+				(at -22.86 5.08 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -948,7 +948,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 10.16 0)
+				(at -22.86 2.54 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -989,7 +989,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 7.62 0)
+				(at -22.86 0 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -1158,7 +1158,7 @@
 		)
 		(symbol "RaspberryPi_Pico_Debug_1_1"
 			(pin bidirectional line
-				(at -22.86 22.86 0)
+				(at -22.86 15.24 0)
 				(length 3.81)
 				(name "GPIO0"
 					(effects
@@ -1181,7 +1181,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 5.08 0)
+				(at -22.86 -2.54 0)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -1204,7 +1204,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 2.54 0)
+				(at -22.86 -5.08 0)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -1227,7 +1227,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 0 0)
+				(at -22.86 -7.62 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -1268,7 +1268,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -2.54 0)
+				(at -22.86 -10.16 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -1291,7 +1291,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -5.08 0)
+				(at -22.86 -12.7 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -1314,7 +1314,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 -7.62 0)
+				(at -22.86 -15.24 0)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -1337,7 +1337,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -10.16 0)
+				(at -22.86 -17.78 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -1378,7 +1378,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -12.7 0)
+				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -1401,7 +1401,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 20.32 0)
+				(at -22.86 12.7 0)
 				(length 3.81)
 				(name "GPIO1"
 					(effects
@@ -1424,7 +1424,7 @@
 				(alternate "~{SPI0_CSn}" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -22.86 -15.24 0)
+				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -1666,7 +1666,7 @@
 				(alternate "GND_IN" power_in line)
 			)
 			(pin passive line
-				(at -22.86 -20.32 0)
+				(at -22.86 22.86 0)
 				(length 3.81)
 				(name "RUN"
 					(effects
@@ -1815,7 +1815,7 @@
 				)
 			)
 			(pin passive line
-				(at -22.86 -22.86 0)
+				(at -22.86 20.32 0)
 				(length 3.81)
 				(name "3V3_EN"
 					(effects
@@ -1871,7 +1871,7 @@
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
-				(at -22.86 17.78 0)
+				(at -22.86 10.16 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -1913,7 +1913,7 @@
 				(alternate "VBUS_IN" power_in line)
 			)
 			(pin bidirectional line
-				(at -22.86 15.24 0)
+				(at -22.86 7.62 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -1936,7 +1936,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 12.7 0)
+				(at -22.86 5.08 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -1959,7 +1959,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 10.16 0)
+				(at -22.86 2.54 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -2000,7 +2000,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 7.62 0)
+				(at -22.86 0 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -2223,7 +2223,7 @@
 		)
 		(symbol "RaspberryPi_Pico_Extensive_1_1"
 			(pin bidirectional line
-				(at -22.86 22.86 0)
+				(at -22.86 15.24 0)
 				(length 3.81)
 				(name "GPIO0"
 					(effects
@@ -2246,7 +2246,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 5.08 0)
+				(at -22.86 -2.54 0)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -2269,7 +2269,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 2.54 0)
+				(at -22.86 -5.08 0)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -2292,7 +2292,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 0 0)
+				(at -22.86 -7.62 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -2333,7 +2333,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -2.54 0)
+				(at -22.86 -10.16 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -2356,7 +2356,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -5.08 0)
+				(at -22.86 -12.7 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -2379,7 +2379,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 -7.62 0)
+				(at -22.86 -15.24 0)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -2402,7 +2402,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -10.16 0)
+				(at -22.86 -17.78 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -2443,7 +2443,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -12.7 0)
+				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -2466,7 +2466,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 20.32 0)
+				(at -22.86 12.7 0)
 				(length 3.81)
 				(name "GPIO1"
 					(effects
@@ -2489,7 +2489,7 @@
 				(alternate "~{SPI0_CSn}" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -22.86 -15.24 0)
+				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -2731,7 +2731,7 @@
 				(alternate "GND_IN" power_in line)
 			)
 			(pin passive line
-				(at -22.86 -20.32 0)
+				(at -22.86 22.86 0)
 				(length 3.81)
 				(name "RUN"
 					(effects
@@ -2880,7 +2880,7 @@
 				)
 			)
 			(pin passive line
-				(at -22.86 -22.86 0)
+				(at -22.86 20.32 0)
 				(length 3.81)
 				(name "3V3_EN"
 					(effects
@@ -2936,7 +2936,7 @@
 				(alternate "VSYS_OUT" power_out line)
 			)
 			(pin bidirectional line
-				(at -22.86 17.78 0)
+				(at -22.86 10.16 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -2978,7 +2978,7 @@
 				(alternate "VBUS_IN" power_in line)
 			)
 			(pin bidirectional line
-				(at -22.86 15.24 0)
+				(at -22.86 7.62 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -3001,7 +3001,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 12.7 0)
+				(at -22.86 5.08 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -3024,7 +3024,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 10.16 0)
+				(at -22.86 2.54 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -3065,7 +3065,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 7.62 0)
+				(at -22.86 0 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -3402,7 +3402,7 @@
 			)
 			(polyline
 				(pts
-					(xy -19.05 25.4) (xy -2.54 25.4) (xy -2.54 -17.78) (xy -19.05 -17.78)
+					(xy -19.05 17.78) (xy -2.54 17.78) (xy -2.54 -25.4) (xy -19.05 -25.4)
 				)
 				(stroke
 					(width 0.254)
@@ -3498,7 +3498,7 @@
 		(symbol "RaspberryPi_Pico_MultiPart-Socket_A_1_1"
 			(polyline
 				(pts
-					(xy -19.05 25.4) (xy -19.05 -17.78)
+					(xy -19.05 17.78) (xy -19.05 -25.4)
 				)
 				(stroke
 					(width 0.254)
@@ -3522,19 +3522,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -25.4) (xy -2.54 -17.78)
-				)
-				(stroke
-					(width 0.254)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.05 25.4) (xy -2.54 25.4) (xy -2.54 -17.78) (xy -19.05 -17.78)
+					(xy -19.05 17.78) (xy -2.54 17.78) (xy -2.54 -25.4) (xy -19.05 -25.4)
 				)
 				(stroke
 					(width 0.254)
@@ -3557,7 +3545,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 22.86 0)
+				(at -22.86 15.24 0)
 				(length 3.81)
 				(name "GPIO0"
 					(effects
@@ -3580,7 +3568,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 5.08 0)
+				(at -22.86 -2.54 0)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -3603,7 +3591,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 2.54 0)
+				(at -22.86 -5.08 0)
 				(length 3.81)
 				(name "GPIO8"
 					(effects
@@ -3626,7 +3614,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 0 0)
+				(at -22.86 -7.62 0)
 				(length 3.81)
 				(name "GPIO9"
 					(effects
@@ -3667,7 +3655,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -2.54 0)
+				(at -22.86 -10.16 0)
 				(length 3.81)
 				(name "GPIO10"
 					(effects
@@ -3690,7 +3678,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -5.08 0)
+				(at -22.86 -12.7 0)
 				(length 3.81)
 				(name "GPIO11"
 					(effects
@@ -3713,7 +3701,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 -7.62 0)
+				(at -22.86 -15.24 0)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -3736,7 +3724,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 -10.16 0)
+				(at -22.86 -17.78 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -3777,7 +3765,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -12.7 0)
+				(at -22.86 -20.32 0)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -3800,7 +3788,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 20.32 0)
+				(at -22.86 12.7 0)
 				(length 3.81)
 				(name "GPIO1"
 					(effects
@@ -3823,7 +3811,7 @@
 				(alternate "~{SPI0_CSn}" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -22.86 -15.24 0)
+				(at -22.86 -22.86 0)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -3865,7 +3853,7 @@
 				(alternate "GND_IN" power_in line)
 			)
 			(pin bidirectional line
-				(at -22.86 17.78 0)
+				(at -22.86 10.16 0)
 				(length 3.81)
 				(name "GPIO2"
 					(effects
@@ -3888,7 +3876,7 @@
 				(alternate "USB_VBUS_EN" output line)
 			)
 			(pin bidirectional line
-				(at -22.86 15.24 0)
+				(at -22.86 7.62 0)
 				(length 3.81)
 				(name "GPIO3"
 					(effects
@@ -3911,7 +3899,7 @@
 				(alternate "USB_OVCUR_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 12.7 0)
+				(at -22.86 5.08 0)
 				(length 3.81)
 				(name "GPIO4"
 					(effects
@@ -3934,7 +3922,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin bidirectional line
-				(at -22.86 10.16 0)
+				(at -22.86 2.54 0)
 				(length 3.81)
 				(name "GPIO5"
 					(effects
@@ -3975,7 +3963,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 7.62 0)
+				(at -22.86 0 0)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -4086,19 +4074,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -25.4) (xy -2.54 -17.78)
-				)
-				(stroke
-					(width 0.254)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.05 25.4) (xy -2.54 25.4) (xy -2.54 -17.78) (xy -19.05 -17.78)
+					(xy -19.05 17.78) (xy -2.54 17.78) (xy -2.54 -25.4) (xy -19.05 -25.4)
 				)
 				(stroke
 					(width 0.254)
@@ -4122,7 +4098,7 @@
 			)
 			(polyline
 				(pts
-					(xy -19.05 -17.78) (xy -19.05 -34.29) (xy 19.05 -34.29) (xy 19.05 36.83) (xy -19.05 36.83) (xy -19.05 25.4)
+					(xy -19.05 -25.4) (xy -19.05 -34.29) (xy 19.05 -34.29) (xy 19.05 36.83) (xy -19.05 36.83) (xy -19.05 17.78)
 				)
 				(stroke
 					(width 0.254)
@@ -4156,7 +4132,7 @@
 				(alternate "USB_VBUS_DET" input line)
 			)
 			(pin passive line
-				(at -22.86 -20.32 0)
+				(at -22.86 22.86 0)
 				(length 3.81)
 				(name "RUN"
 					(effects
@@ -4305,7 +4281,7 @@
 				)
 			)
 			(pin passive line
-				(at -22.86 -22.86 0)
+				(at -22.86 20.32 0)
 				(length 3.81)
 				(name "3V3_EN"
 					(effects
@@ -4633,7 +4609,7 @@
 		(symbol "RaspberryPi_Pico_MultiPart-Socket_SWD_1_1"
 			(polyline
 				(pts
-					(xy -19.05 33.02) (xy -19.05 25.4)
+					(xy -19.05 33.02) (xy -19.05 17.78)
 				)
 				(stroke
 					(width 0.254)
@@ -4657,19 +4633,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -25.4) (xy -2.54 -17.78)
-				)
-				(stroke
-					(width 0.254)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.05 25.4) (xy -2.54 25.4) (xy -2.54 -17.78)
+					(xy -19.05 17.78) (xy -2.54 17.78) (xy -2.54 -25.4)
 				)
 				(stroke
 					(width 0.254)
@@ -4681,7 +4645,7 @@
 			)
 			(polyline
 				(pts
-					(xy -19.05 33.02) (xy -10.795 33.02) (xy -10.795 25.4)
+					(xy -19.05 33.02) (xy -10.795 33.02) (xy -10.795 25.4) (xy -19.05 25.4)
 				)
 				(stroke
 					(width 0.254)
