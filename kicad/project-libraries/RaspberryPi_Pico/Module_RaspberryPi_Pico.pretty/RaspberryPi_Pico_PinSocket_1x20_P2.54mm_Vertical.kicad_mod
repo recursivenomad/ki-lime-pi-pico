@@ -425,7 +425,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/PinSocket_1x20_H8.51mm_P2.54mm_Vertical.wrl"
+	(model "../Module_RaspberryPi_Pico.3dshapes/PinSocket_1x20_H8.50mm_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
