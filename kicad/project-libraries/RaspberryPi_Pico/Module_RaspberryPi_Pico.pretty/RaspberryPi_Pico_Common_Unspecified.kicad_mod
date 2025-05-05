@@ -3642,7 +3642,7 @@
 			"f1cc32df-7882-4690-8726-d75c6cb3f16c" "f2d08bd9-3121-487d-8fca-37e46c85953e"
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/DIP-40_W17.78mm_H8.51mm_Socket.wrl"
+	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_PinSockets_H8.50mm.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3665,7 +3665,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders.wrl"
+	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_AddedHeaders_H2.54mm.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -3725,7 +3725,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W_AddedHeaders.wrl"
+	(model "../Module_RaspberryPi_Pico.3dshapes/RaspberryPi_Pico_W_AddedHeaders_H2.54mm.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
