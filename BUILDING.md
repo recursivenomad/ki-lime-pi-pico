@@ -125,15 +125,13 @@
 
       - Select the folder `models/` and click `Select Folder`
 
-      - Open each `.wrl` file by `double-clicking` each file in the `Explorer` pane
-
       - Select the magnifying glass on the left to open the `Search` pane
 
       - Expand the search box with the arrow to its left to reveal its find-and-replace functionality
 
       - Click the `...` in the bottom-right of the find-and-replace fields to expand additional options
 
-      - Select the graphic of an open book in the `files to include` field to only process files which are currently open
+      - In the `files to include` field, enter `*.wrl`
 
     </details>
 
@@ -162,17 +160,17 @@
 
   &nbsp;
 
-  > *KiCad StepUp will automatically generate STEP files with limited hierarchy, part naming, and colour information as a result of the process above, so next we will export STEP models with more detailed information.*
+  > *KiCad StepUp will automatically generate STEP files with limited hierarchy, part naming, and colour information as a result of the process above, so next we will export STEP models with information and structure better suited for KiCad exporting.*
 
-  > *As of the time of writing, KiCad does not appropriately handle exporting part face colours when the component's STEP file uses assemblies.  To get around this, we will export our STEP models as `Compounds` for KiCad.  This will still result in limited hierarchy and part naming information, but will at least preserve face colours (excluding transparency) and discrete sub-components.*
+  > *KiCad prefers STEP models to be exported as a single `Union`.  This will still result in limited hierarchy and part naming information, but will preserve face colours (excluding transparency).*
 
 
 
   ### STEP (for KiCad)
 
-  - In FreeCAD's `Tree view` panel, shift focus to the contents of the folder `Export > KiCad Model Outputs > STEP - Parametrically Coloured Compounds`
+  - In FreeCAD's `Tree view` panel, shift focus to the contents of the folder `Export > KiCad Model Outputs > STEP - Parametrically Coloured Unions`
 
-  - Manually select the root body you wish to export (for example: `RaspberryPi_Pico_Compound`)
+  - Manually select the root body you wish to export (for example: `RaspberryPi_Pico_KiCad`)
 
   - Press `Ctrl + E`, or select `File > Export`
 
