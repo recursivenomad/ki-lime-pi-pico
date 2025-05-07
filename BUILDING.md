@@ -92,15 +92,19 @@
       > When I built it, there are some colours which are automatically associated to a named material in KiCad StepUp; you shouldn't have to alter those.  
       > The remaining non-automatic colours broadly presented themselves in the following order:
       >
+      > - `black body` (ICs)
+      > - `gold pins`
       > - `metal silver` (soldered pads)
       > - `pcb green`
       > - `light brown label` (FR4 core)
-      > - `yellow body` (gold pins)
+      > - `yellow body` (gold pads)
       > - `brown body` (caps)
-      > - `resistor black body` (res/diode)
+      > - `resistor black body` (resistor/diode)
+      > - `metal grey pins` (Pico H pins, package leads, USB port)
       > - `led white` (led lens)
       > - `light brown body` (led board)
       > - `green body` (led phosphor)
+      > - `white body` (button)
       > - `metal grey` (oscillator/wifi package)
       >
       > If this list doesn't appear to be accurate for you, then you can always set each colour to a high-contrasting material, and then select the appropriate material association in a second round of exporting.
