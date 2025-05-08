@@ -168,7 +168,15 @@
 
   ### STEP (for KiCad)
 
-  - In FreeCAD's `Tree view` panel, shift focus to the contents of the folder `Export > KiCad Model Outputs > STEP - Parametrically Coloured Unions`
+  > *Before exporting, we need to manually change the face colours on the LED to account for rendering changes from the `Union` requirement mentioned above.*
+
+  - In FreeCAD's `Tree view` panel, shift focus to the contents of the folder `Export` > `KiCad Model Outputs` > `STEP - Parametrically Coloured Unions`
+
+  - For the following 4 models, reveal each one at time, right-click on their names in the `Tree View`, select `Set colors...`, and manually set the transparent LED faces to `#00ff00` with Alpha `255`:
+    - `RaspberryPi_Pico_KiCad` > `RaspberryPi_Pico_Module_KiCad`
+    - `RaspberryPi_Pico_H_KiCad` > `RaspberryPi_Pico_H_Module_KiCad`
+    - `RaspberryPi_Pico_W_KiCad` > `RaspberryPi_Pico_W_Module_KiCad`
+    - `RaspberryPi_Pico_WH_KiCad` > `RaspberryPi_Pico_WH_Module_KiCad`
 
   - Manually select the root body you wish to export (for example: `RaspberryPi_Pico_KiCad`)
 
